@@ -101,7 +101,10 @@ select, input[type="search"] {
   width: min(82%, 420px); aspect-ratio: 1; border-radius: 50%; background: var(--photo);
   display: grid; place-items: center; overflow: hidden; position: relative; z-index: 1;
 }
-.d-foto img { width: 86%; height: 86%; object-fit: contain; mix-blend-mode: multiply; }
+.d-foto .disco { isolation: isolate; }
+.d-foto img {
+  position: absolute; inset: 7%; width: 86%; height: 86%; object-fit: contain; mix-blend-mode: multiply;
+}
 .d-foto .disco svg { width: 62%; height: auto; }
 .d-foto .dorsal {
   position: absolute; right: -12px; bottom: -48px; font-family: var(--display); font-weight: 900;
@@ -124,9 +127,13 @@ main .wrap { padding-block: 4px 56px; }
 .ficha { background: var(--surface); border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
 .f-foto {
   background: var(--photo); height: 250px; position: relative; display: grid; place-items: center;
-  border-top: 5px solid var(--club, #2A3139);
+  border-top: 5px solid var(--club, #2A3139); overflow: hidden; isolation: isolate;
 }
-.f-foto img { width: 100%; height: 100%; object-fit: contain; mix-blend-mode: multiply; padding: 10px; }
+.f-foto img {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain;
+  mix-blend-mode: multiply; padding: 12px;
+}
+.f-foto .badge { z-index: 1; }
 .f-foto svg { width: 58%; height: auto; }
 .badge {
   position: absolute; top: 12px; left: 12px; background: var(--accent); color: var(--accent-ink);
