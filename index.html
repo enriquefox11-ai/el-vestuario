@@ -66,6 +66,30 @@ button, select, input { font: inherit; color: inherit; }
 }
 .solapa:hover { color: var(--ink); }
 .solapa[aria-pressed="true"] { color: var(--ink); font-weight: 700; border-bottom-color: var(--color, var(--ink)); }
+.clubes-zona { position: relative; display: flex; flex: 1 1 auto; min-width: 0; align-items: flex-end; }
+.solapa.mas { display: inline-flex; align-items: center; gap: 6px; }
+.solapa.mas::after { content: ""; width: 7px; height: 7px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform .15s; }
+.solapa.mas[aria-expanded="true"]::after { transform: translateY(2px) rotate(225deg); }
+.panel-clubes {
+  position: absolute; top: calc(100% + 1px); left: 0; z-index: 20; width: min(560px, calc(100vw - 32px));
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 8px; padding: 18px;
+  box-shadow: 0 18px 40px rgba(0,0,0,.45); display: grid; gap: 16px;
+}
+.panel-clubes[hidden] { display: none; }
+.grupo h3 { margin: 0 0 8px; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.grupo div { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-weight: 600; font-size: 14px;
+  background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 7px 12px;
+}
+.chip::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--color); }
+.chip:hover { border-color: var(--muted); }
+.chip[aria-pressed="true"] { border-color: var(--color); background: color-mix(in srgb, var(--color) 18%, var(--bg)); }
+.chip small { color: var(--muted); font-weight: 500; font-size: 12px; }
+@media (max-width: 640px) {
+  .panel-clubes { position: fixed; left: 12px; right: 12px; top: auto; bottom: max(12px, env(safe-area-inset-bottom, 0px));
+    width: auto; max-height: 70vh; overflow-y: auto; box-shadow: 0 -10px 40px rgba(0,0,0,.6); }
+}
 .yo { display: flex; gap: 10px; align-items: center; padding-bottom: 12px; }
 .yo label { font-size: 14px; color: var(--muted); display: flex; gap: 6px; align-items: center; }
 select, input[type="search"] {
@@ -200,7 +224,10 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
 <header class="cab">
   <div class="wrap">
     <a class="logo" href="#">El Vestuario</a>
-    <nav class="clubes" id="clubes" aria-label="Clubes"></nav>
+    <div class="clubes-zona">
+      <nav class="clubes" id="clubes" aria-label="Clubes"></nav>
+      <div class="panel-clubes" id="panel-clubes" hidden></div>
+    </div>
     <div class="yo">
       <label for="f-publico">Para
         <select id="f-publico">
@@ -321,14 +348,39 @@ window.VITRINA = {"fecha":"2026-10-29","tiendas":{"dexter":"Dexter","stockcenter
   const publicoDato = (p) => p === "nino" ? "niño" : p;
 
   // ---------- controles ----------
+  // Arriba van los más buscados; el resto, agrupado en "Más clubes".
+  const PRINCIPALES = ["todos", "seleccion", "boca", "river", "independiente", "racing", "san_lorenzo"];
+  const GRUPOS = [
+    ["Liga Profesional", ["argentinos", "atletico_tucuman", "estudiantes", "huracan", "lanus", "newells",
+                          "rosario_central", "san_martin_tucuman", "talleres", "tigre", "velez"]],
+    ["Selecciones", ["seleccion", "brasil"]],
+    ["Exterior", ["barcelona", "real_madrid", "inter_miami"]],
+  ];
+  const cuantas = (c) => D.items.filter(i => i.club === c).length;
+  function elegirClub(c) {
+    estado.club = c; $("panel-clubes").hidden = true; escribirHash(); pintarControles(); pintar();
+  }
   function pintarControles() {
-    const presentes = ORDEN_CLUBES.filter(c => CLUBES[c] && (c === "todos" || D.items.some(i => i.club === c)));
-    $("clubes").innerHTML = presentes.map(c =>
+    const hayClub = (c) => CLUBES[c] && (c === "todos" || cuantas(c) > 0);
+    const arriba = PRINCIPALES.filter(hayClub);
+    const elegidoAfuera = !arriba.includes(estado.club) && CLUBES[estado.club];
+    const abierto = !$("panel-clubes").hidden;
+    $("clubes").innerHTML = arriba.map(c =>
       `<button type="button" class="solapa" data-club="${c}" style="--color:${CLUBES[c].c}" aria-pressed="${estado.club === c}">${CLUBES[c].n}</button>`
-    ).join("");
-    $("clubes").querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
-      estado.club = b.dataset.club; escribirHash(); pintarControles(); pintar();
-    }));
+    ).join("") + `<button type="button" class="solapa mas" id="b-mas" aria-haspopup="true" aria-controls="panel-clubes"
+        aria-expanded="${abierto}" aria-pressed="${!!elegidoAfuera}" style="--color:${elegidoAfuera ? CLUBES[estado.club].c : "var(--ink)"}">${elegidoAfuera ? CLUBES[estado.club].n : "Más clubes"}</button>`;
+    $("clubes").querySelectorAll("button[data-club]").forEach(b => b.addEventListener("click", () => elegirClub(b.dataset.club)));
+    $("b-mas").addEventListener("click", (e) => {
+      e.stopPropagation();
+      const p = $("panel-clubes"); p.hidden = !p.hidden; $("b-mas").setAttribute("aria-expanded", String(!p.hidden));
+    });
+    $("panel-clubes").innerHTML = GRUPOS.map(([titulo, cs]) => {
+      const visibles = cs.filter(hayClub);
+      return visibles.length ? `<div class="grupo"><h3>${titulo}</h3><div>${visibles.map(c =>
+        `<button type="button" class="chip" data-club="${c}" style="--color:${CLUBES[c].c}" aria-pressed="${estado.club === c}">${CLUBES[c].n} <small>${cuantas(c)}</small></button>`
+      ).join("")}</div></div>` : "";
+    }).join("");
+    $("panel-clubes").querySelectorAll("button[data-club]").forEach(b => b.addEventListener("click", () => elegirClub(b.dataset.club)));
     $("f-publico").value = estado.publico;
     const lista = estado.publico === "nino" ? NINO : ADULTO;
     const hay = new Set(D.items.filter(i => i.publico === publicoDato(estado.publico)).flatMap(i => i.ofertas.flatMap(o => o.talles)));
@@ -340,6 +392,13 @@ window.VITRINA = {"fecha":"2026-10-29","tiendas":{"dexter":"Dexter","stockcenter
     $("f-orden").value = estado.orden;
     $("f-buscar").value = estado.q;
   }
+  document.addEventListener("click", (e) => {
+    const p = $("panel-clubes");
+    if (!p.hidden && !p.contains(e.target)) { p.hidden = true; $("b-mas")?.setAttribute("aria-expanded", "false"); }
+  });
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !$("panel-clubes").hidden) { $("panel-clubes").hidden = true; $("b-mas")?.focus(); $("b-mas")?.setAttribute("aria-expanded", "false"); }
+  });
   $("f-publico").addEventListener("change", e => { estado.publico = e.target.value; estado.talle = ""; escribirHash(); pintarControles(); pintar(); });
   $("f-talle").addEventListener("change", e => { estado.talle = e.target.value; escribirHash(); pintar(); });
   $("f-temporada").addEventListener("change", e => { estado.temporada = e.target.value; escribirHash(); pintar(); });
