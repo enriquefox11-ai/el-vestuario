@@ -196,12 +196,18 @@ main .wrap { padding-block: 4px 56px; }
 .ahorro.igual { color: var(--muted); font-weight: 500; }
 details.tiendas { border-top: 1px solid var(--line); }
 details.tiendas summary {
-  list-style: none; cursor: pointer; padding: 12px 18px; font-weight: 600; font-size: 15px;
-  display: flex; justify-content: space-between; align-items: center;
+  list-style: none; cursor: pointer; padding: 12px 18px; font-weight: 700; font-size: 15px;
+  display: flex; justify-content: space-between; align-items: center; color: var(--accent);
 }
 details.tiendas summary::-webkit-details-marker { display: none; }
-details.tiendas summary::after { content: "+"; font-size: 20px; color: var(--muted); }
-details.tiendas[open] summary::after { content: "−"; }
+details.tiendas summary::after {
+  content: "›"; font-size: 24px; line-height: 1; color: var(--accent);
+  transform: rotate(90deg); transition: transform .15s ease;
+}
+details.tiendas[open] summary::after { transform: rotate(-90deg); }
+.ficha { cursor: pointer; }
+.ficha .lista { cursor: default; }
+.ficha:hover details.tiendas summary { text-decoration: underline; text-underline-offset: 3px; }
 .lista { list-style: none; margin: 0; padding: 0 18px 12px; }
 .lista li {
   display: grid; grid-template-columns: 1fr auto auto; gap: 2px 12px; align-items: center;
@@ -480,7 +486,16 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
     const s = e.target.closest("details.tiendas > summary");
     if (s && !s.parentElement.open) {
       const n = s.closest(".ficha")?.querySelector(".nombre")?.textContent || "";
-      ph("abrir_comparacion", { camiseta: n });
+      ph("abrir_comparacion", { camiseta: n, desde: "boton" });
+      return;
+    }
+    // Tocar cualquier parte de la tarjeta (foto, nombre, precio) abre o cierra la comparación.
+    const f = e.target.closest(".ficha");
+    if (f && !s && !e.target.closest("details.tiendas .lista, a, button, input, select, label")) {
+      const d = f.querySelector("details.tiendas");
+      if (!d) return;
+      if (!d.open) ph("abrir_comparacion", { camiseta: f.querySelector(".nombre")?.textContent || "", desde: "tarjeta" });
+      d.open = !d.open;
     }
   });
   const CAMPOS = ["club", "publico", "talle", "temporada", "orden"];
@@ -639,7 +654,7 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
         </div>
         ${ahorroTxt}
       </div>
-      <details class="tiendas"><summary>${ofs.length === 1 ? "Ver la tienda" : `Comparar ${ofs.length} tiendas`}</summary>
+      <details class="tiendas"><summary>${ofs.length === 1 ? `Ver precio y talles en ${esc(tienda(ofs[0].tienda))}` : `Ver precios en ${ofs.length} tiendas`}</summary>
         <ul class="lista">${filas}</ul></details>
     </article>`;
   }
