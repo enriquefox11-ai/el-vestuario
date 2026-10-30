@@ -220,6 +220,13 @@ details.tiendas[open] summary::after { content: "−"; }
 .vacio { text-align: center; color: var(--muted); padding: 64px 16px; }
 .vacio b { display: block; color: var(--ink); font-size: 18px; margin-bottom: 4px; }
 
+.hero .wrap { padding-block: 32px 4px; }
+.hero h1 {
+  font-family: var(--display); font-weight: 900; text-transform: uppercase;
+  font-size: clamp(38px, 6vw, 68px); line-height: .95; margin: 0 0 10px; max-width: 18ch;
+}
+.hero p { margin: 0; color: var(--muted); font-size: 18px; }
+
 footer .wrap { border-top: 1px solid var(--line); padding-block: 22px 48px; color: var(--muted); font-size: 13.5px; }
 footer p { margin: 0 0 6px; max-width: 80ch; }
 
@@ -257,6 +264,13 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
     </div>
   </div>
 </header>
+
+<section class="hero">
+  <div class="wrap">
+    <h1>Todas las camisetas, todas las tiendas, un solo lugar.</h1>
+    <p id="hero-sub">Compará precios y talles en tiendas oficiales y multimarca.</p>
+  </div>
+</section>
 
 <section class="destacada" id="destacada" aria-label="La baja del día"></section>
 
@@ -623,8 +637,8 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
   // ---------- pie ----------
   const [a, m, d] = D.fecha.split("-");
   const tiendas = [...new Set(D.items.flatMap(i => i.ofertas.map(o => o.tienda)))].map(tienda);
-  $("pie").innerHTML = `<p>Precios y talles de ${tiendas.join(", ")}, actualizados el ${d}/${m}/${a}. Solo camisetas oficiales con al menos un talle disponible.</p>
-    <p>El precio es el publicado en cada tienda, sin promociones bancarias ni envío. Dexter y Stock Center son del mismo grupo y suelen tener el mismo precio. Las tiendas marcadas «oficial» son las del club o la marca: si sos socio, fijate ahí, que muchas tienen descuento.</p>`;
+  $("hero-sub").textContent = `Compará precios y talles en ${tiendas.length} tiendas oficiales y multimarca.`;
+  $("pie").innerHTML = `<p>Solo mostramos camisetas originales con stock. Precios de lista de cada tienda, sin envío ni promociones bancarias.</p>`;
 
   pintarControles();
   pintar();
