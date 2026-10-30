@@ -13,6 +13,21 @@
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<script>
+// Medición con PostHog: solo en la página publicada, sin cookies ni nada guardado en el navegador del visitante.
+if (/github\.io$|elvestuario/.test(location.hostname)) {
+  !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+  posthog.init("phc_o8WrnE5invM9LpYcFvEiz4NmQAtAxSyATSDTxqntFJsp", {
+    api_host: "https://us.i.posthog.com",
+    persistence: "memory",
+    person_profiles: "identified_only",
+    capture_pageview: true,
+    capture_pageleave: true,
+    autocapture: false,
+    disable_session_recording: true
+  });
+}
+</script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='28' fill='%230B0E12'/%3E%3Cpath d='M58 26 L70 32 Q80 38 90 32 L102 26 L134 42 L124 66 L112 62 L112 134 L48 134 L48 62 L36 66 L26 42 Z' fill='%23C6F24E'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -399,6 +414,37 @@ window.VITRINA = {"fecha":"2026-10-29","tiendas":{"dexter":"Dexter","stockcenter
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && !$("panel-clubes").hidden) { $("panel-clubes").hidden = true; $("b-mas")?.focus(); $("b-mas")?.setAttribute("aria-expanded", "false"); }
   });
+  // ---------- medición (PostHog, solo en la página publicada) ----------
+  const ph = (ev, props) => { try { if (window.posthog && posthog.capture) posthog.capture(ev, Object.assign({
+    club_filtro: estado.club, publico: estado.publico, talle: estado.talle || "todos" }, props || {})); } catch (e) {} };
+  document.addEventListener("click", (e) => {
+    const a = e.target.closest("a[data-ph]");
+    if (a) {
+      const d = a.dataset;
+      ph("clic_tienda", { origen: d.ph, tienda: tienda(d.tienda), tienda_id: d.tienda, club: d.club,
+        camiseta: d.camiseta, tipo: d.tipo, precio: Number(d.precio), es_la_mas_barata: d.mejor === "1",
+        tiene_el_talle: d.tiene === "1", $current_url: location.href });
+      return;
+    }
+    const s = e.target.closest("details.tiendas > summary");
+    if (s && !s.parentElement.open) {
+      const n = s.closest(".ficha")?.querySelector(".nombre")?.textContent || "";
+      ph("abrir_comparacion", { camiseta: n });
+    }
+  });
+  let filtroPrevio = "";
+  const medirFiltros = () => {
+    const f = [estado.club, estado.publico, estado.talle].join("|");
+    if (f !== filtroPrevio && filtroPrevio) ph("cambio_filtro", {});
+    filtroPrevio = f;
+  };
+  let tBusca;
+  $("f-buscar").addEventListener("input", e => {
+    clearTimeout(tBusca);
+    const q = e.target.value.trim();
+    if (q.length >= 3) tBusca = setTimeout(() => ph("busqueda", { q: q.toLowerCase() }), 1500);
+  });
+  setInterval(medirFiltros, 1000); medirFiltros();
   $("f-publico").addEventListener("change", e => { estado.publico = e.target.value; estado.talle = ""; escribirHash(); pintarControles(); pintar(); });
   $("f-talle").addEventListener("change", e => { estado.talle = e.target.value; escribirHash(); pintar(); });
   $("f-temporada").addEventListener("change", e => { estado.temporada = e.target.value; escribirHash(); pintar(); });
@@ -482,7 +528,7 @@ window.VITRINA = {"fecha":"2026-10-29","tiendas":{"dexter":"Dexter","stockcenter
         <div class="d-precio">
           <div><div class="big">${plata(v.mejor.precio)}</div>
           <div class="chico">en ${esc(tienda(v.mejor.tienda))}${antes}</div></div>
-          <a class="cta" href="${esc(v.mejor.url)}" target="_blank" rel="noopener">Ir a la tienda</a>
+          <a class="cta" href="${esc(v.mejor.url)}" target="_blank" rel="noopener" data-ph="destacada" data-tienda="${esc(v.mejor.tienda)}" data-club="${esc(v.it.club)}" data-camiseta="${esc(v.it.nombre)}" data-tipo="${esc(v.it.tipo || "")}" data-precio="${Math.round(v.mejor.precio)}" data-mejor="1" data-tiene="1">Ir a la tienda</a>
         </div>
       </div>
       <div class="d-foto" style="--club:${k.fondo || "#2A3139"}">
@@ -514,7 +560,7 @@ window.VITRINA = {"fecha":"2026-10-29","tiendas":{"dexter":"Dexter","stockcenter
       return `<li class="${es ? "mejor" : ""} ${o.tiene ? "" : "fuera"}">
         <span class="tn">${esc(tienda(o.tienda))}${(D.oficiales || []).includes(o.tienda) ? `<i class="of">oficial</i>` : ""}${o.tiene ? "" : " · sin tu talle"}</span>
         <span class="tp">${s}${plata(o.precio)}</span>
-        <a href="${esc(o.url)}" target="_blank" rel="noopener">Ver</a>
+        <a href="${esc(o.url)}" target="_blank" rel="noopener" data-ph="ver" data-tienda="${esc(o.tienda)}" data-club="${esc(it.club)}" data-camiseta="${esc(it.nombre)}" data-tipo="${esc(it.tipo || "")}" data-precio="${Math.round(o.precio)}" data-mejor="${es ? 1 : 0}" data-tiene="${o.tiene ? 1 : 0}">Ver</a>
         <span class="tt">${tt}</span></li>`;
     }).join("");
     return `<article class="ficha">
