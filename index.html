@@ -14,18 +14,24 @@
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <script>
-// Medición con PostHog: solo en la página publicada, sin cookies ni nada guardado en el navegador del visitante.
+// Medición con PostHog: solo en la página publicada. Sin cookies: un identificador anónimo en el navegador (localStorage) para reconocer a quien vuelve.
 if (/github\.io$|elvestuario/.test(location.hostname)) {
   !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
   posthog.init("phc_o8WrnE5invM9LpYcFvEiz4NmQAtAxSyATSDTxqntFJsp", {
     api_host: "https://us.i.posthog.com",
-    persistence: "memory",
+    persistence: "localStorage",
     person_profiles: "identified_only",
     capture_pageview: true,
     capture_pageleave: true,
     autocapture: false,
     disable_session_recording: true
   });
+  // De dónde viene: elvestuario.app/?ref=amigos (se guarda la primera y la de esta visita)
+  try {
+    var ps = new URLSearchParams(location.search);
+    var ref = (ps.get("ref") || ps.get("utm_source") || "").toLowerCase().slice(0, 40);
+    if (ref) { posthog.register_once({ ref_primera: ref }); posthog.register_for_session({ ref: ref }); }
+  } catch (e) {}
 }
 </script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='28' fill='%230B0E12'/%3E%3Cpath d='M58 26 L70 32 Q80 38 90 32 L102 26 L134 42 L124 66 L112 62 L112 134 L48 134 L48 62 L36 66 L26 42 Z' fill='%23C6F24E'/%3E%3C/svg%3E">
@@ -432,6 +438,7 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
     $("b-mas").addEventListener("click", (e) => {
       e.stopPropagation();
       const p = $("panel-clubes"); p.hidden = !p.hidden; $("b-mas").setAttribute("aria-expanded", String(!p.hidden));
+      if (!p.hidden) ph("abrir_mas_clubes", {});
     });
     $("panel-clubes").innerHTML = GRUPOS.map(([titulo, cs]) => {
       const visibles = cs.filter(hayClub);
@@ -476,10 +483,14 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
       ph("abrir_comparacion", { camiseta: n });
     }
   });
-  let filtroPrevio = "";
+  const CAMPOS = ["club", "publico", "talle", "temporada", "orden"];
+  let filtroPrevio = null;
   const medirFiltros = () => {
-    const f = [estado.club, estado.publico, estado.talle].join("|");
-    if (f !== filtroPrevio && filtroPrevio) ph("cambio_filtro", {});
+    const f = CAMPOS.map(k => estado[k] || "");
+    if (filtroPrevio) {
+      const cambios = CAMPOS.filter((k, i) => f[i] !== filtroPrevio[i]);
+      if (cambios.length) ph("cambio_filtro", { cambio: cambios.join(","), temporada: estado.temporada, orden: estado.orden });
+    }
     filtroPrevio = f;
   };
   let tBusca;
