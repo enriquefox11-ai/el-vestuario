@@ -112,7 +112,7 @@ button, select, input { font: inherit; color: inherit; }
     width: auto; max-height: 70vh; overflow-y: auto; box-shadow: 0 -10px 40px rgba(0,0,0,.6); }
 }
 .yo { display: flex; gap: 10px; align-items: center; padding-bottom: 12px; }
-.yo label { font-size: 14px; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+.yo label { font-size: 14px; color: var(--muted); display: flex; gap: 6px; align-items: center; cursor: pointer; }
 select, input[type="search"] {
   background: var(--surface-2); color: var(--ink); border: 1px solid var(--line);
   border-radius: 6px; padding: 8px 10px; font-weight: 600; font-size: 15px;
@@ -163,7 +163,7 @@ select, input[type="search"] {
 }
 .barra h2 { margin: 0 auto 0 0; font-family: var(--display); font-weight: 800; font-size: 40px; text-transform: uppercase; line-height: 1; }
 .barra input[type="search"] { width: min(100%, 260px); }
-.barra label { font-size: 14px; color: var(--muted); display: flex; gap: 6px; align-items: center; }
+.barra label { font-size: 14px; color: var(--muted); display: flex; gap: 6px; align-items: center; cursor: pointer; }
 .cuenta { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
 
 /* Grilla */
@@ -502,6 +502,16 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
   setInterval(medirFiltros, 1000); medirFiltros();
   $("f-publico").addEventListener("change", e => { estado.publico = e.target.value; estado.talle = ""; escribirHash(); pintarControles(); pintar(); });
   $("f-talle").addEventListener("change", e => { estado.talle = e.target.value; escribirHash(); pintar(); });
+  // Tocar el texto de un filtro ("Tu talle", "Para"...) abre la lista, no solo la flechita.
+  document.querySelectorAll("label").forEach(l => {
+    const s = l.querySelector("select");
+    if (!s) return;
+    l.addEventListener("click", e => {
+      if (e.target === s) return;
+      e.preventDefault();
+      try { s.showPicker(); } catch (err) { s.focus(); }
+    });
+  });
   $("f-temporada").addEventListener("change", e => { estado.temporada = e.target.value; escribirHash(); pintar(); });
   $("f-orden").addEventListener("change", e => { estado.orden = e.target.value; escribirHash(); pintar(); });
   $("f-buscar").addEventListener("input", e => { estado.q = e.target.value; pintar(); });
