@@ -165,6 +165,18 @@ select, input[type="search"] {
 .barra input[type="search"] { width: min(100%, 260px); }
 .barra label { font-size: 14px; color: var(--muted); display: flex; gap: 6px; align-items: center; cursor: pointer; }
 .cuenta { font-size: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
+/* Fila de resultados: cuántas hay a la izquierda, orden a la derecha (como en ML) */
+.resultados { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; justify-content: space-between; padding-block: 2px 14px; }
+.resultados label { font-size: 14px; color: var(--muted); display: flex; gap: 6px; align-items: center; cursor: pointer; }
+/* Clubes elegidos (selección múltiple) */
+.elegidos { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; padding-bottom: 12px; width: 100%; }
+.elegidos[hidden] { display: none; }
+.elegidos .chip { padding: 5px 10px; font-size: 13px; }
+.elegidos .x { color: var(--muted); font-weight: 700; margin-left: 2px; }
+.limpiar { background: none; border: 0; color: var(--muted); font-size: 13px; text-decoration: underline; cursor: pointer; padding: 4px; }
+.panel-pie { display: flex; justify-content: space-between; align-items: center; gap: 12px; font-size: 13px; color: var(--muted);
+  position: sticky; bottom: -18px; margin: 0 -18px -18px; padding: 12px 18px; background: var(--surface-2); border-top: 1px solid var(--line); }
+.listo { background: var(--accent); color: var(--bg); border: 0; border-radius: 6px; padding: 8px 18px; font-weight: 700; cursor: pointer; }
 
 /* Grilla */
 main .wrap { padding-block: 4px 56px; }
@@ -262,6 +274,7 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
       <nav class="clubes" id="clubes" aria-label="Clubes"></nav>
       <div class="panel-clubes" id="panel-clubes" hidden></div>
     </div>
+    <div class="elegidos" id="elegidos" hidden></div>
     <div class="yo">
       <label for="f-publico">Para
         <select id="f-publico">
@@ -297,19 +310,22 @@ footer p { margin: 0 0 6px; max-width: 80ch; }
         <option value="anteriores">Anteriores</option>
       </select>
     </label>
-    <label for="f-orden">Ordenar
-      <select id="f-orden">
-        <option value="ahorro">Mayor ahorro</option>
-        <option value="precio">Menor precio</option>
-        <option value="nuevas">Más nuevas</option>
-      </select>
-    </label>
-    <span class="cuenta" id="cuenta"></span>
   </div>
 </section>
 
 <main>
   <div class="wrap">
+    <div class="resultados">
+      <span class="cuenta" id="cuenta"></span>
+      <label for="f-orden">Ordenar por
+        <select id="f-orden">
+          <option value="precio">Menor precio</option>
+          <option value="precio_desc">Mayor precio</option>
+          <option value="ahorro">Mayor ahorro</option>
+          <option value="nuevas">Más nuevas</option>
+        </select>
+      </label>
+    </div>
     <div class="grilla" id="grilla"></div>
     <div class="vacio" id="vacio" hidden><b>No encontramos camisetas con esos filtros</b>Probá con otro talle, otro club o borrá la búsqueda.</div>
   </div>
@@ -394,25 +410,34 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
   const esc = (s) => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
   // ---------- estado: hash (compartible) > guardado > por defecto ----------
-  const estado = { club: "todos", publico: "hombre", talle: "", temporada: "todas", orden: "ahorro", q: "" };
-  try { Object.assign(estado, JSON.parse(localStorage.getItem("vestuario") || "{}")); } catch (e) {}
+  // clubes: lista de clubes elegidos; vacía = todos.
+  const estado = { clubes: [], publico: "hombre", talle: "", temporada: "todas", orden: "precio", q: "" };
+  try {
+    const g = JSON.parse(localStorage.getItem("vestuario") || "{}");
+    if (!Array.isArray(g.clubes)) g.clubes = g.club && g.club !== "todos" ? [g.club] : [];
+    delete g.club;
+    if (!g.ordenV2) { delete g.orden; }  // el default pasó a "Menor precio"
+    Object.assign(estado, g);
+    estado.clubes = estado.clubes.filter(c => CLUBES[c] && c !== "todos");
+  } catch (e) {}
   leerHash();
 
   function leerHash() {
-    // #boca-hombre-m  ·  #todos-nino-10  ·  #river
+    // #boca-hombre-m  ·  #todos-nino-10  ·  #river  ·  #independiente+racing-hombre-l
     const h = decodeURIComponent(location.hash.slice(1)).toLowerCase();
     if (!h) return;
     const [club, publico, talle] = h.split("-");
-    if (desdeHash[club]) estado.club = desdeHash[club];
+    const cs = club.split(/[+ ,]/).map(c => desdeHash[c]).filter(Boolean);
+    if (cs.length) estado.clubes = cs.filter(c => c !== "todos");
     if (["hombre", "mujer", "nino"].includes(publico)) estado.publico = publico;
     estado.talle = talle ? talle.toUpperCase() : (publico ? "" : estado.talle);
   }
   function escribirHash() {
-    const partes = [claveHash(estado.club), estado.publico];
+    const partes = [estado.clubes.length ? estado.clubes.map(claveHash).join("+") : "todos", estado.publico];
     if (estado.talle) partes.push(estado.talle.toLowerCase());
     const h = "#" + partes.join("-");
     if (location.hash !== h) history.replaceState(null, "", h);
-    try { localStorage.setItem("vestuario", JSON.stringify(estado)); } catch (e) {}
+    try { localStorage.setItem("vestuario", JSON.stringify(Object.assign({ ordenV2: 1 }, estado))); } catch (e) {}
   }
   window.addEventListener("hashchange", () => { leerHash(); pintarControles(); pintar(); });
 
@@ -428,18 +453,30 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
     ["Exterior", ["barcelona", "real_madrid", "manchester_city", "manchester_united", "liverpool", "arsenal", "chelsea", "tottenham", "atletico_madrid", "bayern", "dortmund", "milan", "inter", "juventus", "psg", "inter_miami"]],
   ];
   const cuantas = (c) => D.items.filter(i => i.club === c).length;
+  // Tocar un club lo suma o lo saca; "Todos" limpia la selección.
+  const elegido = (c) => c === "todos" ? estado.clubes.length === 0 : estado.clubes.includes(c);
   function elegirClub(c) {
-    estado.club = c; $("panel-clubes").hidden = true; escribirHash(); pintarControles(); pintar();
+    if (c === "todos") estado.clubes = [];
+    else estado.clubes = estado.clubes.includes(c) ? estado.clubes.filter(x => x !== c) : [...estado.clubes, c];
+    escribirHash(); pintarControles(); pintar();
   }
   function pintarControles() {
     const hayClub = (c) => CLUBES[c] && (c === "todos" || cuantas(c) > 0);
     const arriba = PRINCIPALES.filter(hayClub);
-    const elegidoAfuera = !arriba.includes(estado.club) && CLUBES[estado.club];
+    const afuera = estado.clubes.filter(c => !arriba.includes(c));
     const abierto = !$("panel-clubes").hidden;
+    const textoMas = afuera.length === 1 ? CLUBES[afuera[0]].n : afuera.length > 1 ? `Más clubes (${afuera.length})` : "Más clubes";
     $("clubes").innerHTML = arriba.map(c =>
-      `<button type="button" class="solapa" data-club="${c}" style="--color:${CLUBES[c].c}" aria-pressed="${estado.club === c}">${CLUBES[c].n}</button>`
+      `<button type="button" class="solapa" data-club="${c}" style="--color:${CLUBES[c].c}" aria-pressed="${elegido(c)}">${CLUBES[c].n}</button>`
     ).join("") + `<button type="button" class="solapa mas" id="b-mas" aria-haspopup="true" aria-controls="panel-clubes"
-        aria-expanded="${abierto}" aria-pressed="${!!elegidoAfuera}" style="--color:${elegidoAfuera ? CLUBES[estado.club].c : "var(--ink)"}">${elegidoAfuera ? CLUBES[estado.club].n : "Más clubes"}</button>`;
+        aria-expanded="${abierto}" aria-pressed="${afuera.length > 0}" style="--color:${afuera.length === 1 ? CLUBES[afuera[0]].c : "var(--ink)"}">${textoMas}</button>`;
+    // Chips con los clubes elegidos, para ver y sacar cada uno (aparecen con 2 o más).
+    const el = $("elegidos");
+    el.hidden = estado.clubes.length < 2;
+    el.innerHTML = estado.clubes.length < 2 ? "" : estado.clubes.map(c =>
+      `<button type="button" class="chip" data-club="${c}" style="--color:${CLUBES[c].c}" aria-label="Sacar ${CLUBES[c].n}">${CLUBES[c].n} <span class="x" aria-hidden="true">✕</span></button>`
+    ).join("") + `<button type="button" class="limpiar" data-club="todos">Ver todos</button>`;
+    el.querySelectorAll("button[data-club]").forEach(b => b.addEventListener("click", () => elegirClub(b.dataset.club)));
     $("clubes").querySelectorAll("button[data-club]").forEach(b => b.addEventListener("click", () => elegirClub(b.dataset.club)));
     $("b-mas").addEventListener("click", (e) => {
       e.stopPropagation();
@@ -449,10 +486,11 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
     $("panel-clubes").innerHTML = GRUPOS.map(([titulo, cs]) => {
       const visibles = cs.filter(hayClub);
       return visibles.length ? `<div class="grupo"><h3>${titulo}</h3><div>${visibles.map(c =>
-        `<button type="button" class="chip" data-club="${c}" style="--color:${CLUBES[c].c}" aria-pressed="${estado.club === c}">${CLUBES[c].n} <small>${cuantas(c)}</small></button>`
+        `<button type="button" class="chip" data-club="${c}" style="--color:${CLUBES[c].c}" aria-pressed="${elegido(c)}">${CLUBES[c].n} <small>${cuantas(c)}</small></button>`
       ).join("")}</div></div>` : "";
-    }).join("");
-    $("panel-clubes").querySelectorAll("button[data-club]").forEach(b => b.addEventListener("click", () => elegirClub(b.dataset.club)));
+    }).join("") + `<div class="panel-pie"><span>Podés elegir varios</span><button type="button" class="listo" id="b-listo">Listo</button></div>`;
+    $("panel-clubes").querySelectorAll("button[data-club]").forEach(b => b.addEventListener("click", (e) => { e.stopPropagation(); elegirClub(b.dataset.club); }));
+    $("b-listo").addEventListener("click", (e) => { e.stopPropagation(); $("panel-clubes").hidden = true; $("b-mas")?.setAttribute("aria-expanded", "false"); });
     $("f-publico").value = estado.publico;
     const lista = estado.publico === "nino" ? NINO : ADULTO;
     const hay = new Set(D.items.filter(i => i.publico === publicoDato(estado.publico)).flatMap(i => i.ofertas.flatMap(o => o.talles)));
@@ -473,7 +511,7 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
   });
   // ---------- medición (PostHog, solo en la página publicada) ----------
   const ph = (ev, props) => { try { if (window.posthog && posthog.capture) posthog.capture(ev, Object.assign({
-    club_filtro: estado.club, publico: estado.publico, talle: estado.talle || "todos" }, props || {})); } catch (e) {} };
+    club_filtro: estado.clubes.length ? estado.clubes.join(",") : "todos", clubes_elegidos: estado.clubes.length, publico: estado.publico, talle: estado.talle || "todos" }, props || {})); } catch (e) {} };
   document.addEventListener("click", (e) => {
     const a = e.target.closest("a[data-ph]");
     if (a) {
@@ -501,7 +539,7 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
   const CAMPOS = ["club", "publico", "talle", "temporada", "orden"];
   let filtroPrevio = null;
   const medirFiltros = () => {
-    const f = CAMPOS.map(k => estado[k] || "");
+    const f = CAMPOS.map(k => k === "club" ? estado.clubes.join(",") : (estado[k] || ""));
     if (filtroPrevio) {
       const cambios = CAMPOS.filter((k, i) => f[i] !== filtroPrevio[i]);
       if (cambios.length) ph("cambio_filtro", { cambio: cambios.join(","), temporada: estado.temporada, orden: estado.orden });
@@ -540,7 +578,7 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
     const q = norm(estado.q.trim());
     const out = [];
     for (const it of D.items) {
-      if (estado.club !== "todos" && it.club !== estado.club) continue;
+      if (estado.clubes.length && !estado.clubes.includes(it.club)) continue;
       if (it.publico !== publicoDato(estado.publico)) continue;
       if (estado.temporada === "actual" && !esActual(it)) continue;
       if (estado.temporada === "anteriores" && esActual(it)) continue;
@@ -562,8 +600,9 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
     const orden = {
       ahorro: (a, b) => b.ahorro - a.ahorro || a.mejor.precio - b.mejor.precio,
       precio: (a, b) => a.mejor.precio - b.mejor.precio,
+      precio_desc: (a, b) => b.mejor.precio - a.mejor.precio,
       nuevas: (a, b) => (b.it.temporada || "").localeCompare(a.it.temporada || "") || a.mejor.precio - b.mejor.precio
-    }[estado.orden];
+    }[estado.orden] || ((a, b) => a.mejor.precio - b.mejor.precio);
     return out.sort(orden);
   }
 
@@ -667,7 +706,8 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
     $("grilla").innerHTML = resto.map(ficha).join("");
     $("vacio").hidden = vs.length > 0;
     $("cuenta").textContent = `${vs.length} camiseta${vs.length === 1 ? "" : "s"}`;
-    $("titulo-lista").textContent = estado.talle ? `Más bajas en talle ${estado.talle}` : "Más bajas";
+    const tit = { precio: "Más baratas", precio_desc: "Más caras", ahorro: "Más bajas", nuevas: "Más nuevas" }[estado.orden] || "Camisetas";
+    $("titulo-lista").textContent = estado.talle ? `${tit} en talle ${estado.talle}` : tit;
   }
 
   // ---------- pie ----------
