@@ -99,6 +99,10 @@ button, select, input { font: inherit; color: inherit; }
 .panel-clubes[hidden] { display: none; }
 .grupo h3 { margin: 0 0 8px; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
 .grupo div { display: flex; flex-wrap: wrap; gap: 6px; }
+.grupo-cab { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin: 0 0 8px; }
+.grupo-cab h3 { margin: 0; }
+.todo-grupo { background: none; border: 1px solid var(--line); border-radius: 999px; color: var(--ink); font-size: 13px; font-weight: 600; padding: 4px 12px; cursor: pointer; white-space: nowrap; }
+.todo-grupo[aria-pressed="true"] { border-color: var(--accent); color: var(--accent); }
 .chip {
   display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-weight: 600; font-size: 14px;
   background: var(--bg); border: 1px solid var(--line); border-radius: 999px; padding: 7px 12px;
@@ -353,7 +357,7 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
   const NINO = ["4", "6", "8", "10", "12", "14", "16"];
   const CLUBES = {
     todos: { n: "Todos", c: "#F4F4F0" },
-    seleccion: { n: "Selección", c: "#75AADB", fondo: "#3E6E99", c1: "#75AADB", c2: "#FFFFFF", deco: "rayas" },
+    seleccion: { n: "Argentina", c: "#75AADB", fondo: "#3E6E99", c1: "#75AADB", c2: "#FFFFFF", deco: "rayas" },
     independiente: { n: "Independiente", c: "#E0243F", fondo: "#9E0F25", c1: "#C8102E", c2: "#C8102E", deco: "lisa" },
     boca: { n: "Boca", c: "#F2B705", fondo: "#0B2A5B", c1: "#0B2A5B", c2: "#F2B705", deco: "franja" },
     river: { n: "River", c: "#E0243F", fondo: "#B30E26", c1: "#FFFFFF", c2: "#D0102B", deco: "banda" },
@@ -401,6 +405,16 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
     "estudiantes", "velez", "rosario_central", "newells", "talleres", "lanus", "argentinos", "huracan", "tigre",
     "atletico_tucuman", "san_martin_tucuman", "brasil", "alemania", "espana", "italia", "portugal", "inglaterra", "paises_bajos", "uruguay", "colombia", "mexico",
     "barcelona", "real_madrid", "manchester_city", "manchester_united", "liverpool", "arsenal", "chelsea", "tottenham", "atletico_madrid", "bayern", "dortmund", "milan", "inter", "juventus", "psg", "inter_miami"];
+  // Categorías de "Más clubes": [título, clave para el link, clubes]
+  const GRUPOS = [
+    ["Liga Profesional", "liga", ["argentinos", "atletico_tucuman", "estudiantes", "huracan", "lanus", "newells",
+                          "rosario_central", "san_martin_tucuman", "talleres", "tigre", "velez"]],
+    ["Selecciones", "selecciones", ["seleccion", "brasil", "alemania", "espana", "italia", "portugal", "inglaterra", "paises_bajos", "uruguay", "colombia", "mexico"]],
+    ["Exterior", "exterior", ["barcelona", "real_madrid", "manchester_city", "manchester_united", "liverpool", "arsenal", "chelsea", "tottenham", "atletico_madrid", "bayern", "dortmund", "milan", "inter", "juventus", "psg", "inter_miami"]],
+  ];
+  const conCamisetas = (c) => D.items.some(i => i.club === c);
+  const delGrupo = (g) => g[2].filter(conCamisetas);
+  const grupoCompleto = (g, lista) => { const cs = delGrupo(g); return cs.length > 1 && cs.every(c => lista.includes(c)); };
   const claveHash = (c) => c.replace(/_/g, "");
   const desdeHash = Object.fromEntries(Object.keys(CLUBES).map(c => [claveHash(c), c]));
   const TIPOS = { titular: "Titular", alternativa: "Alternativa", tercera: "Tercera", arquero: "Arquero",
@@ -427,13 +441,20 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
     const h = decodeURIComponent(location.hash.slice(1)).toLowerCase();
     if (!h) return;
     const [club, publico, talle] = h.split("-");
-    const cs = club.split(/[+ ,]/).map(c => desdeHash[c]).filter(Boolean);
+    const cs = club.split(/[+ ,]/).flatMap(c => {
+      const g = GRUPOS.find(g => g[1] === c);
+      if (g) return delGrupo(g);
+      return desdeHash[c === "argentina" ? "seleccion" : c] || [];
+    });
     if (cs.length) estado.clubes = cs.filter(c => c !== "todos");
     if (["hombre", "mujer", "nino"].includes(publico)) estado.publico = publico;
     estado.talle = talle ? talle.toUpperCase() : (publico ? "" : estado.talle);
   }
   function escribirHash() {
-    const partes = [estado.clubes.length ? estado.clubes.map(claveHash).join("+") : "todos", estado.publico];
+    let resto = estado.clubes.slice(); const claves = [];
+    for (const g of GRUPOS) if (grupoCompleto(g, resto)) { claves.push(g[1]); resto = resto.filter(c => !g[2].includes(c)); }
+    const lista = [...claves, ...resto.map(c => c === "seleccion" ? "argentina" : claveHash(c))];
+    const partes = [lista.length ? lista.join("+") : "todos", estado.publico];
     if (estado.talle) partes.push(estado.talle.toLowerCase());
     const h = "#" + partes.join("-");
     if (location.hash !== h) history.replaceState(null, "", h);
@@ -446,12 +467,6 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
   // ---------- controles ----------
   // Arriba van los más buscados; el resto, agrupado en "Más clubes".
   const PRINCIPALES = ["todos", "seleccion", "boca", "river", "independiente", "racing", "san_lorenzo"];
-  const GRUPOS = [
-    ["Liga Profesional", ["argentinos", "atletico_tucuman", "estudiantes", "huracan", "lanus", "newells",
-                          "rosario_central", "san_martin_tucuman", "talleres", "tigre", "velez"]],
-    ["Selecciones", ["seleccion", "brasil", "alemania", "espana", "italia", "portugal", "inglaterra", "paises_bajos", "uruguay", "colombia", "mexico"]],
-    ["Exterior", ["barcelona", "real_madrid", "manchester_city", "manchester_united", "liverpool", "arsenal", "chelsea", "tottenham", "atletico_madrid", "bayern", "dortmund", "milan", "inter", "juventus", "psg", "inter_miami"]],
-  ];
   const cuantas = (c) => D.items.filter(i => i.club === c).length;
   // Tocar un club lo suma o lo saca; "Todos" limpia la selección.
   const elegido = (c) => c === "todos" ? estado.clubes.length === 0 : estado.clubes.includes(c);
@@ -460,12 +475,22 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
     else estado.clubes = estado.clubes.includes(c) ? estado.clubes.filter(x => x !== c) : [...estado.clubes, c];
     escribirHash(); pintarControles(); pintar();
   }
+  function elegirGrupo(clave) {
+    const g = GRUPOS.find(g => g[1] === clave); if (!g) return;
+    const cs = delGrupo(g);
+    if (grupoCompleto(g, estado.clubes)) estado.clubes = estado.clubes.filter(c => !cs.includes(c));
+    else { estado.clubes = [...estado.clubes, ...cs.filter(c => !estado.clubes.includes(c))]; ph("elegir_categoria", { categoria: clave }); }
+    escribirHash(); pintarControles(); pintar();
+  }
   function pintarControles() {
     const hayClub = (c) => CLUBES[c] && (c === "todos" || cuantas(c) > 0);
     const arriba = PRINCIPALES.filter(hayClub);
     const afuera = estado.clubes.filter(c => !arriba.includes(c));
     const abierto = !$("panel-clubes").hidden;
-    const textoMas = afuera.length === 1 ? CLUBES[afuera[0]].n : afuera.length > 1 ? `Más clubes (${afuera.length})` : "Más clubes";
+    const completos = GRUPOS.filter(g => grupoCompleto(g, estado.clubes));
+    const sueltosAfuera = afuera.filter(c => !completos.some(g => g[2].includes(c)));
+    const textoMas = completos.length === 1 && !sueltosAfuera.length ? completos[0][0]
+      : afuera.length === 1 ? CLUBES[afuera[0]].n : afuera.length > 1 ? `Más clubes (${afuera.length})` : "Más clubes";
     $("clubes").innerHTML = arriba.map(c =>
       `<button type="button" class="solapa" data-club="${c}" style="--color:${CLUBES[c].c}" aria-pressed="${elegido(c)}">${CLUBES[c].n}</button>`
     ).join("") + `<button type="button" class="solapa mas" id="b-mas" aria-haspopup="true" aria-controls="panel-clubes"
@@ -473,23 +498,31 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
     // Chips con los clubes elegidos, para ver y sacar cada uno (aparecen con 2 o más).
     const el = $("elegidos");
     el.hidden = estado.clubes.length < 2;
-    el.innerHTML = estado.clubes.length < 2 ? "" : estado.clubes.map(c =>
+    const sueltos = estado.clubes.filter(c => !completos.some(g => g[2].includes(c)));
+    el.innerHTML = estado.clubes.length < 2 ? "" : completos.map(g =>
+      `<button type="button" class="chip" data-grupo="${g[1]}" style="--color:var(--accent)" aria-label="Sacar ${g[0]}">${g[0]} <span class="x" aria-hidden="true">✕</span></button>`
+    ).join("") + sueltos.map(c =>
       `<button type="button" class="chip" data-club="${c}" style="--color:${CLUBES[c].c}" aria-label="Sacar ${CLUBES[c].n}">${CLUBES[c].n} <span class="x" aria-hidden="true">✕</span></button>`
     ).join("") + `<button type="button" class="limpiar" data-club="todos">Ver todos</button>`;
     el.querySelectorAll("button[data-club]").forEach(b => b.addEventListener("click", () => elegirClub(b.dataset.club)));
+    el.querySelectorAll("button[data-grupo]").forEach(b => b.addEventListener("click", () => elegirGrupo(b.dataset.grupo)));
     $("clubes").querySelectorAll("button[data-club]").forEach(b => b.addEventListener("click", () => elegirClub(b.dataset.club)));
     $("b-mas").addEventListener("click", (e) => {
       e.stopPropagation();
       const p = $("panel-clubes"); p.hidden = !p.hidden; $("b-mas").setAttribute("aria-expanded", String(!p.hidden));
       if (!p.hidden) ph("abrir_mas_clubes", {});
     });
-    $("panel-clubes").innerHTML = GRUPOS.map(([titulo, cs]) => {
+    $("panel-clubes").innerHTML = GRUPOS.map((g) => {
+      const [titulo, clave, cs] = g;
       const visibles = cs.filter(hayClub);
-      return visibles.length ? `<div class="grupo"><h3>${titulo}</h3><div>${visibles.map(c =>
+      const todo = grupoCompleto(g, estado.clubes);
+      const boton = visibles.length > 1 ? `<button type="button" class="todo-grupo" data-grupo="${clave}" aria-pressed="${todo}">${todo ? "✓ Todos" : "Elegir todos"}</button>` : "";
+      return visibles.length ? `<div class="grupo"><div class="grupo-cab"><h3>${titulo}</h3>${boton}</div><div>${visibles.map(c =>
         `<button type="button" class="chip" data-club="${c}" style="--color:${CLUBES[c].c}" aria-pressed="${elegido(c)}">${CLUBES[c].n} <small>${cuantas(c)}</small></button>`
       ).join("")}</div></div>` : "";
     }).join("") + `<div class="panel-pie"><span>Podés elegir varios</span><button type="button" class="listo" id="b-listo">Listo</button></div>`;
     $("panel-clubes").querySelectorAll("button[data-club]").forEach(b => b.addEventListener("click", (e) => { e.stopPropagation(); elegirClub(b.dataset.club); }));
+    $("panel-clubes").querySelectorAll("button[data-grupo]").forEach(b => b.addEventListener("click", (e) => { e.stopPropagation(); elegirGrupo(b.dataset.grupo); }));
     $("b-listo").addEventListener("click", (e) => { e.stopPropagation(); $("panel-clubes").hidden = true; $("b-mas")?.setAttribute("aria-expanded", "false"); });
     $("f-publico").value = estado.publico;
     const lista = estado.publico === "nino" ? NINO : ADULTO;
@@ -582,7 +615,7 @@ window.VITRINA = {"fecha":"2026-10-30","tiendas":{"dexter":"Dexter","stockcenter
       if (it.publico !== publicoDato(estado.publico)) continue;
       if (estado.temporada === "actual" && !esActual(it)) continue;
       if (estado.temporada === "anteriores" && esActual(it)) continue;
-      if (q && !norm(`${it.nombre} ${it.busca || ""} ${it.temporada} ${TIPOS[it.tipo] || ""} ${CLUBES[it.club]?.n || ""}`).includes(q)) continue;
+      if (q && !norm(`${it.nombre} ${it.busca || ""} ${it.temporada} ${TIPOS[it.tipo] || ""} ${CLUBES[it.club]?.n || ""} ${it.club === "seleccion" ? "seleccion argentina afa" : ""}`).includes(q)) continue;
       const ofs = it.ofertas.map(o => {
         const sinDato = o.talles.length === 0;
         return { ...o, sinDato, tiene: !estado.talle || sinDato || o.talles.includes(estado.talle) };
