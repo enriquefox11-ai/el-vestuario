@@ -32,10 +32,10 @@ SFCC = {
 SEVEN_JSON = "https://script.google.com/macros/s/AKfycbzX6B8rjH0pRNCYPrnxmrPDfa9nqS7h0hUeYe2CEWszyGfJnx5EpdTwaENlZOp2ZUL-/exec"
 KAPPA = "https://www.kappastore.com.ar/pages/promociones-bancarias"
 # Tiendas VTEX: las cuotas sin interés vienen en el buscador de productos.
+# (Seven Sport no está porque su JSON de promos ya trae las cuotas, con el monto mínimo.)
 VTEX = {
     "onsports": "https://www.onsports.com.ar",
     "sporting": "https://www.sporting.com.ar",
-    "sevensport": "https://www.sevensport.com.ar",
     "showsport": "https://www.showsport.com.ar",
     "atomik": "https://www.atomik.com.ar",
     "bocashop": "https://www.bocashop.com.ar",
@@ -153,13 +153,16 @@ def tope_de(texto):
     m = re.search(r"\$\s*([\d.]+)", texto or "")
     if not m:
         return None
+    monto = m.group(1).strip(".")
     mensual = " por mes" if re.search(r"mes|mensual", t) else ""
-    return f"tope ${m.group(1)}{mensual}"
+    return f"tope ${monto}{mensual}"
 
 
 def promo(banco, *, pct=None, cuotas=None, dias=None, desde=None, hasta=None, tope=None, medio=None, tipo=None, texto=None, minimo=None):
     if not pct and not cuotas:
         return None
+    if not pct:
+        tope = None  # el tope es del reintegro; en promos de solo cuotas suele ser otro número de los legales
     if tipo is None:
         tipo = "transferencia" if banco == "Transferencia" else ("descuento" if pct else "cuotas")
     p = {"tipo": tipo, "banco": banco or "Varios", "pct": pct, "cuotas": cuotas, "dias": dias or [],
@@ -216,7 +219,7 @@ def leer_sfcc(html):
 
 def _minimo(txt):
     m = re.search(r"\$\s*([\d.]+)", txt or "")
-    return f"desde ${m.group(1)}" if m else None
+    return f"desde ${m.group(1).strip('.')}" if m else None
 
 
 def _corto(txt, n=90):
