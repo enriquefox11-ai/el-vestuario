@@ -1039,7 +1039,7 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
     $("alerta-txt").textContent = a.texto;
     $("alerta-talle-campo").hidden = !a.talles;
     if (a.talles) {
-      $("alerta-talle").innerHTML = `<option value="">Cualquiera</option>` + a.talles.map(t => `<option value="${esc(t)}">${esc(t)}</option>`).join("");
+      $("alerta-talle").innerHTML = `<option value="">Cualquiera</option>` + a.talles.map(t => `<option value="${esc(t)}">${esc(t)}${a.hay && !a.hay.includes(t) ? " · sin stock hoy" : ""}</option>`).join("");
       $("alerta-talle").value = a.talles.includes(estado.talle) ? estado.talle : "";
     }
     $("alerta-mail").value = leerLS("vestuario_mail", "");
@@ -1054,12 +1054,18 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
   function alertaCamiseta(id) {
     const it = porId[id]; if (!it) return;
     const mejor = it.ofertas.reduce((a, b) => b.precio < a.precio ? b : a);
-    const talles = ordenTalles(it.ofertas.flatMap(o => o.talles));
+    const hay = ordenTalles(it.ofertas.flatMap(o => o.talles));
+    // Todos los talles del público (no solo los que hay hoy), para poder pedir que avise cuando vuelva uno agotado.
+    const talles = hay.length ? ordenTalles([...(it.publico === "niño" ? NINO : ADULTO), ...hay]) : [];
     abrirAlerta({
-      tipo: "camiseta", item: it, precio: mejor.precio, talles: talles.length ? talles : null,
+      tipo: "camiseta", item: it, precio: mejor.precio, talles: talles.length ? talles : null, hay,
       titulo: `${CLUBES[it.club]?.n || it.club} · ${it.nombre}`,
       texto: `Hoy la más barata está ${plata(mejor.precio)} en ${tienda(mejor.tienda)}. Te avisamos si baja en cualquier tienda${talles.length ? " o si vuelve tu talle" : ""}.`
     });
+  }
+  function precioEnTalle(it, t) {
+    const os = t ? it.ofertas.filter(o => o.talles.includes(t)) : it.ofertas;
+    return os.length ? Math.round(Math.min(...os.map(o => o.precio))) : 0;
   }
   function alertaBusqueda() {
     const n = vista().length;
@@ -1098,7 +1104,7 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail)) { nota(ERRORES.mail, true); $("alerta-mail").focus(); return; }
     const cuerpo = a.tipo === "camiseta"
       ? { email: mail, tipo: "camiseta", web: $("alerta-web").value, item_id: a.item.id, item_nombre: `${CLUBES[a.item.club]?.n || a.item.club} · ${a.item.nombre}`,
-          club: a.item.club, publico: a.item.publico, talle: $("alerta-talle").value, precio: Math.round(a.precio) }
+          club: a.item.club, publico: a.item.publico, talle: $("alerta-talle").value, precio: precioEnTalle(a.item, $("alerta-talle").value) }
       : { email: mail, tipo: "busqueda", web: $("alerta-web").value, descripcion: a.titulo, cantidad: a.cantidad,
           filtros: { clubes: estado.clubes, publico: estado.publico, talle: estado.talle, temporada: estado.temporada, q: estado.q.trim() } };
     $("alerta-ok").disabled = true; $("alerta-ok").textContent = "Activando…";
