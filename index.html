@@ -1008,7 +1008,7 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
   function botonSeguir(it) {
     if (!alertasOn || !it.id) return "";
     const ya = sigo.has(it.id);
-    return `<button type="button" class="seguir" data-seguir="${esc(it.id)}" aria-pressed="${ya}">${CAMPANA}<span>${ya ? "Siguiendo" : "Avisame si baja"}</span></button>`;
+    return `<button type="button" class="seguir" data-seguir="${esc(it.id)}" aria-pressed="${ya}">${CAMPANA}<span>${ya ? "Siguiendo" : "Seguir esta camiseta"}</span></button>`;
   }
   const ordenTalles = (ts) => { const l = [...ADULTO, ...NINO]; return [...new Set(ts)].sort((a, b) => l.indexOf(a) - l.indexOf(b)); };
   const PUBLICO_TXT = { hombre: "Hombre", mujer: "Mujer", nino: "Niño" };
@@ -1034,7 +1034,7 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
   function nota(txt, error) { const n = $("alerta-nota"); n.textContent = txt; n.classList.toggle("error", !!error); }
   function abrirAlerta(a) {
     alertaActual = a;
-    $("alerta-tipo").textContent = a.tipo === "camiseta" ? "Avisame si baja" : "Avisame de esta búsqueda";
+    $("alerta-tipo").textContent = a.tipo === "camiseta" ? "Seguir esta camiseta" : "Avisame de esta búsqueda";
     $("alerta-tit").textContent = a.titulo;
     $("alerta-txt").textContent = a.texto;
     $("alerta-talle-campo").hidden = !a.talles;
