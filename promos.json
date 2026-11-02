@@ -1,0 +1,880 @@
+{
+ "generado": "2026-11-01T23:25-03:00",
+ "tiendas": {
+  "dexter": {
+   "promos": [
+    {
+     "tipo": "descuento",
+     "banco": "ICBC",
+     "pct": 30,
+     "cuotas": 9,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-04",
+     "tope": "tope $50.000",
+     "medio": "Tarjetas de crédito visa & MasterCard ICBC",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "BBVA",
+     "pct": 30,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-04",
+     "tope": "tope $50.000",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Galicia",
+     "pct": 25,
+     "cuotas": 9,
+     "dias": [
+      5,
+      6
+     ],
+     "desde": "2026-10-01",
+     "hasta": "2026-12-31",
+     "tope": "tope $50.000 por mes",
+     "medio": "Tarjetas de Crédito Visa, MasterCard Y AMEX de banco Galicia",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Naranja X",
+     "pct": 20,
+     "cuotas": 12,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-04",
+     "tope": "tope $30.000",
+     "medio": "Naranja X",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "BBVA",
+     "pct": 20,
+     "dias": [
+      2
+     ],
+     "desde": "2026-11-10",
+     "hasta": "2026-11-30",
+     "tope": "tope $50.000 por mes",
+     "medio": "Tarjetas de Crédito BBVA pagando a través de MODO",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Galicia",
+     "pct": 15,
+     "cuotas": 12,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-09",
+     "tope": "tope $50.000 por mes",
+     "medio": "Tarjetas de Crédito Visa, MasterCard Y AMEX de banco Galicia",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Banco Ciudad",
+     "pct": 15,
+     "cuotas": 10,
+     "dias": [
+      2
+     ],
+     "desde": "2026-07-01",
+     "hasta": "2026-12-31",
+     "tope": "sin tope",
+     "medio": "Pagando exclusivamente con QR MODO/BUEPP/APP Ciudad (Tarjeta de crédito Visa y MasterCard)",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Go Cuotas",
+     "pct": 15,
+     "cuotas": 7,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-08",
+     "tope": "tope $10.000",
+     "medio": "Go cuotas",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Banco Provincia",
+     "pct": 15,
+     "cuotas": 4,
+     "dias": [
+      5
+     ],
+     "desde": "2026-10-23",
+     "hasta": "2026-11-30",
+     "tope": "tope $30.000",
+     "medio": "Tarjeta Visa o MasterCard de banco Provincia",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Mercado Pago",
+     "pct": 10,
+     "dias": [],
+     "desde": "2026-11-04",
+     "hasta": "2026-11-05",
+     "tope": "tope $20.000",
+     "medio": "dinero en cuenta & tarjeta de débito",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Go Cuotas",
+     "cuotas": 7,
+     "dias": [],
+     "hasta": "2026-11-01",
+     "medio": "Go Cuotas",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Todos los bancos",
+     "cuotas": 6,
+     "dias": [],
+     "desde": "2026-07-01",
+     "hasta": "2026-12-31",
+     "minimo": "desde $49.999",
+     "medio": "Todos las tarjetas bancarias visa & MasterCard",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Mercado Pago",
+     "cuotas": 6,
+     "dias": [],
+     "hasta": "2026-11-01",
+     "minimo": "desde $149.999",
+     "medio": "Tarjetas visa y MasterCard bancarizadas a través de mercado pago",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Visa, Mastercard, Amex y Cabal",
+     "cuotas": 3,
+     "dias": [],
+     "desde": "2026-05-01",
+     "minimo": "desde $49.999",
+     "medio": "Tarjeta Visa o MasterCard, Amex y CABAL – Bancarizadas",
+     "fuente": "auto"
+    }
+   ]
+  },
+  "stockcenter": {
+   "promos": [
+    {
+     "tipo": "descuento",
+     "banco": "Naranja X",
+     "pct": 20,
+     "cuotas": 12,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-04",
+     "tope": "tope $30.000",
+     "medio": "Naranja X",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Go Cuotas",
+     "pct": 15,
+     "cuotas": 7,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-08",
+     "tope": "tope $10.000",
+     "medio": "Go cuotas",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Todos los bancos",
+     "cuotas": 9,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-09",
+     "minimo": "desde $149.999",
+     "medio": "Todos las tarjetas bancarias visa & MasterCard",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Go Cuotas",
+     "cuotas": 7,
+     "dias": [],
+     "hasta": "2026-11-01",
+     "medio": "Go Cuotas",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Todos los bancos",
+     "cuotas": 6,
+     "dias": [],
+     "desde": "2026-07-01",
+     "hasta": "2026-12-31",
+     "minimo": "desde $49.999",
+     "medio": "Todos las tarjetas bancarias visa & MasterCard",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Mercado Pago",
+     "cuotas": 6,
+     "dias": [],
+     "hasta": "2026-11-01",
+     "minimo": "desde $149.999",
+     "medio": "Tarjetas visa y MasterCard bancarizadas a través de mercado pago",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Visa, Mastercard, Amex y Cabal",
+     "cuotas": 3,
+     "dias": [],
+     "desde": "2026-05-01",
+     "minimo": "desde $49.999",
+     "medio": "Tarjeta Visa o MasterCard, Amex y CABAL – Bancarizadas",
+     "fuente": "auto"
+    }
+   ]
+  },
+  "moov": {
+   "promos": [
+    {
+     "tipo": "descuento",
+     "banco": "ICBC",
+     "pct": 30,
+     "cuotas": 9,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-04",
+     "tope": "tope $50.000",
+     "medio": "Tarjetas de crédito visa & MasterCard ICBC",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "BBVA",
+     "pct": 30,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-04",
+     "tope": "tope $50.000",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Galicia",
+     "pct": 25,
+     "cuotas": 9,
+     "dias": [
+      5,
+      6
+     ],
+     "desde": "2026-10-01",
+     "hasta": "2026-12-31",
+     "tope": "tope $50.000 por mes",
+     "medio": "Tarjetas de Crédito Visa, MasterCard Y AMEX de banco Galicia",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Naranja X",
+     "pct": 20,
+     "cuotas": 12,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-04",
+     "tope": "tope $30.000",
+     "medio": "Naranja X",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "BBVA",
+     "pct": 20,
+     "dias": [
+      2
+     ],
+     "desde": "2026-11-10",
+     "hasta": "2026-11-30",
+     "tope": "tope $50.000 por mes",
+     "medio": "Tarjetas de Crédito BBVA pagando a través de MODO",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Galicia",
+     "pct": 15,
+     "cuotas": 12,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-09",
+     "tope": "tope $50.000 por mes",
+     "medio": "Tarjetas de Crédito Visa, MasterCard Y AMEX de banco Galicia",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Banco Ciudad",
+     "pct": 15,
+     "cuotas": 10,
+     "dias": [
+      2
+     ],
+     "desde": "2026-07-01",
+     "hasta": "2026-12-31",
+     "tope": "sin tope",
+     "medio": "Pagando exclusivamente con QR MODO/BUEPP/APP Ciudad (Tarjeta de crédito Visa y MasterCard)",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Go Cuotas",
+     "pct": 15,
+     "cuotas": 7,
+     "dias": [],
+     "desde": "2026-11-02",
+     "hasta": "2026-11-08",
+     "tope": "tope $10.000",
+     "medio": "Go cuotas",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Banco Provincia",
+     "pct": 15,
+     "cuotas": 4,
+     "dias": [
+      5
+     ],
+     "desde": "2026-10-23",
+     "hasta": "2026-11-30",
+     "tope": "tope $30.000",
+     "medio": "Tarjeta Visa o MasterCard de banco Provincia",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Mercado Pago",
+     "pct": 10,
+     "dias": [],
+     "desde": "2026-11-04",
+     "hasta": "2026-11-05",
+     "tope": "tope $20.000",
+     "medio": "dinero en cuenta & tarjeta de débito",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Go Cuotas",
+     "cuotas": 7,
+     "dias": [],
+     "hasta": "2026-11-01",
+     "medio": "Go Cuotas",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Todos los bancos",
+     "cuotas": 6,
+     "dias": [],
+     "desde": "2026-07-01",
+     "hasta": "2026-12-31",
+     "minimo": "desde $49.999",
+     "medio": "Todos las tarjetas bancarias visa & MasterCard",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Mercado Pago",
+     "cuotas": 6,
+     "dias": [],
+     "hasta": "2026-11-01",
+     "minimo": "desde $149.999",
+     "medio": "Tarjetas visa y MasterCard bancarizadas a través de mercado pago",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Visa, Mastercard, Amex y Cabal",
+     "cuotas": 3,
+     "dias": [],
+     "desde": "2026-05-01",
+     "minimo": "desde $49.999",
+     "medio": "Tarjeta Visa o MasterCard, Amex y CABAL – Bancarizadas",
+     "fuente": "auto"
+    }
+   ]
+  },
+  "sevensport": {
+   "promos": [
+    {
+     "tipo": "descuento",
+     "banco": "Cabal",
+     "pct": 30,
+     "cuotas": 3,
+     "dias": [
+      3
+     ],
+     "desde": "2026-08-12",
+     "hasta": "2026-11-28",
+     "tope": "tope $15.000",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Galicia",
+     "pct": 25,
+     "cuotas": 6,
+     "dias": [
+      5
+     ],
+     "desde": "2026-06-12",
+     "hasta": "2026-12-31",
+     "tope": "tope $50.000",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Santander",
+     "pct": 25,
+     "cuotas": 6,
+     "dias": [
+      3
+     ],
+     "desde": "2026-10-07",
+     "hasta": "2026-12-31",
+     "tope": "sin tope",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Patagonia",
+     "pct": 25,
+     "cuotas": 3,
+     "dias": [
+      4
+     ],
+     "desde": "2026-07-02",
+     "hasta": "2026-12-31",
+     "tope": "tope $20.000",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Banco Provincia",
+     "pct": 10,
+     "cuotas": 6,
+     "dias": [
+      5,
+      6
+     ],
+     "desde": "2026-01-02",
+     "hasta": "2026-12-31",
+     "tope": "sin tope",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "transferencia",
+     "banco": "Transferencia",
+     "pct": 10,
+     "dias": [],
+     "desde": "2026-01-01",
+     "hasta": "2026-12-31",
+     "tope": "sin tope",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Mercado Pago",
+     "cuotas": 12,
+     "dias": [],
+     "desde": "2026-02-01",
+     "hasta": "2026-11-09",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Visa",
+     "cuotas": 6,
+     "dias": [],
+     "desde": "2026-02-01",
+     "hasta": "2026-12-31",
+     "minimo": "desde $150.000",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Mastercard",
+     "cuotas": 6,
+     "dias": [],
+     "desde": "2026-02-01",
+     "hasta": "2026-12-31",
+     "minimo": "desde $150.000",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "MODO",
+     "cuotas": 3,
+     "dias": [],
+     "desde": "2025-12-01",
+     "hasta": "2026-12-31",
+     "fuente": "auto"
+    }
+   ]
+  },
+  "kappastore": {
+   "promos": [
+    {
+     "tipo": "descuento",
+     "banco": "Galicia",
+     "pct": 20,
+     "cuotas": 6,
+     "dias": [
+      5
+     ],
+     "desde": "2026-10-02",
+     "hasta": "2026-12-31",
+     "tope": "tope $40.000 por mes",
+     "texto": "Hasta 6 cuotas sin interés y 20% de reintegro. Todos los viernes con Visa y Master de Galicia",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Banco Provincia",
+     "cuotas": 12,
+     "dias": [],
+     "desde": "2026-10-02",
+     "hasta": "2026-12-31",
+     "texto": "12 Cuotas sin interés. Todos los días con Visa y MasterCard del Banco Provincia",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Galicia",
+     "cuotas": 12,
+     "dias": [],
+     "desde": "2026-10-02",
+     "hasta": "2026-12-31",
+     "texto": "Hasta 12 cuotas sin interés, todos los días, con Mastercard de Galicia",
+     "fuente": "auto"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Mercado Pago",
+     "cuotas": 9,
+     "dias": [],
+     "minimo": "desde $249.000",
+     "texto": "9 Cuotas sin interés desde $249.000 o 6 Cuotas sin interés en todas tus compras",
+     "fuente": "auto"
+    }
+   ]
+  },
+  "onsports": {
+   "promos": [
+    {
+     "tipo": "transferencia",
+     "banco": "Transferencia",
+     "pct": 10,
+     "dias": [],
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "American Express",
+     "cuotas": 6,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Visa y Mastercard",
+     "cuotas": 6,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Naranja X",
+     "cuotas": 5,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Cabal",
+     "cuotas": 3,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    }
+   ]
+  },
+  "sporting": {
+   "promos": [
+    {
+     "tipo": "cuotas",
+     "banco": "Visa y Mastercard",
+     "cuotas": 12,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "American Express",
+     "cuotas": 6,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Cabal",
+     "cuotas": 6,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Naranja X",
+     "cuotas": 3,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    }
+   ]
+  },
+  "showsport": {
+   "promos": [
+    {
+     "tipo": "descuento",
+     "banco": "Bonita",
+     "pct": 15,
+     "cuotas": 6,
+     "dias": [
+      4
+     ],
+     "tope": "tope $50.000",
+     "texto": "reintegro",
+     "fuente": "manual"
+    },
+    {
+     "tipo": "descuento",
+     "banco": "Banco de Corrientes",
+     "pct": 15,
+     "cuotas": 3,
+     "dias": [
+      1
+     ],
+     "tope": "tope $20.000",
+     "medio": "Pagando con QR +Banco",
+     "texto": "reintegro",
+     "fuente": "manual"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Naranja X",
+     "cuotas": 15,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "American Express",
+     "cuotas": 6,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Visa y Mastercard",
+     "cuotas": 6,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Diners",
+     "cuotas": 6,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    }
+   ]
+  },
+  "atomik": {
+   "promos": [
+    {
+     "tipo": "cuotas",
+     "banco": "Visa y Mastercard",
+     "cuotas": 6,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Naranja X",
+     "cuotas": 3,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "American Express",
+     "cuotas": 3,
+     "dias": [],
+     "texto": "según el monto de la compra",
+     "fuente": "auto-cuotas"
+    }
+   ]
+  },
+  "bocashop": {
+   "promos": [
+    {
+     "tipo": "descuento",
+     "banco": "Mastercard",
+     "pct": 30,
+     "texto": "reintegro, ver condiciones en la tienda",
+     "fuente": "manual"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "BBVA",
+     "cuotas": 6,
+     "medio": "Tarjetas de crédito Visa y Mastercard BBVA",
+     "fuente": "manual"
+    }
+   ]
+  },
+  "tiendariver": {
+   "promos": [
+    {
+     "tipo": "cuotas",
+     "banco": "BBVA",
+     "cuotas": 6,
+     "medio": "Tarjetas de crédito BBVA",
+     "fuente": "manual"
+    }
+   ]
+  },
+  "independientestore": {
+   "promos": [
+    {
+     "tipo": "socios",
+     "banco": "Abonados",
+     "pct": 25,
+     "dias": [
+      1,
+      5
+     ],
+     "texto": "registrándote en la tienda, una vez por mes",
+     "fuente": "manual"
+    },
+    {
+     "tipo": "transferencia",
+     "banco": "Transferencia",
+     "pct": 10,
+     "fuente": "manual"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Varios",
+     "cuotas": 6,
+     "minimo": "desde $170.000",
+     "texto": "3 cuotas desde $80.000",
+     "fuente": "manual"
+    }
+   ]
+  },
+  "tiendapincha": {
+   "promos": [
+    {
+     "tipo": "transferencia",
+     "banco": "Transferencia",
+     "pct": 5,
+     "fuente": "manual"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Mercado Pago",
+     "cuotas": 6,
+     "minimo": "desde $145.000",
+     "fuente": "manual"
+    }
+   ]
+  },
+  "tiendatalleres": {
+   "promos": [
+    {
+     "tipo": "socios",
+     "banco": "Socios",
+     "pct": 20,
+     "texto": "hasta 20%, se aplica al finalizar la compra",
+     "fuente": "manual"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Varios",
+     "cuotas": 6,
+     "minimo": "desde $100.000",
+     "texto": "3 cuotas con Visa y Mastercard sin mínimo",
+     "fuente": "manual"
+    },
+    {
+     "tipo": "cuotas",
+     "banco": "Naranja X",
+     "cuotas": 5,
+     "texto": "también con Go Cuotas",
+     "fuente": "manual"
+    }
+   ]
+  },
+  "tiendagranate": {
+   "promos": [
+    {
+     "tipo": "socios",
+     "banco": "Socios",
+     "pct": 15,
+     "texto": "con la cuota al día, en productos oficiales",
+     "fuente": "manual"
+    }
+   ]
+  },
+  "puma": {
+   "promos": [
+    {
+     "tipo": "cuotas",
+     "banco": "Visa y Mastercard",
+     "cuotas": 6,
+     "minimo": "desde $200.000",
+     "texto": "3 cuotas desde $125.000",
+     "fuente": "manual"
+    }
+   ]
+  }
+ },
+ "errores": {}
+}
