@@ -43,7 +43,11 @@ dialog.promos-dlg::backdrop { background: rgba(5,7,10,.72); }
 .pd-caja { padding: 22px 22px 18px; position: relative; display: grid; gap: 12px; }
 .pd-caja .eyebrow { margin: 0; }
 .pd-caja h2 { margin: 0; padding-right: 28px; font-family: var(--display); font-weight: 800; font-size: 32px; line-height: .95; text-transform: uppercase; }
-.pd-caja h3 { margin: 6px 0 0; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.pd-caja h4 { margin: 6px 0 0; font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: var(--muted); font-weight: 700; }
+.pd-tienda { display: grid; gap: 8px; }
+.pd-tienda + .pd-tienda { margin-top: 10px; padding-top: 14px; border-top: 2px solid var(--line); }
+.pd-tn { margin: 0; display: flex; justify-content: space-between; align-items: baseline; gap: 12px; font-family: var(--display); font-weight: 800; font-size: 26px; line-height: 1; text-transform: uppercase; }
+.pd-tn span { color: var(--accent); font-variant-numeric: tabular-nums; }
 .pd-lista { list-style: none; margin: 0; padding: 0; }
 .pd-lista li { padding: 9px 0; border-top: 1px solid var(--line); display: grid; gap: 2px; }
 .pd-lista b { font-weight: 700; }
@@ -70,16 +74,16 @@ rep("""<footer>""", """<dialog class="promos-dlg" id="promos-dlg" aria-labelledb
 <footer>""")
 
 # ---------- JS: dónde se muestran ----------
-# Ficha: debajo del ahorro, la mejor promo de hoy en la tienda más barata.
+# Ficha: debajo del ahorro, la mejor promo de hoy entre todas las tiendas que tienen esa camiseta.
 rep("""        ${ahorroTxt}
       </div>""", """        ${ahorroTxt}
-        ${chipPromos(mejor.tienda)}
+        ${chipPromos(ofs.filter(o => o.tiene))}
       </div>""")
 # Cada tienda en la comparación.
 rep("""        <span class="tt">${tt}</span></li>`;""", """        <span class="tt">${tt}</span>${chipPromos(o.tienda)}</li>`;""")
 # Destacada.
 rep("""          <div class="chico">en ${esc(tienda(v.mejor.tienda))}${antes}</div></div>""",
-    """          <div class="chico">en ${esc(tienda(v.mejor.tienda))}${antes}</div>${chipPromos(v.mejor.tienda)}</div>""")
+    """          <div class="chico">en ${esc(tienda(v.mejor.tienda))}${antes}</div>${chipPromos(v.ofs.filter(o => o.tiene))}</div>""")
 # Pie.
 rep("""Precios de lista de cada tienda, sin envío ni promociones bancarias.""",
     """Precios de lista de cada tienda, sin envío. Las promos bancarias y las cuotas se muestran aparte, por tienda.""")
@@ -123,37 +127,70 @@ rep("""  function pintar() {""", r"""  // ---------- promos bancarias ----------
       p.hasta ? "hasta el " + fechaCorta(p.hasta) : ""
     ].filter(Boolean).map(x => x.charAt(0).toUpperCase() + x.slice(1)).join(" · ");
   }
+  // Recibe una tienda (fila de la comparación) o las ofertas de una camiseta (tarjeta y destacada):
+  // en ese caso junta las promos de todas sus tiendas, de la más barata a la más cara.
+  function tiendasDe(x) {
+    if (typeof x === "string") return [{ t: x }];
+    const vistas = new Map();
+    x.slice().sort((a, b) => a.precio - b.precio).forEach(o => { if (!vistas.has(o.tienda)) vistas.set(o.tienda, { t: o.tienda, precio: o.precio }); });
+    return [...vistas.values()];
+  }
+  const orden = (a, b) => (b.pct || 0) - (a.pct || 0) || (b.cuotas || 0) - (a.cuotas || 0);
   // La mejor promo de hoy (mayor %, si no la de más cuotas) y cuántas más hay. Socios solo en el detalle.
-  function chipPromos(t) {
-    const ps = promosDe(t);
-    if (!ps.length && !proximasDe(t).length) return "";
-    const hoy = ps.filter(p => p.hoy && p.tipo !== "socios");
-    const top = hoy.slice().sort((a, b) => (b.pct || 0) - (a.pct || 0) || (b.cuotas || 0) - (a.cuotas || 0))[0];
+  function chipPromos(x) {
+    const ts = tiendasDe(x).filter(({ t }) => promosDe(t).length || proximasDe(t).length);
+    if (!ts.length) return "";
+    const todas = ts.flatMap(({ t }) => promosDe(t).map(p => ({ ...p, t })));
+    const total = todas.length + ts.reduce((n, { t }) => n + proximasDe(t).length, 0);
+    const hoy = todas.filter(p => p.hoy && p.tipo !== "socios");
+    const top = hoy.slice().sort(orden)[0];
+    const socios = todas.filter(p => p.tipo === "socios");
+    // "en Dexter" solo si la promo no está en todas las tiendas de la camiseta.
+    const donde = (p) => {
+      const en = [...new Set(hoy.filter(q => promoTitulo(q) === promoTitulo(p)).map(q => q.t))];
+      return ts.length > 1 && en.length < ts.length ? " en " + listaY(en.map(tienda)) : "";
+    };
     let txt;
-    const socios = ps.filter(p => p.tipo === "socios");
     if (!top && socios.length) txt = `${Math.max(...socios.map(p => p.pct || 0))}% para socios`;
     else if (!top) txt = "Ver promos";
-    else if (top.tipo === "transferencia") txt = `${top.pct}% por transferencia`;
-    else if (top.pct) txt = `Hoy ${top.pct}% con ${nombreBanco(top.banco)}`;
-    else txt = `Hasta ${Math.max(...hoy.map(p => p.cuotas || 0))} cuotas sin interés`;
-    const resto = ps.length + proximasDe(t).length - 1;
-    const mas = resto > 0 ? ` <span class="mas">+${resto} más</span>` : "";
-    return `<button type="button" class="promo-chip" data-promos="${esc(t)}" aria-label="Promos en ${esc(tienda(t))}: ${esc(txt)}">${TARJETA}<span>${esc(txt)}</span>${mas}</button>`;
+    else if (top.tipo === "transferencia") txt = `${top.pct}% por transferencia${donde(top)}`;
+    else if (top.pct) txt = `Hoy ${top.pct}% con ${nombreBanco(top.banco)}${donde(top)}`;
+    else {
+      const max = Math.max(...hoy.map(p => p.cuotas || 0));
+      txt = `Hasta ${max} cuotas sin interés${donde(hoy.find(p => p.cuotas === max))}`;
+    }
+    const mas = total > 1 ? ` <span class="mas">+${total - 1} más</span>` : "";
+    const dato = ts.map(({ t, precio }) => precio ? `${t}|${Math.round(precio)}` : t).join(",");
+    const nombres = listaY(ts.map(({ t }) => tienda(t)));
+    return `<button type="button" class="promo-chip" data-promos="${esc(dato)}" aria-label="Promos en ${esc(nombres)}: ${esc(txt)}">${TARJETA}<span>${esc(txt)}</span>${mas}</button>`;
   }
-  function abrirPromos(t) {
-    const ps = promosDe(t);
+  function cuerpoTienda(t) {
     const h = hoyAR();
+    const ps = promosDe(t);
     const li = (p) => `<li class="${p.hoy ? "hoy" : ""}"><b>${esc(promoTitulo(p))}</b>${promoDetalle(p) ? `<span>${esc(promoDetalle(p))}</span>` : ""}</li>`;
-    const orden = (a, b) => (b.pct || 0) - (a.pct || 0) || (b.cuotas || 0) - (a.cuotas || 0);
+    const bloque = (tit, xs) => xs.length ? `<h4>${tit}</h4><ul class="pd-lista">${xs.map(li).join("")}</ul>` : "";
     const hoy = ps.filter(p => p.hoy && p.tipo !== "socios").sort(orden);
     const otros = ps.filter(p => !p.hoy && p.tipo !== "socios").sort(orden);
     const socios = ps.filter(p => p.tipo === "socios");
     const proximas = proximasDe(t).sort((a, b) => a.desde.localeCompare(b.desde) || orden(a, b));
-    const bloque = (tit, xs) => xs.length ? `<h3>${tit}</h3><ul class="pd-lista">${xs.map(li).join("")}</ul>` : "";
-    $("promos-tit").textContent = tienda(t);
-    $("promos-cuerpo").innerHTML = bloque(`Hoy, ${DIA_HOY[h.dia]}`, hoy) + bloque("Otros días", otros) + bloque("Próximamente", proximas) + bloque("Socios del club", socios);
+    return bloque(`Hoy, ${DIA_HOY[h.dia]}`, hoy) + bloque("Otros días", otros) + bloque("Próximamente", proximas) + bloque("Socios del club", socios);
+  }
+  function abrirPromos(dato) {
+    const ts = dato.split(",").map(x => { const [t, precio] = x.split("|"); return { t, precio: precio ? +precio : null }; })
+      .filter(({ t }) => promosDe(t).length || proximasDe(t).length);
+    if (!ts.length) return;
+    if (ts.length === 1) {
+      $("promos-tit").textContent = tienda(ts[0].t);
+      $("promos-cuerpo").innerHTML = cuerpoTienda(ts[0].t);
+    } else {
+      $("promos-tit").textContent = `En ${ts.length} tiendas`;
+      $("promos-cuerpo").innerHTML = ts.map(({ t, precio }) =>
+        `<section class="pd-tienda"><h3 class="pd-tn">${esc(tienda(t))}${precio ? `<span>${plata(precio)}</span>` : ""}</h3>${cuerpoTienda(t)}</section>`).join("");
+    }
     $("promos-dlg").showModal();
-    ph("abrir_promos", { tienda: tienda(t), tienda_id: t, promos: ps.length, promos_hoy: hoy.length });
+    $("promos-dlg").scrollTop = 0;
+    ph("abrir_promos", { tiendas: ts.map(x => tienda(x.t)).join(", "), cantidad_tiendas: ts.length,
+      promos: ts.reduce((n, { t }) => n + promosDe(t).length, 0) });
   }
   document.addEventListener("click", (e) => {
     const b = e.target.closest("button[data-promos]");
