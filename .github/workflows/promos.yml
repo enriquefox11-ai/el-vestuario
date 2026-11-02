@@ -1,0 +1,61 @@
+# Actualiza promos.json (promos bancarias y cuotas por tienda) todos los días.
+# Se publica en la rama "promos", aparte de la página, para no chocar con la actualización diaria de index.html.
+name: Promos
+
+on:
+  schedule:
+    - cron: "43 9 * * *"   # 6:43 de Argentina
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: promos
+  cancel-in-progress: false
+
+jobs:
+  promos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests beautifulsoup4
+
+      - name: Traer la corrida anterior
+        run: |
+          git fetch --depth 1 origin promos 2>/dev/null && git show origin/promos:promos.json > anterior.json || echo "{}" > anterior.json
+
+      - name: Leer promos
+        id: leer
+        run: python promos/promos.py promos.json anterior.json | tee resultado.txt
+
+      - name: Publicar en la rama promos
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir salida && cp promos.json salida/ && cd salida
+          git init -q && git checkout -q -b promos
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add promos.json
+          git commit -qm "Promos $(TZ=America/Argentina/Buenos_Aires date +%F)"
+          git push -qf "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}" promos
+
+      - name: Avisar si no se pudo leer ninguna tienda
+        run: |
+          python - <<'EOF'
+          import json, sys
+          d = json.load(open("promos.json"))
+          auto = sum(1 for t in d["tiendas"].values() for p in t["promos"] if p.get("fuente", "").startswith("auto"))
+          if d["errores"]:
+              print("Tiendas con error:", ", ".join(d["errores"]))
+          if auto == 0:
+              sys.exit("No se leyó ninguna promo automática: revisar si las tiendas bloquean a GitHub.")
+          EOF

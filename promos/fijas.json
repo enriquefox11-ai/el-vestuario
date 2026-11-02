@@ -1,0 +1,55 @@
+{
+ "_nota": "Promos cargadas a mano: las que las tiendas no publican en un formato que se pueda leer solo. Revisar cada tanto. Campos: tipo (descuento | cuotas | transferencia | socios), banco, pct, cuotas, dias (1=lunes ... 7=domingo; vacío = todos), desde/hasta (AAAA-MM-DD, opcionales), tope, minimo, medio, texto. 'reemplaza_cuotas' saca las cuotas que se leen solas de esa tienda.",
+ "revisado": "2026-11-01",
+ "tiendas": {
+  "bocashop": {
+   "reemplaza_cuotas": true,
+   "promos": [
+    {"tipo": "descuento", "banco": "Mastercard", "pct": 30, "texto": "reintegro, ver condiciones en la tienda"},
+    {"tipo": "cuotas", "banco": "BBVA", "cuotas": 6, "medio": "Tarjetas de crédito Visa y Mastercard BBVA"}
+   ]
+  },
+  "tiendariver": {
+   "reemplaza_cuotas": true,
+   "promos": [
+    {"tipo": "cuotas", "banco": "BBVA", "cuotas": 6, "medio": "Tarjetas de crédito BBVA"}
+   ]
+  },
+  "showsport": {
+   "promos": [
+    {"tipo": "descuento", "banco": "Bonita", "pct": 15, "cuotas": 6, "dias": [4], "tope": "tope $50.000", "texto": "reintegro"},
+    {"tipo": "descuento", "banco": "Banco de Corrientes", "pct": 15, "cuotas": 3, "dias": [1], "tope": "tope $20.000", "medio": "Pagando con QR +Banco", "texto": "reintegro"}
+   ]
+  },
+  "independientestore": {
+   "promos": [
+    {"tipo": "transferencia", "banco": "Transferencia", "pct": 10},
+    {"tipo": "cuotas", "banco": "Varios", "cuotas": 6, "minimo": "desde $170.000", "texto": "3 cuotas desde $80.000"},
+    {"tipo": "socios", "banco": "Abonados", "pct": 25, "dias": [1, 5], "texto": "registrándote en la tienda, una vez por mes"}
+   ]
+  },
+  "tiendapincha": {
+   "promos": [
+    {"tipo": "transferencia", "banco": "Transferencia", "pct": 5},
+    {"tipo": "cuotas", "banco": "Mercado Pago", "cuotas": 6, "minimo": "desde $145.000"}
+   ]
+  },
+  "tiendatalleres": {
+   "promos": [
+    {"tipo": "cuotas", "banco": "Varios", "cuotas": 6, "minimo": "desde $100.000", "texto": "3 cuotas con Visa y Mastercard sin mínimo"},
+    {"tipo": "cuotas", "banco": "Naranja X", "cuotas": 5, "texto": "también con Go Cuotas"},
+    {"tipo": "socios", "banco": "Socios", "pct": 20, "texto": "hasta 20%, se aplica al finalizar la compra"}
+   ]
+  },
+  "tiendagranate": {
+   "promos": [
+    {"tipo": "socios", "banco": "Socios", "pct": 15, "texto": "con la cuota al día, en productos oficiales"}
+   ]
+  },
+  "puma": {
+   "promos": [
+    {"tipo": "cuotas", "banco": "Visa y Mastercard", "cuotas": 6, "minimo": "desde $200.000", "texto": "3 cuotas desde $125.000"}
+   ]
+  }
+ }
+}
