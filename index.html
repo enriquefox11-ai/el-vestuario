@@ -1097,7 +1097,7 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
     const mail = $("alerta-mail").value.trim().toLowerCase();
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail)) { nota(ERRORES.mail, true); $("alerta-mail").focus(); return; }
     const cuerpo = a.tipo === "camiseta"
-      ? { email: mail, tipo: "camiseta", web: $("alerta-web").value, item_id: a.item.id, item_nombre: a.item.nombre,
+      ? { email: mail, tipo: "camiseta", web: $("alerta-web").value, item_id: a.item.id, item_nombre: `${CLUBES[a.item.club]?.n || a.item.club} · ${a.item.nombre}`,
           club: a.item.club, publico: a.item.publico, talle: $("alerta-talle").value, precio: Math.round(a.precio) }
       : { email: mail, tipo: "busqueda", web: $("alerta-web").value, descripcion: a.titulo, cantidad: a.cantidad,
           filtros: { clubes: estado.clubes, publico: estado.publico, talle: estado.talle, temporada: estado.temporada, q: estado.q.trim() } };
