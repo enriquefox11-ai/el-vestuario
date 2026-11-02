@@ -979,8 +979,11 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
 
   function pintar() {
     const vs = vista();
-    const destacada = vs.slice().sort((a, b) => b.ahorro - a.ahorro || b.pctLista - a.pctLista)[0];
-    pintarDestacada(destacada && (destacada.ahorro > 0 || destacada.pctLista > 0) ? destacada : null);
+    // La baja del día solo si hay al menos 3 resultados y tiene descuento; si no, todas van a la grilla
+    // (antes, con 1 resultado quedaba solo el banner y la grilla vacía, y si no tenía descuento desaparecía).
+    const cand = vs.slice().sort((a, b) => b.ahorro - a.ahorro || b.pctLista - a.pctLista)[0];
+    const destacada = vs.length >= 3 && cand && (cand.ahorro > 0 || cand.pctLista > 0) ? cand : null;
+    pintarDestacada(destacada);
     const resto = destacada ? vs.filter(v => v !== destacada) : vs;
     $("grilla").innerHTML = resto.map(ficha).join("");
     $("vacio").hidden = vs.length > 0;
