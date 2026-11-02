@@ -16,7 +16,13 @@
 <meta name="twitter:card" content="summary_large_image">
 <script>
 // Medición con PostHog: solo en la página publicada. Sin cookies: un identificador anónimo en el navegador (localStorage) para reconocer a quien vuelve.
-if (/github\.io$|elvestuario/.test(location.hostname)) {
+// Bots de vista previa (WhatsApp, Facebook, Telegram…) y navegadores automatizados no se miden.
+var ES_BOT = /bot|crawl|spider|slurp|facebookexternalhit|whatsapp|telegram|preview|headless|lighthouse|pingdom/i.test(navigator.userAgent) || navigator.webdriver === true;
+// Píxel de Meta: vacío = apagado. Lo cambia editar_medicion.py.
+var META_PIXEL = "";
+var ES_INTERNO = false;
+try { ES_INTERNO = /[?&]ref=yo\b/i.test(location.search) || localStorage.getItem("vestuario_interno") === "1"; if (ES_INTERNO) localStorage.setItem("vestuario_interno", "1"); } catch (e) {}
+if (/github\.io$|elvestuario/.test(location.hostname) && !ES_BOT) {
   !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey getNextSurveyStep identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSessionProperty createPersonProfile opt_in_capturing opt_out_capturing has_opted_in_capturing has_opted_out_capturing clear_opt_in_out_capturing debug".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
   posthog.init("phc_o8WrnE5invM9LpYcFvEiz4NmQAtAxSyATSDTxqntFJsp", {
     api_host: "https://us.i.posthog.com",
@@ -25,8 +31,10 @@ if (/github\.io$|elvestuario/.test(location.hostname)) {
     capture_pageview: true,
     capture_pageleave: true,
     autocapture: false,
-    disable_session_recording: true
+    disable_session_recording: false,
+    session_recording: { maskAllInputs: true }
   });
+  posthog.register({ entorno: /github\.io$/.test(location.hostname) ? "prueba" : "publica" });
   // De dónde viene: elvestuario.app/?ref=amigos (se guarda la primera y la de esta visita)
   try {
     var ps = new URLSearchParams(location.search);
@@ -34,7 +42,36 @@ if (/github\.io$|elvestuario/.test(location.hostname)) {
     if (ref) { posthog.register_once({ ref_primera: ref }); posthog.register_for_session({ ref: ref }); }
     // Vos: entrar una vez con ?ref=yo marca este navegador como interno para siempre (se filtra en PostHog con interno = true).
     if (ref === "yo") posthog.register({ interno: true });
+    // Origen de la visita: el de esta sesión (origen_*) y el primero de este navegador (origen_primero_*).
+    var o = {};
+    ["source", "medium", "campaign", "content", "term"].forEach(function (k) {
+      var v = ps.get("utm_" + k); if (v) o[k] = v.toLowerCase().slice(0, 80);
+    });
+    if (ps.get("fbclid")) { o.source = o.source || "facebook"; o.clic = "meta"; }
+    if (ps.get("gclid") || ps.get("gbraid") || ps.get("wbraid")) { o.source = o.source || "google"; o.clic = "google"; }
+    if (!o.source && ps.get("ref")) o.source = ref;
+    if (!o.source && document.referrer) {
+      try { var rh = new URL(document.referrer).hostname.replace(/^www\./, ""); if (rh && rh !== location.hostname) { o.source = rh; o.medium = "referral"; } } catch (e) {}
+    }
+    var pago = !!o.clic || /^(cpc|ppc|paid|paid_social|paidsocial|ads?|display)$/.test(o.medium || "");
+    if (o.source) {
+      var ses = { origen_fuente: o.source, origen_medio: o.medium || "", origen_campana: o.campaign || "",
+                  origen_anuncio: o.content || "", origen_termino: o.term || "", origen_pago: pago };
+      posthog.register_for_session(ses);
+      posthog.register_once({ origen_primero_fuente: o.source, origen_primero_medio: o.medium || "",
+        origen_primero_campana: o.campaign || "", origen_primero_anuncio: o.content || "", origen_primero_pago: pago,
+        origen_primero_fecha: new Date().toISOString().slice(0, 10) });
+    } else {
+      posthog.register_once({ origen_primero_fuente: "directo", origen_primero_pago: false,
+        origen_primero_fecha: new Date().toISOString().slice(0, 10) });
+    }
   } catch (e) {}
+  // Píxel de Meta (solo con id, y nunca en tu navegador ni en la versión de prueba).
+  if (META_PIXEL && !ES_INTERNO && !/github\.io$/.test(location.hostname)) {
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+    fbq("init", META_PIXEL);
+    fbq("track", "PageView");
+  }
 }
 </script>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 160'%3E%3Crect width='160' height='160' rx='28' fill='%230B0E12'/%3E%3Cpath d='M58 26 L70 32 Q80 38 90 32 L102 26 L134 42 L124 66 L112 62 L112 134 L48 134 L48 62 L36 66 L26 42 Z' fill='%23C6F24E'/%3E%3C/svg%3E">
@@ -227,6 +264,10 @@ dialog.promos-dlg::backdrop { background: rgba(5,7,10,.72); }
 
 /* Grilla */
 main .wrap { padding-block: 4px 56px; }
+.mas-camisetas { display: block; margin: 24px auto 8px; background: none; cursor: pointer; font: inherit; font-weight: 700;
+  color: var(--ink); border: 1px solid var(--line); border-radius: 999px; padding: 10px 20px; }
+.mas-camisetas:hover { border-color: var(--accent); color: var(--accent); }
+.mas-camisetas[hidden] { display: none; }
 .grilla { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
 .ficha { background: var(--surface); border-radius: 4px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
 .f-foto {
@@ -297,6 +338,32 @@ details.tiendas[open] summary::after { transform: rotate(-90deg); }
   font-size: clamp(38px, 6vw, 68px); line-height: .95; margin: 0 0 10px; max-width: 18ch;
 }
 .hero p { margin: 0; color: var(--muted); font-size: 18px; }
+/* Talles con un toque */
+.talles-rapidos { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 16px; }
+.talles-rapidos > span { font-size: 14px; color: var(--muted); margin-right: 2px; }
+.talles-rapidos button {
+  min-width: 44px; padding: 8px 12px; border-radius: 6px; cursor: pointer; font: inherit; font-weight: 700; font-size: 15px;
+  background: var(--surface-2); color: var(--ink); border: 1px solid var(--line);
+}
+.talles-rapidos button:hover { border-color: var(--muted); }
+.talles-rapidos button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+@media (max-width: 640px) {
+  .hero .wrap { padding-block: 18px 0; }
+  .hero h1 { font-size: 34px; margin-bottom: 6px; }
+  .hero p { font-size: 15px; }
+  .talles-rapidos { margin-top: 12px; gap: 6px; }
+  .talles-rapidos button { min-width: 40px; padding: 7px 10px; font-size: 14px; }
+  .destacada .wrap { gap: 16px; padding-block: 20px; }
+  .d-txt { gap: 10px; }
+  .d-titulo { font-size: clamp(34px, 10.5vw, 46px); line-height: .9; }
+  .d-bajada { font-size: 15px; }
+  .big { font-size: 52px; }
+  .d-precio { gap: 10px 16px; }
+  .d-precio .cta { padding: 12px 18px; font-size: 16px; }
+  .d-foto { min-height: 0; height: 240px; flex-basis: 100%; }
+  .d-foto .disco { width: 200px; }
+  .d-foto .dorsal { font-size: 150px; bottom: -30px; }
+}
 
 footer .wrap { border-top: 1px solid var(--line); padding-block: 22px 48px; color: var(--muted); font-size: 13.5px; }
 footer p { margin: 0 0 6px; max-width: 80ch; }
@@ -383,8 +450,9 @@ dialog.alerta::backdrop { background: rgba(5,7,10,.72); }
 
 <section class="hero">
   <div class="wrap">
-    <h1>Todas las camisetas, todas las tiendas, un solo lugar.</h1>
+    <h1 id="hero-tit">Todas las camisetas, todas las tiendas, un solo lugar.</h1>
     <p id="hero-sub">Compará precios y talles en tiendas oficiales y multimarca.</p>
+    <div class="talles-rapidos" id="talles-rapidos" role="group" aria-label="Tu talle"></div>
   </div>
 </section>
 
@@ -421,6 +489,7 @@ dialog.alerta::backdrop { background: rgba(5,7,10,.72); }
       </label>
     </div>
     <div class="grilla" id="grilla"></div>
+    <button type="button" class="mas-camisetas" id="mas-camisetas" hidden></button>
     <div class="vacio" id="vacio" hidden><b>No encontramos camisetas con esos filtros</b>Probá con otro talle, otro club o borrá la búsqueda.</div>
   </div>
 </main>
@@ -665,14 +734,41 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
   });
   // ---------- medición (PostHog, solo en la página publicada) ----------
   const ph = (ev, props) => { try { if (window.posthog && posthog.capture) posthog.capture(ev, Object.assign({
-    club_filtro: estado.clubes.length ? estado.clubes.join(",") : "todos", clubes_elegidos: estado.clubes.length, publico: estado.publico, talle: estado.talle || "todos" }, props || {})); } catch (e) {} };
+    club_filtro: estado.clubes.length ? estado.clubes.join(",") : "todos", clubes_elegidos: estado.clubes.length, publico: estado.publico, talle: estado.talle || "todos" }, props || {})); } catch (e) {}
+    meta(ev, props || {}); };
+  // Píxel de Meta: los eventos con los que optimiza los anuncios.
+  function meta(ev, p) {
+    try {
+      if (typeof window.fbq !== "function") return;
+      if (ev === "clic_tienda") fbq("trackCustom", "ClicTienda", { value: p.precio || 0, currency: "ARS", content_name: p.camiseta || "", content_category: p.club || "", tienda: p.tienda || "" });
+      else if (ev === "abrir_comparacion") fbq("track", "ViewContent", { content_name: p.camiseta || "" });
+      else if (ev === "crear_alerta") fbq("track", "Lead", { content_name: p.camiseta || p.descripcion || "" });
+    } catch (e) {}
+  }
+  const ITEM_POR_ID = Object.fromEntries(D.items.map(i => [i.id, i]));
+  const TOTAL_TIENDAS = new Set(D.items.flatMap(i => i.ofertas.map(o => o.tienda))).size;
+  const destino = (href) => { try { const u = new URL(href); return u.hostname.replace(/^www\./, "") + u.pathname; } catch (e) { return ""; } };
+  // Datos extra de cada clic a una tienda: con esto se arman los números para negociar con las tiendas.
+  function datosClic(a, d) {
+    const it = ITEM_POR_ID[d.id];
+    const precio = Number(d.precio);
+    const x = { destino: destino(a.href), url_destino: a.href.slice(0, 300), camiseta_id: d.id || "" };
+    if (it) {
+      const ps = it.ofertas.map(o => o.precio);
+      const max = Math.max(...ps), min = Math.min(...ps);
+      Object.assign(x, { cantidad_tiendas: new Set(it.ofertas.map(o => o.tienda)).size, precio_min: Math.round(min),
+        precio_max: Math.round(max), ahorro_vs_mas_cara: Math.round(max - precio), publico_camiseta: it.publico,
+        version: it.version || "", temporada: it.temporada || "", marca: it.marca || "" });
+    }
+    return x;
+  }
   document.addEventListener("click", (e) => {
     const a = e.target.closest("a[data-ph]");
     if (a) {
       const d = a.dataset;
       ph("clic_tienda", { origen: d.ph, tienda: tienda(d.tienda), tienda_id: d.tienda, club: d.club,
         camiseta: d.camiseta, tipo: d.tipo, precio: Number(d.precio), es_la_mas_barata: d.mejor === "1",
-        tiene_el_talle: d.tiene === "1", $current_url: location.href });
+        tiene_el_talle: d.tiene === "1", $current_url: location.href, ...datosClic(a, d) });
       return;
     }
     const s = e.target.closest("details.tiendas > summary");
@@ -824,7 +920,7 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
         <div class="d-precio">
           <div><div class="big">${plata(v.mejor.precio)}</div>
           <div class="chico">en ${esc(tienda(v.mejor.tienda))}${antes}</div>${chipPromos(v.ofs.filter(o => o.tiene))}</div>
-          <a class="cta" href="${esc(v.mejor.url)}" target="_blank" rel="noopener" data-ph="destacada" data-tienda="${esc(v.mejor.tienda)}" data-club="${esc(v.it.club)}" data-camiseta="${esc(v.it.nombre)}" data-tipo="${esc(v.it.tipo || "")}" data-precio="${Math.round(v.mejor.precio)}" data-mejor="1" data-tiene="1">Ir a la tienda</a>
+          <a class="cta" href="${esc(v.mejor.url)}" target="_blank" rel="noopener" data-ph="destacada" data-tienda="${esc(v.mejor.tienda)}" data-club="${esc(v.it.club)}" data-camiseta="${esc(v.it.nombre)}" data-tipo="${esc(v.it.tipo || "")}" data-id="${esc(v.it.id)}" data-precio="${Math.round(v.mejor.precio)}" data-mejor="1" data-tiene="1">Ir a la tienda</a>
           ${botonSeguir(v.it)}
         </div>
         <details class="tiendas d-tiendas" id="d-tiendas" data-camiseta="${esc(v.it.nombre)}"><summary>${v.ofs.length === 1 ? `Ver precio y talles en ${esc(tienda(v.ofs[0].tienda))}` : `Comparar precios en ${v.ofs.length} tiendas`}</summary>
@@ -847,7 +943,7 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
       return `<li class="${es ? "mejor" : ""} ${o.tiene ? "" : "fuera"}">
         <span class="tn">${esc(tienda(o.tienda))}${(D.oficiales || []).includes(o.tienda) ? `<i class="of">oficial</i>` : ""}${o.tiene ? "" : " · sin tu talle"}</span>
         <span class="tp">${s}${plata(o.precio)}</span>
-        <a href="${esc(o.url)}" target="_blank" rel="noopener" data-ph="${origen}" data-tienda="${esc(o.tienda)}" data-club="${esc(it.club)}" data-camiseta="${esc(it.nombre)}" data-tipo="${esc(it.tipo || "")}" data-precio="${Math.round(o.precio)}" data-mejor="${es ? 1 : 0}" data-tiene="${o.tiene ? 1 : 0}">Ver</a>
+        <a href="${esc(o.url)}" target="_blank" rel="noopener" data-ph="${origen}" data-tienda="${esc(o.tienda)}" data-club="${esc(it.club)}" data-camiseta="${esc(it.nombre)}" data-tipo="${esc(it.tipo || "")}" data-id="${esc(it.id)}" data-precio="${Math.round(o.precio)}" data-mejor="${es ? 1 : 0}" data-tiene="${o.tiene ? 1 : 0}">Ver</a>
         <span class="tt">${tt}</span>${chipPromos(o.tienda)}</li>`;
     }).join("");
   }
@@ -996,15 +1092,69 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
   $("promos-cerrar").addEventListener("click", () => $("promos-dlg").close());
   $("promos-dlg").addEventListener("click", (e) => { if (e.target === $("promos-dlg")) $("promos-dlg").close(); });
 
+  // Título de arriba según lo que se está viendo, y talles con un toque.
+  const TIT_GENERAL = "Todas las camisetas, todas las tiendas, un solo lugar.";
+  function pintarHero(vs) {
+    const completos = GRUPOS.filter(g => grupoCompleto(g, estado.clubes));
+    const sueltos = estado.clubes.filter(c => !completos.some(g => g[2].includes(c)));
+    const nombres = [...completos.map(g => g[0]), ...sueltos.map(c => CLUBES[c].n)];
+    const nTiendas = new Set(vs.flatMap(v => v.it.ofertas.map(o => o.tienda))).size;
+    const para = { hombre: "", mujer: " de mujer", nino: " para niños" }[estado.publico] || "";
+    if (nombres.length && nombres.length <= 3) {
+      const quien = nombres.length === 1 ? nombres[0] : nombres.slice(0, -1).join(", ") + " y " + nombres[nombres.length - 1];
+      $("hero-tit").textContent = `Camisetas de ${quien}${para}`;
+      $("hero-sub").textContent = nTiendas > 1
+        ? `La más barata${estado.talle ? ` en talle ${estado.talle}` : " en tu talle"}, comparada en ${nTiendas} tiendas oficiales y multimarca.`
+        : "Precios y talles de las tiendas oficiales y multimarca.";
+    } else {
+      $("hero-tit").textContent = TIT_GENERAL;
+      $("hero-sub").textContent = `Compará precios y talles en ${TOTAL_TIENDAS} tiendas oficiales y multimarca.`;
+    }
+    const ts = [...$("f-talle").options].map(o => o.value).filter(Boolean);
+    $("talles-rapidos").innerHTML = ts.length ? `<span>${estado.talle ? "Tu talle" : "¿Qué talle sos?"}</span>` + ts.map(t =>
+      `<button type="button" data-talle="${esc(t)}" aria-pressed="${t === estado.talle}">${esc(t)}</button>`).join("") : "";
+  }
+  $("talles-rapidos").addEventListener("click", (e) => {
+    const b = e.target.closest("button[data-talle]");
+    if (!b) return;
+    estado.talle = b.dataset.talle === estado.talle ? "" : b.dataset.talle;
+    $("f-talle").value = estado.talle;
+    escribirHash(); pintar();
+    ph("elegir_talle", { desde: "botones", talle_elegido: estado.talle || "ninguno" });
+  });
+
+  // Grilla de a POR_TANDA: al acercarse al final se suman más solas.
+  const POR_TANDA = 24;
+  let pendientes = [], mostradas = 0;
+  function sumarFichas() {
+    const tanda = pendientes.slice(mostradas, mostradas + POR_TANDA);
+    if (!tanda.length) return;
+    $("grilla").insertAdjacentHTML("beforeend", tanda.map(ficha).join(""));
+    mostradas += tanda.length;
+    const faltan = pendientes.length - mostradas;
+    const b = $("mas-camisetas");
+    b.hidden = faltan <= 0;
+    b.textContent = `Ver más camisetas (${faltan})`;
+    // Si el botón sigue cerca después de sumar (pantallas grandes), seguir sumando.
+    requestAnimationFrame(() => { if (!b.hidden && b.getBoundingClientRect().top < innerHeight + 1200) sumarFichas(); });
+  }
+  $("mas-camisetas").addEventListener("click", sumarFichas);
+  if ("IntersectionObserver" in window)
+    new IntersectionObserver((es) => { if (es.some(e => e.isIntersecting)) sumarFichas(); }, { rootMargin: "1200px 0px" })
+      .observe($("mas-camisetas"));
+
   function pintar() {
     const vs = vista();
+    pintarHero(vs);
     // La baja del día solo si hay al menos 3 resultados y tiene descuento; si no, todas van a la grilla
     // (antes, con 1 resultado quedaba solo el banner y la grilla vacía, y si no tenía descuento desaparecía).
     const cand = vs.slice().sort((a, b) => b.ahorro - a.ahorro || b.pctLista - a.pctLista)[0];
     const destacada = vs.length >= 3 && cand && (cand.ahorro > 0 || cand.pctLista > 0) ? cand : null;
     pintarDestacada(destacada);
     const resto = destacada ? vs.filter(v => v !== destacada) : vs;
-    $("grilla").innerHTML = resto.map(ficha).join("");
+    pendientes = resto; mostradas = 0;
+    $("grilla").innerHTML = "";
+    sumarFichas();
     $("vacio").hidden = vs.length > 0;
     $("cuenta").textContent = `${vs.length} camiseta${vs.length === 1 ? "" : "s"}`;
     const tit = { precio: "Más baratas", precio_desc: "Más caras", ahorro: "Más bajas", nuevas: "Más nuevas" }[estado.orden] || "Camisetas";
@@ -1168,9 +1318,10 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
   // ---------- pie ----------
   const [a, m, d] = D.fecha.split("-");
   const tiendas = [...new Set(D.items.flatMap(i => i.ofertas.map(o => o.tienda)))].map(tienda);
-  $("hero-sub").textContent = `Compará precios y talles en ${tiendas.length} tiendas oficiales y multimarca.`;
   $("pie").innerHTML = `<p>Solo mostramos camisetas originales con stock. Precios de lista de cada tienda, sin envío. Las promos bancarias y las cuotas se muestran aparte, por tienda.</p>
-    <p>Si seguís una camiseta o una búsqueda, usamos tu mail solo para avisarte de eso. No lo compartimos con nadie y te das de baja con un clic desde cualquier aviso.</p>`;
+    <p>Si seguís una camiseta o una búsqueda, usamos tu mail solo para avisarte de eso. No lo compartimos con nadie y te das de baja con un clic desde cualquier aviso.</p>
+    <p><a href="/privacidad/" style="color:inherit">Privacidad y contacto</a></p>${window.META_PIXEL ? `
+    <p>Medimos las visitas de forma anónima para mejorar la página y saber qué anuncios funcionan (PostHog y Meta).</p>` : ""}`;
 
   pintarControles();
   pintar();

@@ -1,0 +1,46 @@
+# Avisa si la página no se actualizó hoy (por ejemplo, la compu del trabajo quedó apagada).
+# Abre un "issue" en el repo; GitHub te manda un mail al toque. Cuando la página vuelve a estar al día, lo cierra solo.
+# Con anuncios corriendo, ese mail es la señal para pausarlos hasta que vuelva a actualizarse.
+name: Vigilar actualizacion
+
+on:
+  schedule:
+    - cron: "17 14 * * *"   # 11:17 de Argentina, todos los días (también sábado y domingo)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  vigilar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ver la fecha de los datos
+        id: fecha
+        run: |
+          datos=$(grep -o '"fecha": *"[0-9-]*"' index.html | head -1 | grep -o '[0-9]\{4\}-[0-9-]*')
+          hoy=$(TZ=America/Argentina/Buenos_Aires date +%F)
+          echo "datos=$datos" >> "$GITHUB_OUTPUT"
+          echo "hoy=$hoy" >> "$GITHUB_OUTPUT"
+          echo "Datos del $datos, hoy es $hoy"
+      - name: Avisar o cerrar el aviso
+        env:
+          GH_TOKEN: ${{ github.token }}
+          DATOS: ${{ steps.fecha.outputs.datos }}
+          HOY: ${{ steps.fecha.outputs.hoy }}
+        run: |
+          abierto=$(gh issue list --label vieja --state open --json number --jq '.[0].number')
+          if [ "$DATOS" != "$HOY" ]; then
+            if [ -z "$abierto" ]; then
+              gh label create vieja --color B60205 --description "La página no se actualizó" 2>/dev/null || true
+              gh issue create --label vieja --title "La página no se actualizó hoy ($HOY)" \
+                --body "Los precios publicados son del $DATOS. Si hay anuncios corriendo, conviene pausarlos hasta correr la actualización."
+            else
+              gh issue comment "$abierto" --body "Sigue sin actualizarse: hoy es $HOY y los datos son del $DATOS."
+            fi
+          elif [ -n "$abierto" ]; then
+            gh issue close "$abierto" --comment "Actualizada de nuevo ($HOY)."
+          fi
