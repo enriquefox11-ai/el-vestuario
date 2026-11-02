@@ -1004,7 +1004,7 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
   const sigo = new Set(leerLS("vestuario_sigo", []));
   const porId = Object.fromEntries(D.items.map(i => [i.id, i]));
   const CAMPANA = `<svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M6 16.5V10a6 6 0 0 1 12 0v6.5l1.5 1.5h-15ZM10 20.5a2 2 0 0 0 4 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>`;
-  const NOTA = "Te mandamos un mail para confirmar. Solo te escribimos si baja o vuelve tu talle, y te das de baja con un clic.";
+  const NOTA = "Te mandamos un mail para confirmar. Solo te escribimos si baja o vuelve tu talle, no compartimos tu mail y te das de baja con un clic.";
   function botonSeguir(it) {
     if (!alertasOn || !it.id) return "";
     const ya = sigo.has(it.id);
@@ -1152,7 +1152,8 @@ window.VITRINA = {"fecha":"2026-11-02","tiendas":{"dexter":"Dexter","stockcenter
   const [a, m, d] = D.fecha.split("-");
   const tiendas = [...new Set(D.items.flatMap(i => i.ofertas.map(o => o.tienda)))].map(tienda);
   $("hero-sub").textContent = `Compará precios y talles en ${tiendas.length} tiendas oficiales y multimarca.`;
-  $("pie").innerHTML = `<p>Solo mostramos camisetas originales con stock. Precios de lista de cada tienda, sin envío. Las promos bancarias y las cuotas se muestran aparte, por tienda.</p>`;
+  $("pie").innerHTML = `<p>Solo mostramos camisetas originales con stock. Precios de lista de cada tienda, sin envío. Las promos bancarias y las cuotas se muestran aparte, por tienda.</p>
+    <p>Si seguís una camiseta o una búsqueda, usamos tu mail solo para avisarte de eso. No lo compartimos con nadie y te das de baja con un clic desde cualquier aviso.</p>`;
 
   pintarControles();
   pintar();
