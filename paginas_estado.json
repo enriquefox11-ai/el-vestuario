@@ -1,0 +1,4947 @@
+{
+ "paginas": {
+  "argentina": {
+   "hash": "2ffd74b72d4fb4d18793ccaf03432be716bfb4f4",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "argentina/ninos": {
+   "hash": "a3165085cb74fdacd5ec0f98f355cf8125d17d9a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "argentina/titular-messi-26-27": {
+   "hash": "e1fbf161d3956212d9dc5037b0105f3d77d80048",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-messi-26-27",
+    "club": "seleccion",
+    "nombre": "Titular Messi 26/27"
+   }
+  },
+  "argentina/titular-2026-mujer": {
+   "hash": "8eccac604b429d68940b530d8c395c99bcbe35a4",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-2026-mujer",
+    "club": "seleccion",
+    "nombre": "Titular 2026"
+   }
+  },
+  "argentina/titular-messi-2026-ninos": {
+   "hash": "4fe24b490838b47c0472e43302de543e97789164",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-messi-2026-ninos",
+    "club": "seleccion",
+    "nombre": "Titular Messi 2026"
+   }
+  },
+  "argentina/titular-messi-2026": {
+   "hash": "54370b38c976b477c9100e2482ac4c7583d6c246",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-messi-2026",
+    "club": "seleccion",
+    "nombre": "Titular Messi 2026"
+   }
+  },
+  "argentina/titular-2026-version-jugador": {
+   "hash": "ca8565a1b93ac626a4c6d88b0b13439af2d864bd",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-2026-version-jugador",
+    "club": "seleccion",
+    "nombre": "Titular 2026"
+   }
+  },
+  "argentina/pre-partido-2026": {
+   "hash": "bb8359aec0a9f047ca386bbf85df3ee8168191e6",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/pre-partido-2026",
+    "club": "seleccion",
+    "nombre": "Pre-partido 2026"
+   }
+  },
+  "argentina/titular-2006": {
+   "hash": "539ae332d6440e0bbc543f48565e4709ca3bd78e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-2006",
+    "club": "seleccion",
+    "nombre": "Titular 2006"
+   }
+  },
+  "argentina/titular-2026-ninos": {
+   "hash": "0050bf711ab415d62cc3517fdd6ea8ecbe9974f3",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-2026-ninos",
+    "club": "seleccion",
+    "nombre": "Titular 2026"
+   }
+  },
+  "argentina/alternativa-originals-2026-ninos": {
+   "hash": "12dffcb888a95e809f7efa378c62190db821c2e8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/alternativa-originals-2026-ninos",
+    "club": "seleccion",
+    "nombre": "Alternativa Originals 2026"
+   }
+  },
+  "argentina/pre-partido-messi-2026": {
+   "hash": "08af98557f0375030179d006d316a222781f24f9",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/pre-partido-messi-2026",
+    "club": "seleccion",
+    "nombre": "Pre-partido Messi 2026"
+   }
+  },
+  "argentina/arquero-aniversario-24-25": {
+   "hash": "8147133724bb3a8f5953d30a4634deb82aaac663",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/arquero-aniversario-24-25",
+    "club": "seleccion",
+    "nombre": "Arquero Aniversario 24/25"
+   }
+  },
+  "argentina/titular-messi-10-2026-ninos": {
+   "hash": "8540345b0ff954f06a3476516b544d32e060be4a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-messi-10-2026-ninos",
+    "club": "seleccion",
+    "nombre": "Titular Messi 10 2026"
+   }
+  },
+  "argentina/alternativa-messi-10-2026-ninos": {
+   "hash": "583025dc55a01510211d1eef109ba3c8096d9235",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/alternativa-messi-10-2026-ninos",
+    "club": "seleccion",
+    "nombre": "Alternativa Messi 10 2026"
+   }
+  },
+  "argentina/arquero-2026-ninos": {
+   "hash": "3da523d2026e2a2ea03679c4f12eafa8204af104",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/arquero-2026-ninos",
+    "club": "seleccion",
+    "nombre": "Arquero 2026"
+   }
+  },
+  "argentina/alternativa-2024-version-jugador": {
+   "hash": "fc463db3242323f846da8cddee4bc029beab0a41",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/alternativa-2024-version-jugador",
+    "club": "seleccion",
+    "nombre": "Alternativa 2024"
+   }
+  },
+  "argentina/arquero-2026": {
+   "hash": "03edbbbc58acdab183cae5ee2807851b37553add",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/arquero-2026",
+    "club": "seleccion",
+    "nombre": "Arquero 2026"
+   }
+  },
+  "argentina/arquero-2026-titular": {
+   "hash": "1110771a934a3e3cd0d5731f1ad809ffa0633dd5",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/arquero-2026-titular",
+    "club": "seleccion",
+    "nombre": "Arquero 2026 · Titular"
+   }
+  },
+  "argentina/titular-messi-10-26-27-ninos": {
+   "hash": "0c44729b1a222a3b4a81c693609b57c3b97cc6b7",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-messi-10-26-27-ninos",
+    "club": "seleccion",
+    "nombre": "Titular Messi 10 26/27"
+   }
+  },
+  "argentina/titular-messi-10-2026": {
+   "hash": "8f5022b270997e86dcc48ab493538731e019ae4d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-messi-10-2026",
+    "club": "seleccion",
+    "nombre": "Titular Messi 10 2026"
+   }
+  },
+  "argentina/originals-2026-ninos": {
+   "hash": "3c5e138003c3e415bc30cabfa9fd5575017cb82e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/originals-2026-ninos",
+    "club": "seleccion",
+    "nombre": "Originals 2026"
+   }
+  },
+  "argentina/titular-2026-azul": {
+   "hash": "4e5a8e083d6c29877e30f2f3410dcde789531e91",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-2026-azul",
+    "club": "seleccion",
+    "nombre": "Titular 2026 · Azul"
+   }
+  },
+  "argentina/alternativa-2024": {
+   "hash": "2a32d6adee3d87e45273e6403faf5f729459f0b3",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/alternativa-2024",
+    "club": "seleccion",
+    "nombre": "Alternativa 2024"
+   }
+  },
+  "argentina/alternativa": {
+   "hash": "a4968fd6a748659798d63e95c8e0135cf4ebe5ff",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/alternativa",
+    "club": "seleccion",
+    "nombre": "Alternativa"
+   }
+  },
+  "argentina/titular-2026": {
+   "hash": "2b5a4e14a0a2c24dd47f017f6ef2f788895a556a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-2026",
+    "club": "seleccion",
+    "nombre": "Titular 2026"
+   }
+  },
+  "argentina/alternativa-2024-ninos": {
+   "hash": "2f14c2c9112c97f108e4f7e22d91b57d1ac5a4f1",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/alternativa-2024-ninos",
+    "club": "seleccion",
+    "nombre": "Alternativa 2024"
+   }
+  },
+  "argentina/titular-messi-2026-version-jugador": {
+   "hash": "d1dbbf1d548bf0e8b0206d25cd46a003bffd0dd0",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-messi-2026-version-jugador",
+    "club": "seleccion",
+    "nombre": "Titular Messi 2026"
+   }
+  },
+  "argentina/alternativa-2026": {
+   "hash": "ea3c62f24258acdc129e111a7d89f74f336d34c6",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/alternativa-2026",
+    "club": "seleccion",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "argentina/entrenamiento-2026": {
+   "hash": "1d2b8e2572e5b82dd1fd12a1971ff92d4c64acc3",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/entrenamiento-2026",
+    "club": "seleccion",
+    "nombre": "Entrenamiento 2026"
+   }
+  },
+  "argentina/titular-messi-2026-mujer": {
+   "hash": "45ef3b2a8f754b920025c62b7ad4f66e47c32d23",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-messi-2026-mujer",
+    "club": "seleccion",
+    "nombre": "Titular Messi 2026"
+   }
+  },
+  "argentina/titular-messi-2006": {
+   "hash": "85de5376f8266da20a0c1e89f108e7046c9ae126",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-messi-2006",
+    "club": "seleccion",
+    "nombre": "Titular Messi 2006"
+   }
+  },
+  "argentina/titular-messi": {
+   "hash": "a4534c5d272e3cf2ce0d0b140052f5e8789fcd28",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/titular-messi",
+    "club": "seleccion",
+    "nombre": "Titular Messi"
+   }
+  },
+  "argentina/alternativa-2026-mujer": {
+   "hash": "41f8a9d414e39a9a0dfc5c92fa85344bd10b6521",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/alternativa-2026-mujer",
+    "club": "seleccion",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "argentina/pre-partido-2026-ninos": {
+   "hash": "95db24f6a37a836fb901025454fa9dd78e6c794d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/pre-partido-2026-ninos",
+    "club": "seleccion",
+    "nombre": "Pre-partido 2026"
+   }
+  },
+  "argentina/alternativa-2026-ninos": {
+   "hash": "28bb96afbda6bf1930b19134ef56973f6f9f0c93",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentina/alternativa-2026-ninos",
+    "club": "seleccion",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "boca": {
+   "hash": "ab9b87a095983c691aa396315a9acd4df0c84642",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "boca/mujer": {
+   "hash": "53ef3ce54555595b66ea98c8cd686cf6afdce478",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "boca/ninos": {
+   "hash": "726796d73d069b3b16081c7c91c39f0e602f82a4",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "boca/titular-26-27": {
+   "hash": "59573021f61a01447100290932fc154bb28f70a9",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-26-27",
+    "club": "boca",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "boca/tercera-25-26-alternativa-2-blanca": {
+   "hash": "518096f22801538b0218b350c92f836fca152c6a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/tercera-25-26-alternativa-2-blanca",
+    "club": "boca",
+    "nombre": "Tercera 25/26 · Alternativa 2 Blanca"
+   }
+  },
+  "boca/eqt": {
+   "hash": "bf0ed01a0931792f272380e9ce8782cdae993f62",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/eqt",
+    "club": "boca",
+    "nombre": "EQT"
+   }
+  },
+  "boca/tercera-25-26": {
+   "hash": "5f0d95ecd8d31cb85ca8b65408653694c6373c05",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/tercera-25-26",
+    "club": "boca",
+    "nombre": "Tercera 25/26"
+   }
+  },
+  "boca/tercera-25-26-ninos": {
+   "hash": "9893b7d530b53d578560b2806964ca9e2f032185",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/tercera-25-26-ninos",
+    "club": "boca",
+    "nombre": "Tercera 25/26"
+   }
+  },
+  "boca/titular-26-27-azul-mujer": {
+   "hash": "dbb8c11dc501a3f76162fc716b261d16784cac59",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-26-27-azul-mujer",
+    "club": "boca",
+    "nombre": "Titular 26/27 · Azul"
+   }
+  },
+  "boca/titular-26-27-manga-larga": {
+   "hash": "8854af0162b934378e6a9b612bcf1e415df73509",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-26-27-manga-larga",
+    "club": "boca",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "boca/alternativa-25-26": {
+   "hash": "de7e873f4269d8fee82632f2c9f38f543b6d0872",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-25-26",
+    "club": "boca",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "boca/alternativa-originals-26-27": {
+   "hash": "ebdbd616da04e1bc0266fb183c54f54e222003fa",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-originals-26-27",
+    "club": "boca",
+    "nombre": "Alternativa Originals 26/27"
+   }
+  },
+  "boca/tercera-25-26-version-jugador": {
+   "hash": "d754ddb6a7db055da28fc485ad1ac47d9b9cd1fa",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/tercera-25-26-version-jugador",
+    "club": "boca",
+    "nombre": "Tercera 25/26"
+   }
+  },
+  "boca/titular-26-27-version-jugador": {
+   "hash": "8dd9f6f5397401fdea0ae63a8464c8f1355917af",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-26-27-version-jugador",
+    "club": "boca",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "boca/alternativa-stadium-26-27": {
+   "hash": "00ea084d469e4271cd17f6112e1a23a246465829",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-stadium-26-27",
+    "club": "boca",
+    "nombre": "Alternativa Stadium 26/27"
+   }
+  },
+  "boca/alternativa-26-27-ninos": {
+   "hash": "bfea664fc03d5f1dec1122c0fdc8b99896c8779d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-26-27-ninos",
+    "club": "boca",
+    "nombre": "Alternativa 26/27"
+   }
+  },
+  "boca/pre-partido-26-27": {
+   "hash": "4a7f445e6ead1a1509b8798673e96fd90e6c8d44",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/pre-partido-26-27",
+    "club": "boca",
+    "nombre": "Pre-partido 26/27"
+   }
+  },
+  "boca/alternativa-25-26-mujer": {
+   "hash": "74900c34265bf5b7b95504dd04d10b901248af9e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-25-26-mujer",
+    "club": "boca",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "boca/entrenamiento-tiro-26-27": {
+   "hash": "66487e7cc8e957054649bc70c5c7cbff8347845a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/entrenamiento-tiro-26-27",
+    "club": "boca",
+    "nombre": "Entrenamiento Tiro 26/27"
+   }
+  },
+  "boca/alternativa-25-26-azul-ninos": {
+   "hash": "7b5c9d8be581ad40fb959c69ffd999957347d420",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-25-26-azul-ninos",
+    "club": "boca",
+    "nombre": "Alternativa 25/26 · Azul"
+   }
+  },
+  "boca/titular-24-25-ninos": {
+   "hash": "d5aad614a3ff5c9b7466cbafede92c2a487f8795",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-24-25-ninos",
+    "club": "boca",
+    "nombre": "Titular 24/25"
+   }
+  },
+  "boca/tercera-25-26-mujer": {
+   "hash": "c4a4059b8b569c0e3cc2bdfda37c5957c88b2732",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/tercera-25-26-mujer",
+    "club": "boca",
+    "nombre": "Tercera 25/26"
+   }
+  },
+  "boca/alternativa-25-26-ninos": {
+   "hash": "d7f32dbc36abd343326c3d8fe233d5afc8dfa159",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-25-26-ninos",
+    "club": "boca",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "boca/arquero-25-26-ninos": {
+   "hash": "0b537efe06eadfd62a91ac741218bda4c2622a0c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/arquero-25-26-ninos",
+    "club": "boca",
+    "nombre": "Arquero 25/26"
+   }
+  },
+  "boca/aniversario-2025": {
+   "hash": "4252733e714e91559a31dcb4209e465abd405a57",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/aniversario-2025",
+    "club": "boca",
+    "nombre": "Aniversario 2025"
+   }
+  },
+  "boca/tercera-2026-mujer": {
+   "hash": "29227ca974af17aa81d0ff038ee4b2319f193bff",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/tercera-2026-mujer",
+    "club": "boca",
+    "nombre": "Tercera 2026"
+   }
+  },
+  "boca/arquero-26-27": {
+   "hash": "c15135ceb451ece5e80565d33f87d9f423fc0acc",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/arquero-26-27",
+    "club": "boca",
+    "nombre": "Arquero 26/27"
+   }
+  },
+  "boca/alternativa-originals-26-27-mujer": {
+   "hash": "8c4db80941fdcfe462d5369af038d6ab45939c4b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-originals-26-27-mujer",
+    "club": "boca",
+    "nombre": "Alternativa Originals 26/27"
+   }
+  },
+  "boca/tiro-sin-mangas-26-27": {
+   "hash": "5fc70d31b1264cb7d5bd4fe3c940ea94175d9d8b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/tiro-sin-mangas-26-27",
+    "club": "boca",
+    "nombre": "Tiro Sin mangas 26/27"
+   }
+  },
+  "boca/aniversario-2025-ninos": {
+   "hash": "c0af1ce54f9716d6a321f4b17b3928ff3fd2c4cc",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/aniversario-2025-ninos",
+    "club": "boca",
+    "nombre": "Aniversario 2025"
+   }
+  },
+  "boca/arquero-25-26": {
+   "hash": "815d991257f1bb7b3859dc8cd433f8a569d69664",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/arquero-25-26",
+    "club": "boca",
+    "nombre": "Arquero 25/26"
+   }
+  },
+  "boca/alternativa-25-26-azul-mujer": {
+   "hash": "615812f9c1984c6743c9f9a0bc5e47edb7dac2a5",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-25-26-azul-mujer",
+    "club": "boca",
+    "nombre": "Alternativa 25/26 · Azul"
+   }
+  },
+  "boca/alternativa-pre-partido-tiro-25-26": {
+   "hash": "0359415fea7694bbd003ba3167c46c80151dc83f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-pre-partido-tiro-25-26",
+    "club": "boca",
+    "nombre": "Alternativa Pre-partido Tiro 25/26"
+   }
+  },
+  "boca/titular-24-25": {
+   "hash": "cd72963f271152c8d20ea99da5ede56bb61c785d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-24-25",
+    "club": "boca",
+    "nombre": "Titular 24/25"
+   }
+  },
+  "boca/titular-26-27-version-jugador-manga-larga": {
+   "hash": "6157cf8fd5e594e1ba28cb0cd941ca61830ffabe",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-26-27-version-jugador-manga-larga",
+    "club": "boca",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "boca/alternativa-2026-version-jugador": {
+   "hash": "526885ff2c983c2dcfe10fccfd7da1317e13b726",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-2026-version-jugador",
+    "club": "boca",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "boca/pre-partido-25-26-manga-larga": {
+   "hash": "f499bb171bc2bf5222161dfca7c4fa3128b74e57",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/pre-partido-25-26-manga-larga",
+    "club": "boca",
+    "nombre": "Pre-partido 25/26"
+   }
+  },
+  "boca/arquero-originals-26-27": {
+   "hash": "6ed128643e90d8b47b2ba2569c52271d7c8e7778",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/arquero-originals-26-27",
+    "club": "boca",
+    "nombre": "Arquero Originals 26/27"
+   }
+  },
+  "boca/alternativa-25-26-azul": {
+   "hash": "ec03f30cf04001b21cbcd0ff44b9d8c8937586c0",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-25-26-azul",
+    "club": "boca",
+    "nombre": "Alternativa 25/26 · Azul"
+   }
+  },
+  "boca/titular-25-26": {
+   "hash": "7d4ce25744ead7bcc14dbdd80c56695602067251",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-25-26",
+    "club": "boca",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "boca/titular-26-27-crop-mujer": {
+   "hash": "340fab1ef3ed4473f8d3bb270149bf8fc7aa1fde",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-26-27-crop-mujer",
+    "club": "boca",
+    "nombre": "Titular 26/27 · Crop"
+   }
+  },
+  "boca/titular-26-27-ninos": {
+   "hash": "5f471cfa0e545d4d9a70f453db4a067563484413",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-26-27-ninos",
+    "club": "boca",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "boca/arquero-24-25-ninos": {
+   "hash": "e4dd6b6bff38f63f57e6d339460df75fbc3dd4dd",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/arquero-24-25-ninos",
+    "club": "boca",
+    "nombre": "Arquero 24/25"
+   }
+  },
+  "boca/alternativa-24-25": {
+   "hash": "22a8b4be85f7559703044af720ef8fcc54aca4b6",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-24-25",
+    "club": "boca",
+    "nombre": "Alternativa 24/25"
+   }
+  },
+  "boca/titular-25-26-version-jugador": {
+   "hash": "52b6dffdf028d83fc7f537bd8e7cdecbd929e26a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-25-26-version-jugador",
+    "club": "boca",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "boca/titular-24-25-version-jugador": {
+   "hash": "183e77e16bfb9518da6685e3eabd65c7353dfb6f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-24-25-version-jugador",
+    "club": "boca",
+    "nombre": "Titular 24/25"
+   }
+  },
+  "boca/entrenamiento-tiro-2025": {
+   "hash": "3b56fa5ea3d9e8a95912400520e16728e3b9cdfc",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/entrenamiento-tiro-2025",
+    "club": "boca",
+    "nombre": "Entrenamiento Tiro 2025"
+   }
+  },
+  "boca/alternativa-26-27-version-jugador": {
+   "hash": "aa10946bf73e583023f873d670e187c2326bdd00",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-26-27-version-jugador",
+    "club": "boca",
+    "nombre": "Alternativa 26/27"
+   }
+  },
+  "boca/aniversario-2001": {
+   "hash": "561339fc205a0bcb3f74e199d5174f59cb743b52",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/aniversario-2001",
+    "club": "boca",
+    "nombre": "Aniversario 2001"
+   }
+  },
+  "boca/alternativa-25-26-version-jugador": {
+   "hash": "f33b856bfa883e29d20550b724b61af3e008de82",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-25-26-version-jugador",
+    "club": "boca",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "boca/aniversario-2001-mujer": {
+   "hash": "67066424d2f30c0b4557378095b3bbcf01c26fe0",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/aniversario-2001-mujer",
+    "club": "boca",
+    "nombre": "Aniversario 2001"
+   }
+  },
+  "boca/aniversario-2001-ninos": {
+   "hash": "f13e02b4b5bceae1f0917872dc98320af3728ac5",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/aniversario-2001-ninos",
+    "club": "boca",
+    "nombre": "Aniversario 2001"
+   }
+  },
+  "boca/alternativa-23-24-version-jugador": {
+   "hash": "0a645305d2016743ca5510bb87ea8182e24c103f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-23-24-version-jugador",
+    "club": "boca",
+    "nombre": "Alternativa 23/24"
+   }
+  },
+  "boca/tiro-26-27": {
+   "hash": "2bad0c40655e809acda15ea5dab87ec8dc571d9f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/tiro-26-27",
+    "club": "boca",
+    "nombre": "Tiro 26/27"
+   }
+  },
+  "boca/alternativa-23-24": {
+   "hash": "4503c4a13ee98e9cf31b5b30a1866acf2df85090",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-23-24",
+    "club": "boca",
+    "nombre": "Alternativa 23/24"
+   }
+  },
+  "boca/tercera-2026": {
+   "hash": "286b44dcd0f8de8a30f970c8810c96c49b765197",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/tercera-2026",
+    "club": "boca",
+    "nombre": "Tercera 2026"
+   }
+  },
+  "boca/alternativa-26-27": {
+   "hash": "fe8c6e8d6ed0acc09544a9b80c95283a4b8e442c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-26-27",
+    "club": "boca",
+    "nombre": "Alternativa 26/27"
+   }
+  },
+  "boca/entrenamiento-23-24": {
+   "hash": "d90d60eed7245ac349cf2cf897766ac2a82fd267",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/entrenamiento-23-24",
+    "club": "boca",
+    "nombre": "Entrenamiento 23/24"
+   }
+  },
+  "boca/titular-25-26-version-jugador-manga-larga": {
+   "hash": "8d4307e2bb4bc3904760a60b127342efa11e9239",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-25-26-version-jugador-manga-larga",
+    "club": "boca",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "boca/tercera-25-26-version-jugador-manga-larga": {
+   "hash": "5c585bef186c238ab4a31c0db40010412d3e2abf",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/tercera-25-26-version-jugador-manga-larga",
+    "club": "boca",
+    "nombre": "Tercera 25/26"
+   }
+  },
+  "boca/titular-25-26-manga-larga": {
+   "hash": "2bb507b27776b5c531217d7e4becae031fdd7f38",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-25-26-manga-larga",
+    "club": "boca",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "boca/titular-25-26-junior": {
+   "hash": "414061882d4b467bd3ccb01722b9a63e93213876",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/titular-25-26-junior",
+    "club": "boca",
+    "nombre": "Titular 25/26 · Junior"
+   }
+  },
+  "boca/alternativa-24-25-version-jugador": {
+   "hash": "db11c175b7a250bf1496807b7806ce6c08b45231",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-24-25-version-jugador",
+    "club": "boca",
+    "nombre": "Alternativa 24/25"
+   }
+  },
+  "boca/alternativa-23-24-ninos": {
+   "hash": "3afe1e501fba59144c22fe5de903f3ce618f8654",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-23-24-ninos",
+    "club": "boca",
+    "nombre": "Alternativa 23/24"
+   }
+  },
+  "boca/alternativa-26-27-version-jugador-manga-larga": {
+   "hash": "1a18fa27a82c663cb129e2613b9f99071713596f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-26-27-version-jugador-manga-larga",
+    "club": "boca",
+    "nombre": "Alternativa 26/27"
+   }
+  },
+  "boca/alternativa-23-24-version-jugador-manga-larga": {
+   "hash": "492f43d1a23a923b442e50de6fe8be3a6296badf",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "boca/alternativa-23-24-version-jugador-manga-larga",
+    "club": "boca",
+    "nombre": "Alternativa 23/24"
+   }
+  },
+  "river": {
+   "hash": "1d789fafd3e27bee1c949bd38ecd7a7cd42f8eaa",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "river/mujer": {
+   "hash": "2e1ba69e098c6480c375f94441748b7d46e86fba",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "river/ninos": {
+   "hash": "c2f119275c10b637f38202b9aa1a8b9c3ce39827",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "river/retro-aniversario-26-27": {
+   "hash": "a99d3d5a1e570446c5a400357282f0bee047c601",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/retro-aniversario-26-27",
+    "club": "river",
+    "nombre": "Retro Aniversario 26/27"
+   }
+  },
+  "river/titular-26-27": {
+   "hash": "d0ac1103608c2860cbbe6a432c1eae3a9e515d14",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-26-27",
+    "club": "river",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "river/tercera-26-27-version-jugador": {
+   "hash": "801598e907ba88d8b69b757f1edb89d4a29b1304",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tercera-26-27-version-jugador",
+    "club": "river",
+    "nombre": "Tercera 26/27"
+   }
+  },
+  "river/alternativa-originals-26-27": {
+   "hash": "b603c9365837c623e7398957bf1d83333a91bc09",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-originals-26-27",
+    "club": "river",
+    "nombre": "Alternativa Originals 26/27"
+   }
+  },
+  "river/eqt": {
+   "hash": "24a9e07f752142a6d0e0c122b0deb7afb7c85f25",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/eqt",
+    "club": "river",
+    "nombre": "EQT"
+   }
+  },
+  "river/alternativa-24-25-version-jugador": {
+   "hash": "b3b83126bb16cad2ff50eecd21cb927c4aff04e8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-24-25-version-jugador",
+    "club": "river",
+    "nombre": "Alternativa 24/25"
+   }
+  },
+  "river/tercera-25-26-mujer": {
+   "hash": "14b4dbd70532c3dc6269a076cd3e35963e638112",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tercera-25-26-mujer",
+    "club": "river",
+    "nombre": "Tercera 25/26"
+   }
+  },
+  "river/titular-26-27-manga-larga": {
+   "hash": "1aa83a6e6d530736a2458e63b1f3e56215723638",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-26-27-manga-larga",
+    "club": "river",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "river/titular-26-27-blanca-mujer": {
+   "hash": "bc6c9a0ff1b168bd922e6382ac3fa84590a47fc5",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-26-27-blanca-mujer",
+    "club": "river",
+    "nombre": "Titular 26/27 · Blanca"
+   }
+  },
+  "river/alternativa-26-27-mujer": {
+   "hash": "d857a5bd79ada175c544d2dd8470db9b485fe823",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-26-27-mujer",
+    "club": "river",
+    "nombre": "Alternativa 26/27"
+   }
+  },
+  "river/alternativa-originals-26-27-ninos": {
+   "hash": "39c8919e37ed5eba58d4244c79fa5c20af4eb738",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-originals-26-27-ninos",
+    "club": "river",
+    "nombre": "Alternativa Originals 26/27"
+   }
+  },
+  "river/pre-partido-26-27": {
+   "hash": "e995ddb43c5d847b0570502d96d3b932bcb3c830",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/pre-partido-26-27",
+    "club": "river",
+    "nombre": "Pre-partido 26/27"
+   }
+  },
+  "river/titular-26-27-ninos": {
+   "hash": "606920d128863723053ece452c51e0f71f3336b4",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-26-27-ninos",
+    "club": "river",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "river/alternativa-25-26": {
+   "hash": "6e07433cb3a3b9b3d4286ee05a60d008601acece",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-25-26",
+    "club": "river",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "river/alternativa-25-26-mujer": {
+   "hash": "b6701ff835488d57104d7036e3e452d545e60259",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-25-26-mujer",
+    "club": "river",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "river/alternativa-25-26-ninos": {
+   "hash": "a9b87794b3ee17c9138ebd23ef462495ef9d52b7",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-25-26-ninos",
+    "club": "river",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "river/tercera-25-26-version-jugador": {
+   "hash": "eeb7f77e4819dfde07b451909d5415ffdbafa4bf",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tercera-25-26-version-jugador",
+    "club": "river",
+    "nombre": "Tercera 25/26"
+   }
+  },
+  "river/titular-24-25-ninos": {
+   "hash": "ff0be524cdc45de2d3d59f9f97f8bb7a256b381f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-24-25-ninos",
+    "club": "river",
+    "nombre": "Titular 24/25"
+   }
+  },
+  "river/alternativa-24-25-ninos": {
+   "hash": "6e8c8595cf623f4b4ef383fdb59af10b272ed576",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-24-25-ninos",
+    "club": "river",
+    "nombre": "Alternativa 24/25"
+   }
+  },
+  "river/alternativa-23-24": {
+   "hash": "52c0bfe9dcb7cf6210bd1b85ec1237bc90e6305c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-23-24",
+    "club": "river",
+    "nombre": "Alternativa 23/24"
+   }
+  },
+  "river/tercera-25-26-ninos": {
+   "hash": "07f01e72e749d3bc73391dbe3462fb1d87300ca9",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tercera-25-26-ninos",
+    "club": "river",
+    "nombre": "Tercera 25/26"
+   }
+  },
+  "river/entrenamiento-tiro-26-27": {
+   "hash": "66f2eef5056f9c24d5353a7a933804992c801383",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/entrenamiento-tiro-26-27",
+    "club": "river",
+    "nombre": "Entrenamiento Tiro 26/27"
+   }
+  },
+  "river/tercera-26-27-mujer": {
+   "hash": "0f1a56b2859229a2ac6b2b477757cc7a8aab749d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tercera-26-27-mujer",
+    "club": "river",
+    "nombre": "Tercera 26/27"
+   }
+  },
+  "river/tercera-26-27": {
+   "hash": "053cff85d8ad9fd8451f6e9d0765bd331e63e077",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tercera-26-27",
+    "club": "river",
+    "nombre": "Tercera 26/27"
+   }
+  },
+  "river/stadium-26-27": {
+   "hash": "7cab6b92db65fbad633de25b5d00367d7dbb6287",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/stadium-26-27",
+    "club": "river",
+    "nombre": "Stadium 26/27"
+   }
+  },
+  "river/arquero-25-26": {
+   "hash": "c40f58b1762142498a13d918b20a5d5ef22b635d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/arquero-25-26",
+    "club": "river",
+    "nombre": "Arquero 25/26"
+   }
+  },
+  "river/pre-partido-25-26": {
+   "hash": "3b7a21f70b61181e7e506ae0a7506b9547d2ad1e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/pre-partido-25-26",
+    "club": "river",
+    "nombre": "Pre-partido 25/26"
+   }
+  },
+  "river/tiro-sin-mangas-26-27": {
+   "hash": "c59176b5ac3ab2f30c84a86debb3b47274b8c311",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tiro-sin-mangas-26-27",
+    "club": "river",
+    "nombre": "Tiro Sin mangas 26/27"
+   }
+  },
+  "river/alternativa-25-26-version-jugador": {
+   "hash": "309222748087a60d0215a0d4c0f856ef4ef6c191",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-25-26-version-jugador",
+    "club": "river",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "river/titular-25-26-version-jugador": {
+   "hash": "c5045d1ee30393f4327932603b7dcfefbacc24ae",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-25-26-version-jugador",
+    "club": "river",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "river/retro-aniversario-26-27-ninos": {
+   "hash": "d82627bbd95a21ab490b6e7fca8400bfbc3b9baf",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/retro-aniversario-26-27-ninos",
+    "club": "river",
+    "nombre": "Retro Aniversario 26/27"
+   }
+  },
+  "river/entrenamiento-tiro-25-26-ninos": {
+   "hash": "26ef107abc2dc010dbed0b87780a3998a77b1ad4",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/entrenamiento-tiro-25-26-ninos",
+    "club": "river",
+    "nombre": "Entrenamiento Tiro 25/26"
+   }
+  },
+  "river/arquero-25-26-ninos": {
+   "hash": "ccfcd9ba04e7a72cc604f0f39f905701754f35ed",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/arquero-25-26-ninos",
+    "club": "river",
+    "nombre": "Arquero 25/26"
+   }
+  },
+  "river/alternativa-23-24-version-jugador": {
+   "hash": "1885c7e5e3aac0c9de7071937e2471c556a58d6b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-23-24-version-jugador",
+    "club": "river",
+    "nombre": "Alternativa 23/24"
+   }
+  },
+  "river/titular-25-26-slim": {
+   "hash": "ddb98b08cf83340e5ce02a9c4538e385e199d06b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-25-26-slim",
+    "club": "river",
+    "nombre": "Titular 25/26 · Slim"
+   }
+  },
+  "river/alternativa-24-25": {
+   "hash": "4ec03477ca155645c7e40823017e4a15cb463d4e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-24-25",
+    "club": "river",
+    "nombre": "Alternativa 24/25"
+   }
+  },
+  "river/alternativa-originals-2026-version-jugador": {
+   "hash": "cbc148d1f28344d15378375a20601abf204265ca",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-originals-2026-version-jugador",
+    "club": "river",
+    "nombre": "Alternativa Originals 2026"
+   }
+  },
+  "river/titular-26-27-version-jugador-manga-larga": {
+   "hash": "64d1991a17a70e59322c4816737c5a1486da5354",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-26-27-version-jugador-manga-larga",
+    "club": "river",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "river/titular-25-26": {
+   "hash": "fbdfff4e947dbb5ca6978cec93a4530ceaf71d7a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-25-26",
+    "club": "river",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "river/arquero-originals-26-27": {
+   "hash": "a6be2109dbdf24413aba564c39f422bf58d947ed",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/arquero-originals-26-27",
+    "club": "river",
+    "nombre": "Arquero Originals 26/27"
+   }
+  },
+  "river/titular-26-27-version-jugador": {
+   "hash": "ac327806e4bfc3b6237c8ae1a0631f6d49b3afae",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-26-27-version-jugador",
+    "club": "river",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "river/alternativa-originals-26-27-version-jugador": {
+   "hash": "f3fc4ffe3b4bbefd9ba0030c6be12900b5a23203",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-originals-26-27-version-jugador",
+    "club": "river",
+    "nombre": "Alternativa Originals 26/27"
+   }
+  },
+  "river/titular-25-26-mujer": {
+   "hash": "d6c50a3bc799a7cde79ba59ac000c559ae01f9db",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-25-26-mujer",
+    "club": "river",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "river/titular-25-26-ninos": {
+   "hash": "37aabb04713177a9d09d9ef650421170c148544a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-25-26-ninos",
+    "club": "river",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "river/titular-26-27-mujer": {
+   "hash": "1229e3f738ed4e7dc036e597defae33a137a57cc",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-26-27-mujer",
+    "club": "river",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "river/arquero": {
+   "hash": "f18698581b3bfbaf1b25ab5ce3ee39646fe769ac",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/arquero",
+    "club": "river",
+    "nombre": "Arquero"
+   }
+  },
+  "river/entrenamiento-tiro-26-27-ninos": {
+   "hash": "cd0d7b80b57a5e30e1a35606739d7e34949ffafe",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/entrenamiento-tiro-26-27-ninos",
+    "club": "river",
+    "nombre": "Entrenamiento Tiro 26/27"
+   }
+  },
+  "river/alternativa-24-25-mujer": {
+   "hash": "808930663b5d5321bc093c6f3a3d2b1cf13e03a2",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-24-25-mujer",
+    "club": "river",
+    "nombre": "Alternativa 24/25"
+   }
+  },
+  "river/alternativa-23-24-ninos": {
+   "hash": "86d88c3d15dd9e5a380b97decf335f2f3aa9af7a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-23-24-ninos",
+    "club": "river",
+    "nombre": "Alternativa 23/24"
+   }
+  },
+  "river/tercera-26-27-ninos": {
+   "hash": "91315f6eb6c3241e038e9ac5b16b682dbed18669",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tercera-26-27-ninos",
+    "club": "river",
+    "nombre": "Tercera 26/27"
+   }
+  },
+  "river/camiseta-oficial-25-26": {
+   "hash": "d38136a569b611657567b96c583d5ac67c857bb4",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/camiseta-oficial-25-26",
+    "club": "river",
+    "nombre": "Camiseta oficial 25/26"
+   }
+  },
+  "river/aniversario": {
+   "hash": "9a8a72c373033506a474cf0cfbc68ff676241908",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/aniversario",
+    "club": "river",
+    "nombre": "Aniversario"
+   }
+  },
+  "river/aniversario-mujer": {
+   "hash": "bbb950f4f8f475d2197d53cd9c7c97b1ec7048aa",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/aniversario-mujer",
+    "club": "river",
+    "nombre": "Aniversario"
+   }
+  },
+  "river/entrenamiento-24-25": {
+   "hash": "187c70b841a00b6e54afdb673ad99babfbeab56a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/entrenamiento-24-25",
+    "club": "river",
+    "nombre": "Entrenamiento 24/25"
+   }
+  },
+  "river/arquero-24-25": {
+   "hash": "dba30a627975162a16b2fdeb0acd20b77b7d0b11",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/arquero-24-25",
+    "club": "river",
+    "nombre": "Arquero 24/25"
+   }
+  },
+  "river/titular-24-25": {
+   "hash": "4d29c190afff3712faac1ed0f7e4fc1b8e0abe33",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-24-25",
+    "club": "river",
+    "nombre": "Titular 24/25"
+   }
+  },
+  "river/alternativa-25-26-version-jugador-manga-larga": {
+   "hash": "a61a2dd5c95be850b44e811f6c7fb11f15725e32",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-25-26-version-jugador-manga-larga",
+    "club": "river",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "river/tiro-26-27": {
+   "hash": "8a068772cbdf5fea3f85eb3591090e343e1a0574",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tiro-26-27",
+    "club": "river",
+    "nombre": "Tiro 26/27"
+   }
+  },
+  "river/titular-24-25-version-jugador-manga-larga": {
+   "hash": "31afa4ee3c7e5d9ad57431b1f0b1271463f7c724",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-24-25-version-jugador-manga-larga",
+    "club": "river",
+    "nombre": "Titular 24/25"
+   }
+  },
+  "river/tercera-24-25": {
+   "hash": "7194817902af5060e8e3229f2ad7bb3d35b9a1e2",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tercera-24-25",
+    "club": "river",
+    "nombre": "Tercera 24/25"
+   }
+  },
+  "river/alternativa-26-27": {
+   "hash": "f4e4fedadde3b12df370d267d97dd6b126a4a45b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-26-27",
+    "club": "river",
+    "nombre": "Alternativa 26/27"
+   }
+  },
+  "river/entrenamiento-tiro-25-26": {
+   "hash": "65265c81b794cf3a9e6675dcee79badb99ae3564",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/entrenamiento-tiro-25-26",
+    "club": "river",
+    "nombre": "Entrenamiento Tiro 25/26"
+   }
+  },
+  "river/tercera-26-27-version-jugador-manga-larga": {
+   "hash": "adeab59375d6652d11f70c4798ceb3e277f23115",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tercera-26-27-version-jugador-manga-larga",
+    "club": "river",
+    "nombre": "Tercera 26/27"
+   }
+  },
+  "river/titular-25-26-manga-larga": {
+   "hash": "ac31a548c4d7611c281d5f01f180b2bcacd7c402",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-25-26-manga-larga",
+    "club": "river",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "river/alternativa-24-25-version-jugador-manga-larga": {
+   "hash": "4debdf99fa691284f70d8e191d56056560d48996",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/alternativa-24-25-version-jugador-manga-larga",
+    "club": "river",
+    "nombre": "Alternativa 24/25"
+   }
+  },
+  "river/titular-24-25-version-jugador": {
+   "hash": "e255ffa4c46b27b63064bb95a1b4260aaa10afc0",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-24-25-version-jugador",
+    "club": "river",
+    "nombre": "Titular 24/25"
+   }
+  },
+  "river/tercera-24-25-version-jugador": {
+   "hash": "7daa6635ca5905f17c152711dff4bcbfe8bee184",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/tercera-24-25-version-jugador",
+    "club": "river",
+    "nombre": "Tercera 24/25"
+   }
+  },
+  "river/entrenamiento-tiro-2025": {
+   "hash": "bc6229f41ebf1164351ac11ead56c4648fc71881",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/entrenamiento-tiro-2025",
+    "club": "river",
+    "nombre": "Entrenamiento Tiro 2025"
+   }
+  },
+  "river/titular-25-26-version-jugador-manga-larga": {
+   "hash": "879fb171c89c31b774d9d46ef09670c45687c12e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "river/titular-25-26-version-jugador-manga-larga",
+    "club": "river",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "independiente": {
+   "hash": "8a31a580f3d869882eb88d8d1e0d27f413a3e0eb",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "independiente/ninos": {
+   "hash": "43baaacef0a69b8c4ab8072d36ff97938ff9adb1",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "independiente/entrenamiento-pre-partido": {
+   "hash": "b81799c916efc84a895c0dfde4ad324577b7fac9",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/entrenamiento-pre-partido",
+    "club": "independiente",
+    "nombre": "Entrenamiento · Pre-partido"
+   }
+  },
+  "independiente/entrenamiento": {
+   "hash": "a1fe2e36a6a4360c6fdb9e5f876e886b48d4e725",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/entrenamiento",
+    "club": "independiente",
+    "nombre": "Entrenamiento"
+   }
+  },
+  "independiente/entrenamiento-sin-mangas": {
+   "hash": "afe943181e3067e8d9d6e491868ff1423daa0911",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/entrenamiento-sin-mangas",
+    "club": "independiente",
+    "nombre": "Entrenamiento Sin mangas"
+   }
+  },
+  "independiente/titular-2026": {
+   "hash": "e50845b6c9b4e8cd19532b7edad24a3287850320",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/titular-2026",
+    "club": "independiente",
+    "nombre": "Titular 2026"
+   }
+  },
+  "independiente/titular-26-27": {
+   "hash": "a4e9cb0e6ab9dde3f500b66134d8d0110f316f2f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/titular-26-27",
+    "club": "independiente",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "independiente/alternativa-26-27-mujer": {
+   "hash": "f5808faecd2109651bc6c55c9a32fa5031527123",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-26-27-mujer",
+    "club": "independiente",
+    "nombre": "Alternativa 26/27"
+   }
+  },
+  "independiente/entrenamiento-26-27-poliester": {
+   "hash": "c0e56b6a4ec935d5dec68d30ef4527c61990982e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/entrenamiento-26-27-poliester",
+    "club": "independiente",
+    "nombre": "Entrenamiento 26/27 · Poliéster"
+   }
+  },
+  "independiente/alternativa-2026": {
+   "hash": "225573e094a99eb2b820fbba58896cf95fe3f557",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-2026",
+    "club": "independiente",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "independiente/alternativa-2026-manga-larga": {
+   "hash": "a85136ae66405e8bd60c7d16079759da280ffc98",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-2026-manga-larga",
+    "club": "independiente",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "independiente/alternativa-26-27-ninos": {
+   "hash": "b08d6a7325fd7216c8af367530d63665f2544a13",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-26-27-ninos",
+    "club": "independiente",
+    "nombre": "Alternativa 26/27"
+   }
+  },
+  "independiente/alternativa-26-27": {
+   "hash": "cae6273156429372bf87b7ff81b9cc0f2c711a47",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-26-27",
+    "club": "independiente",
+    "nombre": "Alternativa 26/27"
+   }
+  },
+  "independiente/alternativa-2026-mujer": {
+   "hash": "7e489dfcfe74cbebc8ffccd0e3921bb1377739d5",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-2026-mujer",
+    "club": "independiente",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "independiente/entrenamiento-26-27": {
+   "hash": "45f74f97c5ff8894183ca6243d43bc78e6ac164f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/entrenamiento-26-27",
+    "club": "independiente",
+    "nombre": "Entrenamiento 26/27"
+   }
+  },
+  "independiente/pre-partido-26-27": {
+   "hash": "7c76487c9c07d2fc93dea239a4702085622863d2",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/pre-partido-26-27",
+    "club": "independiente",
+    "nombre": "Pre-partido 26/27"
+   }
+  },
+  "independiente/titular-26-27-ninos": {
+   "hash": "fff25b311537f3692a16810a50db5c8bd87cb8ba",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/titular-26-27-ninos",
+    "club": "independiente",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "independiente/alternativa-25-26-ninos": {
+   "hash": "3e058bb60240b923fb1e9a87e91921609ea7addb",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-25-26-ninos",
+    "club": "independiente",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "independiente/alternativa-2026-ninos": {
+   "hash": "01deee0526b7f419441a7d855ea903ea644fb4a0",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-2026-ninos",
+    "club": "independiente",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "independiente/retro-king-retro-26-27": {
+   "hash": "f98c03fc301a2f155c8f88f58815fd0ef5e05b1c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/retro-king-retro-26-27",
+    "club": "independiente",
+    "nombre": "Retro King Retro 26/27"
+   }
+  },
+  "independiente/titular-26-27-mujer": {
+   "hash": "13414e655aac4c8266c9c4dcd5a12f6ffe4604a8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/titular-26-27-mujer",
+    "club": "independiente",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "independiente/alternativa-25-26": {
+   "hash": "dbfe5ea80431d4939a1c9da050ea748f9824a508",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-25-26",
+    "club": "independiente",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "independiente/titular-25-26-ninos": {
+   "hash": "36b4671d2d3703d95a42f2ed1926a93ae9b591c0",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/titular-25-26-ninos",
+    "club": "independiente",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "independiente/arquero-26-27": {
+   "hash": "6b55e1aae704b7c291041f168705df4a94a1b917",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/arquero-26-27",
+    "club": "independiente",
+    "nombre": "Arquero 26/27"
+   }
+  },
+  "independiente/alternativa-2024": {
+   "hash": "45ed9689074284179dbc30711cbf43a49ee71c96",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-2024",
+    "club": "independiente",
+    "nombre": "Alternativa 2024"
+   }
+  },
+  "independiente/arquero-25-26": {
+   "hash": "4a6f63aadbdab0fcadeb0e91dbe15256e9f1297f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/arquero-25-26",
+    "club": "independiente",
+    "nombre": "Arquero 25/26"
+   }
+  },
+  "independiente/titular-26-27-manga-larga": {
+   "hash": "60423cd9123193e82b207107b244ac1287b6ef59",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/titular-26-27-manga-larga",
+    "club": "independiente",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "independiente/titular-2025-ninos": {
+   "hash": "d2bcdcb86f27aaeba22ed05b31b03e0cccbaf065",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/titular-2025-ninos",
+    "club": "independiente",
+    "nombre": "Titular 2025"
+   }
+  },
+  "independiente/camiseta-oficial": {
+   "hash": "5c15d207852a40705a16eeb71ed3e896b6b41991",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/camiseta-oficial",
+    "club": "independiente",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "independiente/camiseta-oficial-ninos": {
+   "hash": "ef753e7575c698daf983a8786d88c22f5472fbfa",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/camiseta-oficial-ninos",
+    "club": "independiente",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "independiente/alternativa": {
+   "hash": "972cd0826088e0a17e396dc098f6ca8d15ad817c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa",
+    "club": "independiente",
+    "nombre": "Alternativa"
+   }
+  },
+  "independiente/titular": {
+   "hash": "5dc0de617334a4a27f9d47f2e2505c85228e462e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/titular",
+    "club": "independiente",
+    "nombre": "Titular"
+   }
+  },
+  "independiente/alternativa-ninos": {
+   "hash": "f3fc0c5b92ccc22df1efb9241ee810e4ac2e322c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-ninos",
+    "club": "independiente",
+    "nombre": "Alternativa"
+   }
+  },
+  "independiente/retro-retro": {
+   "hash": "c8a531820fac0fb98109ec08c19779e7cba42c20",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/retro-retro",
+    "club": "independiente",
+    "nombre": "Retro Retro"
+   }
+  },
+  "independiente/king": {
+   "hash": "2a52bd89fe4182aa43b05c8c66ae213c75cdd0ca",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/king",
+    "club": "independiente",
+    "nombre": "King"
+   }
+  },
+  "independiente/camiseta-oficial-tejida": {
+   "hash": "dc1e9f4972ea024e40f58ed29f1bba4508802a94",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/camiseta-oficial-tejida",
+    "club": "independiente",
+    "nombre": "Camiseta oficial · Tejida"
+   }
+  },
+  "independiente/camiseta-oficial-pre-partido": {
+   "hash": "faac1a42a74b59f60f56f579bcad6c99059cdfff",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/camiseta-oficial-pre-partido",
+    "club": "independiente",
+    "nombre": "Camiseta oficial · Pre-partido"
+   }
+  },
+  "independiente/titular-25-26": {
+   "hash": "06f7cb149c5e12b0715a3f0db01f05e3ea954338",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/titular-25-26",
+    "club": "independiente",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "independiente/alternativa-26-27-manga-larga": {
+   "hash": "784e6b575951a5d16e0ca817b9bb314daa5a054d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-26-27-manga-larga",
+    "club": "independiente",
+    "nombre": "Alternativa 26/27"
+   }
+  },
+  "independiente/alternativa-24-25-ninos": {
+   "hash": "25851fae49f72b0e6237e9d3d40068d59b2aa852",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "independiente/alternativa-24-25-ninos",
+    "club": "independiente",
+    "nombre": "Alternativa 24/25"
+   }
+  },
+  "racing": {
+   "hash": "5e6419db3b3b19550055b897dec5f609de507590",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "racing/arquero-2026": {
+   "hash": "d466f0bdfcda48b2165be770f95547a16e19b118",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "racing/arquero-2026",
+    "club": "racing",
+    "nombre": "Arquero 2026"
+   }
+  },
+  "racing/alternativa-stadium-2026": {
+   "hash": "d948cadc7c4b2dc25bff9116a9974ed0b23bd7c3",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "racing/alternativa-stadium-2026",
+    "club": "racing",
+    "nombre": "Alternativa Stadium 2026"
+   }
+  },
+  "racing/titular-stadium-2026": {
+   "hash": "bbb9906efe2fa480456cce6017155717a2a9de4e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "racing/titular-stadium-2026",
+    "club": "racing",
+    "nombre": "Titular Stadium 2026"
+   }
+  },
+  "racing/titular-2026": {
+   "hash": "3b461ce5a1019776dcae0be7d0c96830a96a01c0",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "racing/titular-2026",
+    "club": "racing",
+    "nombre": "Titular 2026"
+   }
+  },
+  "racing/titular-stadium-2026-ninos": {
+   "hash": "f9351175ec04e999be6d8465e95d11bbacfcd8d6",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "racing/titular-stadium-2026-ninos",
+    "club": "racing",
+    "nombre": "Titular Stadium 2026"
+   }
+  },
+  "racing/titular-stadium-2026-mujer": {
+   "hash": "0f850dea253ca359d7e0aa629eb0654ea065008a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "racing/titular-stadium-2026-mujer",
+    "club": "racing",
+    "nombre": "Titular Stadium 2026"
+   }
+  },
+  "racing/titular-2026-ninos": {
+   "hash": "c43864dab72384373fe2b25712e6611a664dfe01",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "racing/titular-2026-ninos",
+    "club": "racing",
+    "nombre": "Titular 2026"
+   }
+  },
+  "racing/camiseta-oficial": {
+   "hash": "45c85b36dcef0dcfbf9540166f8f24dcb8683b88",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "racing/camiseta-oficial",
+    "club": "racing",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "racing/camiseta-oficial-mujer": {
+   "hash": "e272ae4d3a801ae991a0d2dd1e0e3fd53341280c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "racing/camiseta-oficial-mujer",
+    "club": "racing",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "san-lorenzo": {
+   "hash": "1a0199c077746909934e60b736d3acc086cede1f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "san-lorenzo/ninos": {
+   "hash": "e226d08f354b981723e26ced24025dc0d63b5c17",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "san-lorenzo/retro-2026": {
+   "hash": "8466c47aaabac351d67de75f177175d7def22c69",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/retro-2026",
+    "club": "san_lorenzo",
+    "nombre": "Retro 2026"
+   }
+  },
+  "san-lorenzo/camiseta-oficial-2025-ninos": {
+   "hash": "2cdfff3f415b585fdf46f0019d4d542cb932ffdf",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/camiseta-oficial-2025-ninos",
+    "club": "san_lorenzo",
+    "nombre": "Camiseta oficial 2025"
+   }
+  },
+  "san-lorenzo/retro-2026-ninos": {
+   "hash": "eb38f097d84d89676c597af22df323fac3c61517",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/retro-2026-ninos",
+    "club": "san_lorenzo",
+    "nombre": "Retro 2026"
+   }
+  },
+  "san-lorenzo/alternativa-2026-ninos": {
+   "hash": "6161096d34857ce734ec3ee44de95dec9d9e0d1d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/alternativa-2026-ninos",
+    "club": "san_lorenzo",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "san-lorenzo/titular-2026-ninos": {
+   "hash": "b2bbe54a9fc2094c7f7cf8f1c35ca9b4d81485a5",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/titular-2026-ninos",
+    "club": "san_lorenzo",
+    "nombre": "Titular 2026"
+   }
+  },
+  "san-lorenzo/titular-2026-mujer": {
+   "hash": "9e87bd6f12ee9d9583df898ced2f19e737a5e090",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/titular-2026-mujer",
+    "club": "san_lorenzo",
+    "nombre": "Titular 2026"
+   }
+  },
+  "san-lorenzo/titular-2026": {
+   "hash": "1484c776bf61434c2881049bf50f7219df795d63",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/titular-2026",
+    "club": "san_lorenzo",
+    "nombre": "Titular 2026"
+   }
+  },
+  "san-lorenzo/alternativa-2026": {
+   "hash": "a3d584c36544dac30686d69dc7e8bcd134c7bbdc",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/alternativa-2026",
+    "club": "san_lorenzo",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "san-lorenzo/titular-2024": {
+   "hash": "dd6ae45c221d7ecd131286bec02ca1a4c560abfd",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/titular-2024",
+    "club": "san_lorenzo",
+    "nombre": "Titular 2024"
+   }
+  },
+  "san-lorenzo/camiseta-oficial-mujer": {
+   "hash": "80fe09235b2003fc156815c5474fe8d0e79ea5ca",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/camiseta-oficial-mujer",
+    "club": "san_lorenzo",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "san-lorenzo/camiseta-oficial-2025": {
+   "hash": "2e590aad93bb3d121a67c6d767f64a887797d0a5",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/camiseta-oficial-2025",
+    "club": "san_lorenzo",
+    "nombre": "Camiseta oficial 2025"
+   }
+  },
+  "san-lorenzo/pre-partido-2026": {
+   "hash": "b89d08ad2e6a9ae6d87b6c35bb53748f01730737",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/pre-partido-2026",
+    "club": "san_lorenzo",
+    "nombre": "Pre-partido 2026"
+   }
+  },
+  "san-lorenzo/titular-2025-mujer": {
+   "hash": "24b8a159fdf660344f448aad0a36184c1f5eaf93",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/titular-2025-mujer",
+    "club": "san_lorenzo",
+    "nombre": "Titular 2025"
+   }
+  },
+  "san-lorenzo/tercera-2026": {
+   "hash": "6811559f9ba693460888b8d7bc9eaa840fcc7df3",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/tercera-2026",
+    "club": "san_lorenzo",
+    "nombre": "Tercera 2026"
+   }
+  },
+  "san-lorenzo/tercera-2026-ninos": {
+   "hash": "8350225d43272755edbc0fca025b1c0f328e638a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-lorenzo/tercera-2026-ninos",
+    "club": "san_lorenzo",
+    "nombre": "Tercera 2026"
+   }
+  },
+  "estudiantes": {
+   "hash": "48682790ed71e22fcf0c3b0ea2908b8848720384",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "estudiantes/ninos": {
+   "hash": "f157e805b0bf7e6d9c96e6b997449e4631551dbd",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "estudiantes/alternativa-2024": {
+   "hash": "ccab86e0056058e7ca8474bf519b5a0183bdda85",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2024",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2024"
+   }
+  },
+  "estudiantes/titular-2026-crop": {
+   "hash": "70b6fb60947acddda661a920d2b0b3ed8c56b4e9",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/titular-2026-crop",
+    "club": "estudiantes",
+    "nombre": "Titular 2026 · Crop"
+   }
+  },
+  "estudiantes/alternativa-2025-mujer": {
+   "hash": "d4d444963e4da372ff3e84bd58d20854153abd13",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2025-mujer",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "estudiantes/alternativa-2025": {
+   "hash": "1e55f0c4597c15bf1a1838a62666d8f2687bc0bd",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2025",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "estudiantes/titular-2026": {
+   "hash": "8450f1e5b3d1b68c354b45468989cf8d282cec5a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/titular-2026",
+    "club": "estudiantes",
+    "nombre": "Titular 2026"
+   }
+  },
+  "estudiantes/alternativa-2026": {
+   "hash": "c2dc83f720a9ffdcc1acafaa5a6c7a9e7ecc0f79",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2026",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "estudiantes/titular-2026-cetre-18-liga": {
+   "hash": "3f25b7192d1ec806e11b74f317d3d651dc5c260d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/titular-2026-cetre-18-liga",
+    "club": "estudiantes",
+    "nombre": "Titular 2026 · Cetre 18 Liga"
+   }
+  },
+  "estudiantes/titular-2026-correa-32-liga": {
+   "hash": "9ab09ad92446296601b0d7149caa501c0a9d27ee",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/titular-2026-correa-32-liga",
+    "club": "estudiantes",
+    "nombre": "Titular 2026 · Correa 32 Liga"
+   }
+  },
+  "estudiantes/titular-2026-palacios-24-liga": {
+   "hash": "01e063912e1f31672b1e1f89037925bc963facd6",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/titular-2026-palacios-24-liga",
+    "club": "estudiantes",
+    "nombre": "Titular 2026 · Palacios 24 Liga"
+   }
+  },
+  "estudiantes/alternativa-2026-cetre-18-liga": {
+   "hash": "b01f4626d07ced82764773baf8d4d0dda6390f63",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2026-cetre-18-liga",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2026 · Cetre 18 Liga"
+   }
+  },
+  "estudiantes/alternativa-2026-palacios-24-liga": {
+   "hash": "a471aff2d8878d9d27f26f751329b225bf66c4a9",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2026-palacios-24-liga",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2026 · Palacios 24 Liga"
+   }
+  },
+  "estudiantes/alternativa-2026-cetre-18-liga-ninos": {
+   "hash": "704739a2f682d25d9e8a345cfa73bf0a35b58409",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2026-cetre-18-liga-ninos",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2026 · Cetre 18 Liga"
+   }
+  },
+  "estudiantes/alternativa-2026-cetre-18-copa-libertadores-ninos": {
+   "hash": "2c55fb70afa13e570e69e9175c8c10379e41e991",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2026-cetre-18-copa-libertadores-ninos",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2026 · Cetre 18 Copa Libertadores"
+   }
+  },
+  "estudiantes/alternativa-2026-sosa-7-liga-ninos": {
+   "hash": "15abcbf77590474b2eb1e72581a3a683495462aa",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2026-sosa-7-liga-ninos",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2026 · Sosa 7 Liga"
+   }
+  },
+  "estudiantes/alternativa-10-2026-ninos": {
+   "hash": "e0b5272732d1f5aaec4fa90b4bd2147748ce4020",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-10-2026-ninos",
+    "club": "estudiantes",
+    "nombre": "Alternativa 10 2026"
+   }
+  },
+  "estudiantes/alternativa-2026-palacios-24-liga-ninos": {
+   "hash": "55285b7c84b76568565071f38987ac0245f5743b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2026-palacios-24-liga-ninos",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2026 · Palacios 24 Liga"
+   }
+  },
+  "estudiantes/alternativa-2026-correa-32-liga-ninos": {
+   "hash": "b33ce5117fd3e6b8b41ac64b6a48f093231d0ff8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2026-correa-32-liga-ninos",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2026 · Correa 32 Liga"
+   }
+  },
+  "estudiantes/arquero-2026-iacovich-1-amarilla": {
+   "hash": "be5761bfcb0c7fe667ef43efdf8e0ac299018b68",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/arquero-2026-iacovich-1-amarilla",
+    "club": "estudiantes",
+    "nombre": "Arquero 2026 · Iacovich 1 Amarilla"
+   }
+  },
+  "estudiantes/arquero-2026-muslera-16-celeste": {
+   "hash": "8605ce7dc34b8a6d1a1604da87ea9d97451b7f0f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/arquero-2026-muslera-16-celeste",
+    "club": "estudiantes",
+    "nombre": "Arquero 2026 · Muslera 16 Celeste"
+   }
+  },
+  "estudiantes/alternativa-2026-carrillo-9-liga-ninos": {
+   "hash": "65fbe221ce9bfa0b565d1f97b87c6482892cecff",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "estudiantes/alternativa-2026-carrillo-9-liga-ninos",
+    "club": "estudiantes",
+    "nombre": "Alternativa 2026 · Carrillo 9 Liga"
+   }
+  },
+  "velez": {
+   "hash": "ce3d41b3c993808241c1a18cb946ddc99f232d73",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "velez/ninos": {
+   "hash": "3be07b50a8ef0b83fcc2aa5a93b6927572444259",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "velez/camiseta-oficial-2026": {
+   "hash": "25156305b1dfe3d3b8512bf6318c8bcd23f58779",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "velez/camiseta-oficial-2026",
+    "club": "velez",
+    "nombre": "Camiseta oficial 2026"
+   }
+  },
+  "velez/alternativa-2026": {
+   "hash": "49f95c90412f5b9038f42ec6533ff6c380ae0d2c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "velez/alternativa-2026",
+    "club": "velez",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "velez/titular-ninos": {
+   "hash": "5db7158e38d748201aafeb35aad22a8167c33a66",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "velez/titular-ninos",
+    "club": "velez",
+    "nombre": "Titular"
+   }
+  },
+  "velez/alternativa-ninos": {
+   "hash": "3dad0dc92e7d9dac626fb2b0e9dd25a52ed0755e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "velez/alternativa-ninos",
+    "club": "velez",
+    "nombre": "Alternativa"
+   }
+  },
+  "velez/camiseta-oficial-ninos": {
+   "hash": "1d3cf19a37a7df43d41dbbdb45bdf5d50d1f2028",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "velez/camiseta-oficial-ninos",
+    "club": "velez",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "velez/arquero-2026": {
+   "hash": "ba9dcc57219cb29c9725a5e555fcc8d4f37d6608",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "velez/arquero-2026",
+    "club": "velez",
+    "nombre": "Arquero 2026"
+   }
+  },
+  "velez/alternativa-2026-ninos": {
+   "hash": "9590ba27315aa726c8b526ba0e3c7e5a07dacdf4",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "velez/alternativa-2026-ninos",
+    "club": "velez",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "velez/titular-2026-ninos": {
+   "hash": "66a9e00b011c0aba09c3273305c8dd90ae16cdff",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "velez/titular-2026-ninos",
+    "club": "velez",
+    "nombre": "Titular 2026"
+   }
+  },
+  "talleres": {
+   "hash": "18efdc1c8048e9f2ddb308e94c6e9e009c209c38",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "talleres/mujer": {
+   "hash": "005bae023741ec4e6327ebba4bbc95a6ba6c5109",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "talleres/ninos": {
+   "hash": "b751798a8c0775026f8329dbca82604f70e0f4b1",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "talleres/titular-2026": {
+   "hash": "67d3d9ff5d202343b853871e9e38ac5facd14bf5",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/titular-2026",
+    "club": "talleres",
+    "nombre": "Titular 2026"
+   }
+  },
+  "talleres/alternativa-2026": {
+   "hash": "4103348c6c59f370d9e733dc50b29759e0833807",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/alternativa-2026",
+    "club": "talleres",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "talleres/alternativa-2026-fan": {
+   "hash": "a628d05ef8748332c5f64a5fe1400eacd3925e10",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/alternativa-2026-fan",
+    "club": "talleres",
+    "nombre": "Alternativa 2026 · Fan"
+   }
+  },
+  "talleres/alternativa-2025": {
+   "hash": "36d4be70e24cf282aaaf82096c510944b35a23d1",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/alternativa-2025",
+    "club": "talleres",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "talleres/alternativa-2026-mujer": {
+   "hash": "99238537a5aab83623fecf563ac8240ae69f44dc",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/alternativa-2026-mujer",
+    "club": "talleres",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "talleres/titular-2026-mujer": {
+   "hash": "810bda742f89db57a31caf2a0426696adede1474",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/titular-2026-mujer",
+    "club": "talleres",
+    "nombre": "Titular 2026"
+   }
+  },
+  "talleres/alternativa-2026-bebe-ninos": {
+   "hash": "6a9872ba30c95ce938ddbe21c443e3a59055e496",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/alternativa-2026-bebe-ninos",
+    "club": "talleres",
+    "nombre": "Alternativa 2026 · Bebé"
+   }
+  },
+  "talleres/titular-2026-bebe-ninos": {
+   "hash": "b25affdf99296d0adf280a55f38ff9d6ea50a55f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/titular-2026-bebe-ninos",
+    "club": "talleres",
+    "nombre": "Titular 2026 · Bebé"
+   }
+  },
+  "talleres/alternativa-2026-version-jugador": {
+   "hash": "d976ba64aaef077cfee06e80f9da9682fc418538",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/alternativa-2026-version-jugador",
+    "club": "talleres",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "talleres/titular-2026-ninos": {
+   "hash": "cdec56c524cf2ad1250613ba1255e0da76d9d313",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/titular-2026-ninos",
+    "club": "talleres",
+    "nombre": "Titular 2026"
+   }
+  },
+  "talleres/arquero-2026-titular-ninos": {
+   "hash": "7e20c00e2b89daf199532cd59a59f913ce2be132",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/arquero-2026-titular-ninos",
+    "club": "talleres",
+    "nombre": "Arquero 2026 · Titular"
+   }
+  },
+  "talleres/arquero-2026-alternativa-2-ninos": {
+   "hash": "a41cd12675d99211e913ac7fd788dd7bd6e4f64b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/arquero-2026-alternativa-2-ninos",
+    "club": "talleres",
+    "nombre": "Arquero 2026 · Alternativa 2"
+   }
+  },
+  "talleres/arquero-2026-alternativa-ninos": {
+   "hash": "a4d250cec74018fe2d53131edd8d878e6e69ee8d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/arquero-2026-alternativa-ninos",
+    "club": "talleres",
+    "nombre": "Arquero 2026 · Alternativa"
+   }
+  },
+  "talleres/alternativa-2026-ninos": {
+   "hash": "9c31f9438010e6deed74a205c880527c5c8d8125",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/alternativa-2026-ninos",
+    "club": "talleres",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "talleres/alternativa-2025-version-jugador": {
+   "hash": "3632763280f4f50f7f78dd32596ad52aa649c84a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/alternativa-2025-version-jugador",
+    "club": "talleres",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "talleres/arquero-2026": {
+   "hash": "65c1e41bdc23293e74ac2e1b771d146f78833f02",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/arquero-2026",
+    "club": "talleres",
+    "nombre": "Arquero 2026"
+   }
+  },
+  "talleres/arquero-2026-alternativa-2": {
+   "hash": "52bf7931b8112c44598cd063e7e9901b1dc92db2",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/arquero-2026-alternativa-2",
+    "club": "talleres",
+    "nombre": "Arquero 2026 · Alternativa 2"
+   }
+  },
+  "talleres/arquero-2026-titular": {
+   "hash": "3531574ac83dd14c1644fab5d7fe1d7702652e7c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/arquero-2026-titular",
+    "club": "talleres",
+    "nombre": "Arquero 2026 · Titular"
+   }
+  },
+  "talleres/titular-2026-fan": {
+   "hash": "0ff5cb2cf432d2eacfbbcfb4f7a2113d7a546fee",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/titular-2026-fan",
+    "club": "talleres",
+    "nombre": "Titular 2026 · Fan"
+   }
+  },
+  "talleres/titular-2026-version-jugador": {
+   "hash": "addc8b6fbf67083411bdca077a839fa3e295681b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/titular-2026-version-jugador",
+    "club": "talleres",
+    "nombre": "Titular 2026"
+   }
+  },
+  "talleres/alternativa-2025-fan": {
+   "hash": "e4d7d405569aea8afdfc1535e6bc059f97474acb",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/alternativa-2025-fan",
+    "club": "talleres",
+    "nombre": "Alternativa 2025 · Fan"
+   }
+  },
+  "talleres/titular-2025": {
+   "hash": "6379e575e8c068b8dd45d8da67fbb91732e62b63",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/titular-2025",
+    "club": "talleres",
+    "nombre": "Titular 2025"
+   }
+  },
+  "talleres/alternativa-2025-mujer": {
+   "hash": "7d18307bae33c3e8fd5f0acc91051da86c68feeb",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/alternativa-2025-mujer",
+    "club": "talleres",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "talleres/titular-2025-mujer": {
+   "hash": "7d5c4ae1dd707dc91658594ba70f3b00d36b1811",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "talleres/titular-2025-mujer",
+    "club": "talleres",
+    "nombre": "Titular 2025"
+   }
+  },
+  "barcelona": {
+   "hash": "5b68f9dfdf36dcbaff3bcc96e2805156fae171d5",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "barcelona/titular-stadium-26-27-ninos": {
+   "hash": "16f94f5aaf0d585774d335045a57d50b025648c8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "barcelona/titular-stadium-26-27-ninos",
+    "club": "barcelona",
+    "nombre": "Titular Stadium 26/27"
+   }
+  },
+  "barcelona/alternativa-2026": {
+   "hash": "24176a6953d21c310a3dfa9c6af9fa25e6603a3c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "barcelona/alternativa-2026",
+    "club": "barcelona",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "barcelona/alternativa-25-26-ninos": {
+   "hash": "353ad68bc5afdb1c902346935dc37416281300a7",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "barcelona/alternativa-25-26-ninos",
+    "club": "barcelona",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "barcelona/alternativa-25-26": {
+   "hash": "42b3e406a0b1a7a55deda5c455d8fa2597c7d6a2",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "barcelona/alternativa-25-26",
+    "club": "barcelona",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "real-madrid": {
+   "hash": "bc11fc933e26355fdbf8f68b3a52c1945c562a9b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "real-madrid/titular-26-27": {
+   "hash": "1552df9870889cda52bf3e239dd03d45b2fc8f27",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "real-madrid/titular-26-27",
+    "club": "real_madrid",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "real-madrid/camiseta-oficial-ninos": {
+   "hash": "00e5085574fb51494b488d4bf9e31bf8ec13593d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "real-madrid/camiseta-oficial-ninos",
+    "club": "real_madrid",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "real-madrid/originals-2026": {
+   "hash": "675ae0062995fda6eb4e9c968af73d99744f2a87",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "real-madrid/originals-2026",
+    "club": "real_madrid",
+    "nombre": "Originals 2026"
+   }
+  },
+  "real-madrid/camiseta-oficial-2026": {
+   "hash": "127d77ef717d3cef842a5aa55763242b17c78294",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "real-madrid/camiseta-oficial-2026",
+    "club": "real_madrid",
+    "nombre": "Camiseta oficial 2026"
+   }
+  },
+  "real-madrid/titular-2025": {
+   "hash": "23f607eb7f13df75267373f3d0735764655e91d7",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "real-madrid/titular-2025",
+    "club": "real_madrid",
+    "nombre": "Titular 2025"
+   }
+  },
+  "brasil": {
+   "hash": "4e41d6fed9af11573ce137d8a78a6fef54cedefb",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "brasil/titular-stadium-2026": {
+   "hash": "614832d810d49754e7aeb1313980256f93b51238",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "brasil/titular-stadium-2026",
+    "club": "brasil",
+    "nombre": "Titular Stadium 2026"
+   }
+  },
+  "inter-miami": {
+   "hash": "a947176e7f21a2a689da98121d9e1c9612f8bf99",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "inter-miami/retro-originals": {
+   "hash": "1c7ac9509e4f0b7bd12bf90bc35e6c211000f1b2",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "inter-miami/retro-originals",
+    "club": "inter_miami",
+    "nombre": "Retro Originals"
+   }
+  },
+  "inter-miami/titular-messi-24-25": {
+   "hash": "e471ba36885424d9fe10647de5662d05225645fe",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "inter-miami/titular-messi-24-25",
+    "club": "inter_miami",
+    "nombre": "Titular Messi 24/25"
+   }
+  },
+  "inter-miami/camiseta-oficial-25-26": {
+   "hash": "5ad28c8affaa0a7203e40c91b423208b8338c0d3",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "inter-miami/camiseta-oficial-25-26",
+    "club": "inter_miami",
+    "nombre": "Camiseta oficial 25/26"
+   }
+  },
+  "inter-miami/camiseta-oficial-24-25": {
+   "hash": "fa602ac863ba31880c648276f4ccf15bf5738049",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "inter-miami/camiseta-oficial-24-25",
+    "club": "inter_miami",
+    "nombre": "Camiseta oficial 24/25"
+   }
+  },
+  "inter-miami/tercera-messi-2026-ninos": {
+   "hash": "acd46e87492fd0c48d39743cd3239b1d9ed01a59",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "inter-miami/tercera-messi-2026-ninos",
+    "club": "inter_miami",
+    "nombre": "Tercera Messi 2026"
+   }
+  },
+  "lanus": {
+   "hash": "29f074a7f16168a9b84cf9ec3855fe9e5d6f89dd",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "lanus/titular-2026": {
+   "hash": "50803d386ac5c803aae0651109cb40ce076768b2",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "lanus/titular-2026",
+    "club": "lanus",
+    "nombre": "Titular 2026"
+   }
+  },
+  "lanus/camiseta-oficial-2026": {
+   "hash": "3ecaf071569fa03a21706fb62ade3250b394eba1",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "lanus/camiseta-oficial-2026",
+    "club": "lanus",
+    "nombre": "Camiseta oficial 2026"
+   }
+  },
+  "argentinos": {
+   "hash": "683100587973668d52ef36ca9adc4d77bb9507e9",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "argentinos/ninos": {
+   "hash": "ab3f5bd8415490950186f67599640761aaca6102",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "argentinos/alternativa-2024-ninos": {
+   "hash": "704af9964b5fe0fa8fc8422d2e7082c7b143dca4",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/alternativa-2024-ninos",
+    "club": "argentinos",
+    "nombre": "Alternativa 2024"
+   }
+  },
+  "argentinos/camiseta-oficial-26-27-ninos": {
+   "hash": "8b4c72d8f6aa535d787738ecda12c7b76e528a6b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/camiseta-oficial-26-27-ninos",
+    "club": "argentinos",
+    "nombre": "Camiseta oficial 26/27"
+   }
+  },
+  "argentinos/camiseta-oficial-26-27": {
+   "hash": "2289c14582d7d7dabed63d14559cbb0fe118bc7b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/camiseta-oficial-26-27",
+    "club": "argentinos",
+    "nombre": "Camiseta oficial 26/27"
+   }
+  },
+  "argentinos/entrenamiento": {
+   "hash": "875d2e65fc21a50ccd2b0c7d2e49940b1660eb2c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/entrenamiento",
+    "club": "argentinos",
+    "nombre": "Entrenamiento"
+   }
+  },
+  "argentinos/titular": {
+   "hash": "659f02d1bcf9e137fc308bdacdaf47c5eddaed4f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/titular",
+    "club": "argentinos",
+    "nombre": "Titular"
+   }
+  },
+  "argentinos/camiseta-oficial-25-26-ninos": {
+   "hash": "d43cf0561e61860a4d582764bf26b4eda424da0b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/camiseta-oficial-25-26-ninos",
+    "club": "argentinos",
+    "nombre": "Camiseta oficial 25/26"
+   }
+  },
+  "argentinos/camiseta-oficial-25-26": {
+   "hash": "c732d65cbd6384aa037366e55a3ab64aec21eb4a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/camiseta-oficial-25-26",
+    "club": "argentinos",
+    "nombre": "Camiseta oficial 25/26"
+   }
+  },
+  "argentinos/arquero-25-26": {
+   "hash": "314b9bd40a741db5c7145abf451a415de56d25f9",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/arquero-25-26",
+    "club": "argentinos",
+    "nombre": "Arquero 25/26"
+   }
+  },
+  "argentinos/10": {
+   "hash": "259c39a70b46e6bc207c389e2163f5f7a540c9bc",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/10",
+    "club": "argentinos",
+    "nombre": "10"
+   }
+  },
+  "argentinos/alternativa-24-25": {
+   "hash": "1fe98d4b8e2c3be45046820442150f9bff709550",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/alternativa-24-25",
+    "club": "argentinos",
+    "nombre": "Alternativa 24/25"
+   }
+  },
+  "argentinos/arquero-24-25-gris": {
+   "hash": "7554070d8d296097d5dbb366ddda49f81b45bcd8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/arquero-24-25-gris",
+    "club": "argentinos",
+    "nombre": "Arquero 24/25 · Gris"
+   }
+  },
+  "argentinos/arquero-24-25-verde": {
+   "hash": "43c08f98d9f79202c5cb6a3fe3d16695c6aefa1d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/arquero-24-25-verde",
+    "club": "argentinos",
+    "nombre": "Arquero 24/25 · Verde"
+   }
+  },
+  "argentinos/camiseta-oficial-24-25-ninos": {
+   "hash": "c986bb3758d76368d00cbf8777898d10108de074",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "argentinos/camiseta-oficial-24-25-ninos",
+    "club": "argentinos",
+    "nombre": "Camiseta oficial 24/25"
+   }
+  },
+  "huracan": {
+   "hash": "852ec1b54303b0cc98adbebcaed2853f7f5c3299",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "huracan/tercera-2026": {
+   "hash": "ae23c5c0b920b9758b3602b83fca019a85415883",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "huracan/tercera-2026",
+    "club": "huracan",
+    "nombre": "Tercera 2026"
+   }
+  },
+  "huracan/titular-2025": {
+   "hash": "9c6d8bfa17515ac32ad7affa8f39fb3285386e65",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "huracan/titular-2025",
+    "club": "huracan",
+    "nombre": "Titular 2025"
+   }
+  },
+  "huracan/alternativa": {
+   "hash": "c942fdcfbb5f2eb9a50dc6f8107f3346a576c558",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "huracan/alternativa",
+    "club": "huracan",
+    "nombre": "Alternativa"
+   }
+  },
+  "huracan/camiseta-oficial-2026": {
+   "hash": "584bdad7b903d8bab2d2bff083bef65f682f45c8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "huracan/camiseta-oficial-2026",
+    "club": "huracan",
+    "nombre": "Camiseta oficial 2026"
+   }
+  },
+  "huracan/titular-2026": {
+   "hash": "f3d97bb09520af1f610ad60ec4bff4deea3339b7",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "huracan/titular-2026",
+    "club": "huracan",
+    "nombre": "Titular 2026"
+   }
+  },
+  "huracan/titular-mujer": {
+   "hash": "e02fe9cf0721b372b4cf1835d5340520d948a2f2",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "huracan/titular-mujer",
+    "club": "huracan",
+    "nombre": "Titular"
+   }
+  },
+  "huracan/alternativa-2025": {
+   "hash": "ed0dc8e514e4c5bc25da842375a0c698f3ec84b5",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "huracan/alternativa-2025",
+    "club": "huracan",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "huracan/alternativa-2025-mujer": {
+   "hash": "a10f7cd9a74a00b8b63bbaa1064f4c1945566099",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "huracan/alternativa-2025-mujer",
+    "club": "huracan",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "huracan/alternativa-2026": {
+   "hash": "6ca2cd25a74f5811eb4e470d262ba45f99a8664a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "huracan/alternativa-2026",
+    "club": "huracan",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "tigre": {
+   "hash": "ae4d47314a6220e0b344cc2b810c70a84fc44e44",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "tigre/arquero-2025-version-jugador": {
+   "hash": "ba3b175f617107b25292d4db4bed337d8899d531",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tigre/arquero-2025-version-jugador",
+    "club": "tigre",
+    "nombre": "Arquero 2025"
+   }
+  },
+  "tigre/alternativa-2025": {
+   "hash": "d52fa97228412a210445a0c96485c498fdf51efd",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tigre/alternativa-2025",
+    "club": "tigre",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "tigre/alternativa-2026": {
+   "hash": "2e2ec6f28945b419567c3832a5c22208bbb4c11a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tigre/alternativa-2026",
+    "club": "tigre",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "tigre/titular-2025": {
+   "hash": "605ac3153a2c08eaa9b9da0979f8371804e62d4b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tigre/titular-2025",
+    "club": "tigre",
+    "nombre": "Titular 2025"
+   }
+  },
+  "tigre/titular": {
+   "hash": "145d482a30091047396e0bf3ed6858cf0e81c824",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tigre/titular",
+    "club": "tigre",
+    "nombre": "Titular"
+   }
+  },
+  "tigre/tercera-2025": {
+   "hash": "491a83ef46928a47236484ee757a0eb604740227",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tigre/tercera-2025",
+    "club": "tigre",
+    "nombre": "Tercera 2025"
+   }
+  },
+  "tigre/alternativa": {
+   "hash": "b3d4292d05eaa341a9e98a292bbcb728b381cbde",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tigre/alternativa",
+    "club": "tigre",
+    "nombre": "Alternativa"
+   }
+  },
+  "tigre/titular-version-jugador": {
+   "hash": "018f65154d8ba07b4d7d8776f3944d8e218efebe",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tigre/titular-version-jugador",
+    "club": "tigre",
+    "nombre": "Titular"
+   }
+  },
+  "tigre/alternativa-mujer": {
+   "hash": "c34a3838aec9402ebb5ce94a671ee2c02dbe31b0",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tigre/alternativa-mujer",
+    "club": "tigre",
+    "nombre": "Alternativa"
+   }
+  },
+  "tigre/titular-2026": {
+   "hash": "a2aef3fb08b43852117244e6efa05fa23f10ffac",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tigre/titular-2026",
+    "club": "tigre",
+    "nombre": "Titular 2026"
+   }
+  },
+  "tigre/titular-ninos": {
+   "hash": "6bd7cb9e8005cc9d59b73dafa0ea48cbca889501",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tigre/titular-ninos",
+    "club": "tigre",
+    "nombre": "Titular"
+   }
+  },
+  "atletico-tucuman": {
+   "hash": "75f12b2cd29b12f3b26fb6d6675ffb8e75239c40",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "atletico-tucuman/alternativa": {
+   "hash": "224fb887baafcbfc312c62d750bc6bcec1b4fb4b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/alternativa",
+    "club": "atletico_tucuman",
+    "nombre": "Alternativa"
+   }
+  },
+  "atletico-tucuman/arquero": {
+   "hash": "bd52a333930b3d97109bbf9a37e4de4a79300ab8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/arquero",
+    "club": "atletico_tucuman",
+    "nombre": "Arquero"
+   }
+  },
+  "atletico-tucuman/tercera-2025": {
+   "hash": "9e9c114fe369103fda826857101032c260a7400e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/tercera-2025",
+    "club": "atletico_tucuman",
+    "nombre": "Tercera 2025"
+   }
+  },
+  "atletico-tucuman/alternativa-2025": {
+   "hash": "977b07a187eacaecfa7311eb4868cdb8ddadb707",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/alternativa-2025",
+    "club": "atletico_tucuman",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "atletico-tucuman/tercera-2025-slim": {
+   "hash": "dde08667b4172a9ae17b09a5f172d4fc4b8111a6",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/tercera-2025-slim",
+    "club": "atletico_tucuman",
+    "nombre": "Tercera 2025 · Slim"
+   }
+  },
+  "atletico-tucuman/titular-2026": {
+   "hash": "64f8bcf5c8eaf103cfd0441daa07be3f0ab1d730",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/titular-2026",
+    "club": "atletico_tucuman",
+    "nombre": "Titular 2026"
+   }
+  },
+  "atletico-tucuman/alternativa-2026": {
+   "hash": "bc8ccce24ea1754569b66ee332eca3890d8f64df",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/alternativa-2026",
+    "club": "atletico_tucuman",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "atletico-tucuman/titular-2025-ninos": {
+   "hash": "c4151191ff718b04aee0d0938c3dbdf1d0033d77",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/titular-2025-ninos",
+    "club": "atletico_tucuman",
+    "nombre": "Titular 2025"
+   }
+  },
+  "atletico-tucuman/alternativa-2025-ninos": {
+   "hash": "da15ee2d75c319b9812c4a4c09c4a3adc23e33e3",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/alternativa-2025-ninos",
+    "club": "atletico_tucuman",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "atletico-tucuman/titular-2026-slim": {
+   "hash": "7b7c884ccda3728e2a5c308b228fd394082fb5c0",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/titular-2026-slim",
+    "club": "atletico_tucuman",
+    "nombre": "Titular 2026 · Slim"
+   }
+  },
+  "atletico-tucuman/tercera-2026": {
+   "hash": "3bab628f655f01902b6573c787d34920f9f1a2ce",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/tercera-2026",
+    "club": "atletico_tucuman",
+    "nombre": "Tercera 2026"
+   }
+  },
+  "atletico-tucuman/entrenamiento-2026-version-jugador": {
+   "hash": "fdae4fdaf8edb6b881155f4b3abeecd98a706804",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-tucuman/entrenamiento-2026-version-jugador",
+    "club": "atletico_tucuman",
+    "nombre": "Entrenamiento 2026"
+   }
+  },
+  "san-martin-tucuman": {
+   "hash": "a586a98628e81c9baa02786b71593f4cab94cd06",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "san-martin-tucuman/titular-2025": {
+   "hash": "60fb8652559a8e5fb0d54bba2b30e231033715fd",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-martin-tucuman/titular-2025",
+    "club": "san_martin_tucuman",
+    "nombre": "Titular 2025"
+   }
+  },
+  "san-martin-tucuman/camiseta-oficial-2025": {
+   "hash": "6efaca8286d9fcb2b4c69d9fa0b6941bb3ada2d3",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-martin-tucuman/camiseta-oficial-2025",
+    "club": "san_martin_tucuman",
+    "nombre": "Camiseta oficial 2025"
+   }
+  },
+  "san-martin-tucuman/titular-2025-slim": {
+   "hash": "9b9f94f2385d6fc49a8042ca5462f492252bb9c7",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-martin-tucuman/titular-2025-slim",
+    "club": "san_martin_tucuman",
+    "nombre": "Titular 2025 · Slim"
+   }
+  },
+  "san-martin-tucuman/titular-2025-ninos": {
+   "hash": "072f654547fe4f353c21169d86a0c2659410f78a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-martin-tucuman/titular-2025-ninos",
+    "club": "san_martin_tucuman",
+    "nombre": "Titular 2025"
+   }
+  },
+  "san-martin-tucuman/titular-2026": {
+   "hash": "48e8cb87c671cfa55be0b29116b2e5567fb941cf",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-martin-tucuman/titular-2026",
+    "club": "san_martin_tucuman",
+    "nombre": "Titular 2026"
+   }
+  },
+  "san-martin-tucuman/alternativa-2026": {
+   "hash": "5787faa305ec7cab372dad9a90dd26e637d81e50",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-martin-tucuman/alternativa-2026",
+    "club": "san_martin_tucuman",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "san-martin-tucuman/titular-2026-slim": {
+   "hash": "691e3c46ec7a7843db2358262bdb37042567508b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-martin-tucuman/titular-2026-slim",
+    "club": "san_martin_tucuman",
+    "nombre": "Titular 2026 · Slim"
+   }
+  },
+  "san-martin-tucuman/camiseta-oficial-2026-version-jugador": {
+   "hash": "6572c54811b47e440cb1198c33b7c80539a6c6f3",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "san-martin-tucuman/camiseta-oficial-2026-version-jugador",
+    "club": "san_martin_tucuman",
+    "nombre": "Camiseta oficial 2026"
+   }
+  },
+  "manchester-city": {
+   "hash": "7ad604486ce14a1ac83be9877136444783ca6084",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "manchester-city/camiseta-oficial-25-26-ninos": {
+   "hash": "48018624d764edff1f6670416da2cf58f0907dd7",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-city/camiseta-oficial-25-26-ninos",
+    "club": "manchester_city",
+    "nombre": "Camiseta oficial 25/26"
+   }
+  },
+  "manchester-city/titular-26-27": {
+   "hash": "1024bc7e1cd29e9bbae60c7f3fc6a285a35254a9",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-city/titular-26-27",
+    "club": "manchester_city",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "manchester-city/retro-king-retro-25-26": {
+   "hash": "0041c1159697eb04f9b5665f4218ea658f3d3e88",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-city/retro-king-retro-25-26",
+    "club": "manchester_city",
+    "nombre": "Retro King Retro 25/26"
+   }
+  },
+  "manchester-city/camiseta-oficial-25-26": {
+   "hash": "243b5e12fba69688e5e489184b6c8b791c714b70",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-city/camiseta-oficial-25-26",
+    "club": "manchester_city",
+    "nombre": "Camiseta oficial 25/26"
+   }
+  },
+  "manchester-city/alternativa-25-26": {
+   "hash": "b7d2af4afd0f8f00ff0d9b965425041f4531f3b8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-city/alternativa-25-26",
+    "club": "manchester_city",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "manchester-city/camiseta-oficial-24-25": {
+   "hash": "9cb4c6cd58cccffb53b93093b8bcf6a3eccc96ae",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-city/camiseta-oficial-24-25",
+    "club": "manchester_city",
+    "nombre": "Camiseta oficial 24/25"
+   }
+  },
+  "manchester-city/alternativa": {
+   "hash": "b083a88570867ec92ae4f5f6deb2e87ceebdea13",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-city/alternativa",
+    "club": "manchester_city",
+    "nombre": "Alternativa"
+   }
+  },
+  "manchester-city/camiseta-oficial": {
+   "hash": "31ee0ef1b233cac17ab1df518afc187a45a20663",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-city/camiseta-oficial",
+    "club": "manchester_city",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "manchester-united": {
+   "hash": "356a589568d5384366fb347f61a7285d772505b2",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "manchester-united/camiseta-oficial-2026": {
+   "hash": "8781b0c181818a63e6738a1b1d5064c53b85893f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-united/camiseta-oficial-2026",
+    "club": "manchester_united",
+    "nombre": "Camiseta oficial 2026"
+   }
+  },
+  "manchester-united/camiseta-oficial": {
+   "hash": "30dee79adfdb58998fa246bcfa21fe0fd354e32e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-united/camiseta-oficial",
+    "club": "manchester_united",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "manchester-united/titular-ninos": {
+   "hash": "f17ea5b11ee939ae6f09b3cc8f82928003617090",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-united/titular-ninos",
+    "club": "manchester_united",
+    "nombre": "Titular"
+   }
+  },
+  "manchester-united/alternativa": {
+   "hash": "26e0ba96151bce2631a81733808a503f39645568",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "manchester-united/alternativa",
+    "club": "manchester_united",
+    "nombre": "Alternativa"
+   }
+  },
+  "liverpool": {
+   "hash": "a7625b6b54ce3c3bc384b594edece72d71691057",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "liverpool/titular-26-27": {
+   "hash": "5f38b6537a754ebb6ea27550146cb6ba52d658ff",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "liverpool/titular-26-27",
+    "club": "liverpool",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "liverpool/camiseta-oficial": {
+   "hash": "d408de36b66bd78e0c7e5e5b926325a4a866bff0",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "liverpool/camiseta-oficial",
+    "club": "liverpool",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "liverpool/titular-ninos": {
+   "hash": "3400049983a0a9818726aefd8e4b945558729562",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "liverpool/titular-ninos",
+    "club": "liverpool",
+    "nombre": "Titular"
+   }
+  },
+  "liverpool/camiseta-oficial-95-96": {
+   "hash": "5e52efc00a6c3d946719b56a5b59e3846c267b7c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "liverpool/camiseta-oficial-95-96",
+    "club": "liverpool",
+    "nombre": "Camiseta oficial 95/96"
+   }
+  },
+  "liverpool/retro-eqt-2026": {
+   "hash": "be7284cf1f28f9166c089973ce5da2b0ff64f719",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "liverpool/retro-eqt-2026",
+    "club": "liverpool",
+    "nombre": "Retro EQT 2026"
+   }
+  },
+  "arsenal": {
+   "hash": "2d3e05a7a4fcaee4552225c7a10134633a5cfd89",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "arsenal/eqt": {
+   "hash": "f345b2950dac57876187ad30d37f011e35289079",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "arsenal/eqt",
+    "club": "arsenal",
+    "nombre": "EQT"
+   }
+  },
+  "arsenal/titular-26-27": {
+   "hash": "461757439a5723bc72db13edfb508b115757ce87",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "arsenal/titular-26-27",
+    "club": "arsenal",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "chelsea": {
+   "hash": "c0b3b7e73922c2a62b61b4ce80c00f476192dfde",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "chelsea/titular-stadium-26-27": {
+   "hash": "3a419dc314b04583e5228adf283a5abf5573e5cb",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "chelsea/titular-stadium-26-27",
+    "club": "chelsea",
+    "nombre": "Titular Stadium 26/27"
+   }
+  },
+  "chelsea/alternativa-stadium-2025": {
+   "hash": "2487e9af3954a11bde4c6265d8bc7606100ee3c1",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "chelsea/alternativa-stadium-2025",
+    "club": "chelsea",
+    "nombre": "Alternativa Stadium 2025"
+   }
+  },
+  "tottenham": {
+   "hash": "324ba0c77f55f603cd3952d61c8ae9ab7c9c2260",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "tottenham/alternativa-25-26": {
+   "hash": "715a6453d202eeac3bdd4799cc9d250102d14177",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tottenham/alternativa-25-26",
+    "club": "tottenham",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "tottenham/titular-25-26": {
+   "hash": "8053be5260c64ee13c503f655bddd3ca1ff2b9c7",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "tottenham/titular-25-26",
+    "club": "tottenham",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "atletico-madrid": {
+   "hash": "edd6146f81986af05fb1860d33443d1d4d87c81c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "atletico-madrid/alternativa-stadium-26-27": {
+   "hash": "31642f49dd76f02d32cdd9a4aae3fe2ef76fe90f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-madrid/alternativa-stadium-26-27",
+    "club": "atletico_madrid",
+    "nombre": "Alternativa Stadium 26/27"
+   }
+  },
+  "atletico-madrid/alternativa-stadium-26-27-ninos": {
+   "hash": "6cfae2f1db420b2339608d6309d694ba73e80625",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-madrid/alternativa-stadium-26-27-ninos",
+    "club": "atletico_madrid",
+    "nombre": "Alternativa Stadium 26/27"
+   }
+  },
+  "atletico-madrid/alternativa-25-26-ninos": {
+   "hash": "5e39cab322efd663f7cb3bd8aee7257cef91dcf3",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-madrid/alternativa-25-26-ninos",
+    "club": "atletico_madrid",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "atletico-madrid/alternativa-stadium-25-26": {
+   "hash": "beb44028212b0d21ecb4aae78dec940cf1df529e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-madrid/alternativa-stadium-25-26",
+    "club": "atletico_madrid",
+    "nombre": "Alternativa Stadium 25/26"
+   }
+  },
+  "atletico-madrid/alternativa-25-26": {
+   "hash": "c0cf0b5a0a3deb938dd339f05997941f048613a1",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "atletico-madrid/alternativa-25-26",
+    "club": "atletico_madrid",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "bayern": {
+   "hash": "a994e2ef2d8b73df4d90501e1f1f19a7b1f41df0",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "bayern/camiseta-oficial": {
+   "hash": "e085be859940888547d2835d754d4ea70ebe3c58",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "bayern/camiseta-oficial",
+    "club": "bayern",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "dortmund": {
+   "hash": "db77ef50245458febc739dc95e6af819841c10a7",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "dortmund/titular-25-26": {
+   "hash": "b59760b4794d037286a6e2f27aec053c2e69a614",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "dortmund/titular-25-26",
+    "club": "dortmund",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "dortmund/alternativa-25-26": {
+   "hash": "882e13475207ec928f94ae9238eba009f70596f2",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "dortmund/alternativa-25-26",
+    "club": "dortmund",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "milan": {
+   "hash": "a4082904d75ea65ea0e0492d47f8263c735c7f9a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "milan/titular-26-27": {
+   "hash": "7a9cd3658803dac56c11843ad122f15cab704fbe",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "milan/titular-26-27",
+    "club": "milan",
+    "nombre": "Titular 26/27"
+   }
+  },
+  "milan/alternativa-25-26": {
+   "hash": "b89e0fed0835609bd8b19621366ece8baaf86389",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "milan/alternativa-25-26",
+    "club": "milan",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "milan/titular-25-26": {
+   "hash": "8cd5b8b0e2f5c0968f5f442d080c55e22a7ea08e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "milan/titular-25-26",
+    "club": "milan",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "milan/entrenamiento": {
+   "hash": "575feade83970970af26571044b986ecacc2f9e8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "milan/entrenamiento",
+    "club": "milan",
+    "nombre": "Entrenamiento"
+   }
+  },
+  "milan/retro-king-retro": {
+   "hash": "8dcdc58e21970cf0e9774df65f9667ef4627ed72",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "milan/retro-king-retro",
+    "club": "milan",
+    "nombre": "Retro King Retro"
+   }
+  },
+  "inter": {
+   "hash": "5913cd9ab1586db6e32948bb5937632334d9274e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "inter/alternativa-stadium-25-26": {
+   "hash": "4c92e80352d5575844bbac98c6bff10726524a8a",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "inter/alternativa-stadium-25-26",
+    "club": "inter",
+    "nombre": "Alternativa Stadium 25/26"
+   }
+  },
+  "inter/alternativa-25-26-ninos": {
+   "hash": "fd39a70e4012e5ac19b3da08339c7268a6031abd",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "inter/alternativa-25-26-ninos",
+    "club": "inter",
+    "nombre": "Alternativa 25/26"
+   }
+  },
+  "juventus": {
+   "hash": "5f73a5ff6f6b76dc929e82d5624bc91d9f6e0d57",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "juventus/titular-25-26": {
+   "hash": "863bca73a5c6738c2649088bf16bcd44edf2c46e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "juventus/titular-25-26",
+    "club": "juventus",
+    "nombre": "Titular 25/26"
+   }
+  },
+  "juventus/titular-ninos": {
+   "hash": "4a503df8cf5354ddc397ebf6305f5f05bd62c77c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "juventus/titular-ninos",
+    "club": "juventus",
+    "nombre": "Titular"
+   }
+  },
+  "juventus/camiseta-oficial": {
+   "hash": "5a07130d81bd726a36e144883238ab2c224a5210",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "juventus/camiseta-oficial",
+    "club": "juventus",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "psg": {
+   "hash": "812aa875c9a0474977390a03f5e2230875522d84",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "psg/titular-stadium-ninos": {
+   "hash": "e86e60fb2a473f7e74ebf028bc1ecb3dee654a4c",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "psg/titular-stadium-ninos",
+    "club": "psg",
+    "nombre": "Titular Stadium"
+   }
+  },
+  "psg/camiseta-oficial": {
+   "hash": "7933c5b5d6942fba393a04ee90617381e939ed0f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "psg/camiseta-oficial",
+    "club": "psg",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "alemania": {
+   "hash": "bb29bdc359d0c819f41be727a574975be27b5556",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "alemania/titular-2026-ninos": {
+   "hash": "9698303e47d7fdf9c14b602d90dd9d0def0dcfaa",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "alemania/titular-2026-ninos",
+    "club": "alemania",
+    "nombre": "Titular 2026"
+   }
+  },
+  "alemania/alternativa-originals-2026": {
+   "hash": "6e90035cc576a995b850851d18677c88cc371b70",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "alemania/alternativa-originals-2026",
+    "club": "alemania",
+    "nombre": "Alternativa Originals 2026"
+   }
+  },
+  "alemania/camiseta-oficial": {
+   "hash": "0f10754af8cdd8609cf5b72a972eef402628f9ac",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "alemania/camiseta-oficial",
+    "club": "alemania",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "alemania/titular-1994": {
+   "hash": "3b99897887aba6c2c742bca3069137ca70ee3ad5",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "alemania/titular-1994",
+    "club": "alemania",
+    "nombre": "Titular 1994"
+   }
+  },
+  "alemania/alternativa-2026": {
+   "hash": "76eca1de390f397bb75f69199f45021b17549acb",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "alemania/alternativa-2026",
+    "club": "alemania",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "espana": {
+   "hash": "87e85a14b47f5faebbe696fa64e10ea99e0ade6d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "espana/titular-2026": {
+   "hash": "71ec7c3b9c159cf18f6735181303dac09d80fdfe",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "espana/titular-2026",
+    "club": "espana",
+    "nombre": "Titular 2026"
+   }
+  },
+  "espana/camiseta-oficial": {
+   "hash": "c100043d49f0ae8f7364ea4150a65787c22c29bf",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "espana/camiseta-oficial",
+    "club": "espana",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "espana/titular": {
+   "hash": "884642a6b350163c7eb86fa170008c5ef75b9bc8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "espana/titular",
+    "club": "espana",
+    "nombre": "Titular"
+   }
+  },
+  "espana/alternativa-2026": {
+   "hash": "dd088bd2f6dbbe991dd14143a1a2f5ec992f2953",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "espana/alternativa-2026",
+    "club": "espana",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "espana/pre-partido-2026": {
+   "hash": "551ffa3321b10d7c79c938a531ff30ed8df70043",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "espana/pre-partido-2026",
+    "club": "espana",
+    "nombre": "Pre-partido 2026"
+   }
+  },
+  "espana/titular-1994": {
+   "hash": "54cbf063edf28618004e3d3f8a52dbfedb42ede2",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "espana/titular-1994",
+    "club": "espana",
+    "nombre": "Titular 1994"
+   }
+  },
+  "italia": {
+   "hash": "10ac0f35d00b002e31f64416ef69b13a0bf15ee8",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "italia/titular-2026": {
+   "hash": "3e48a1128b1fdce1eab49113026a7fc34d8447af",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "italia/titular-2026",
+    "club": "italia",
+    "nombre": "Titular 2026"
+   }
+  },
+  "italia/alternativa-originals-2026": {
+   "hash": "2a2ab11897328044934b77b29d2af9832203a98e",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "italia/alternativa-originals-2026",
+    "club": "italia",
+    "nombre": "Alternativa Originals 2026"
+   }
+  },
+  "italia/camiseta-oficial": {
+   "hash": "6b3800fbcfa6325f64d68d87abf1a73a6cb3d689",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "italia/camiseta-oficial",
+    "club": "italia",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "italia/camiseta-oficial-version-jugador": {
+   "hash": "c9bf14cb22ed1c0bd23a3d3d9d482163f541446b",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "italia/camiseta-oficial-version-jugador",
+    "club": "italia",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "italia/alternativa-2026": {
+   "hash": "1af0071161a75e23fedcc43b23ebcedbbb652d5f",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "italia/alternativa-2026",
+    "club": "italia",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "portugal": {
+   "hash": "3d7252f41aa93f0de1a654e583e4bb3fec71ca87",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "portugal/camiseta-oficial-2026": {
+   "hash": "476f8ffd4c23eec0ae11e4753d70f9a86374e375",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "portugal/camiseta-oficial-2026",
+    "club": "portugal",
+    "nombre": "Camiseta oficial 2026"
+   }
+  },
+  "portugal/titular-2026-manga-larga": {
+   "hash": "b6c3f3bb328e1c1c9550fb7500f823df5a739a73",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "portugal/titular-2026-manga-larga",
+    "club": "portugal",
+    "nombre": "Titular 2026"
+   }
+  },
+  "inglaterra": {
+   "hash": "abc24a88ee20cf791980dd6f5ca2c040b36afc75",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "inglaterra/titular-stadium-2026": {
+   "hash": "386e01f70cc321478f98be6715f752eb22f6e310",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "inglaterra/titular-stadium-2026",
+    "club": "inglaterra",
+    "nombre": "Titular Stadium 2026"
+   }
+  },
+  "paises-bajos": {
+   "hash": "7672eee939d91b16b6cb7c0f87093f658d411b69",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "paises-bajos/titular-stadium-2026": {
+   "hash": "c2d6cd21d31e4fb7d831c1f0510d7f5811a20bdc",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "paises-bajos/titular-stadium-2026",
+    "club": "paises_bajos",
+    "nombre": "Titular Stadium 2026"
+   }
+  },
+  "uruguay": {
+   "hash": "1bf7120517b2aef70e9553f95f8e175ac76e6474",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "uruguay/camiseta-oficial": {
+   "hash": "f50ca2186527cbccc7c573157d20ea84f4286920",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "uruguay/camiseta-oficial",
+    "club": "uruguay",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "uruguay/titular": {
+   "hash": "c568a0e2d3de4df5dedf2ba0e56db93b8b179e09",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "uruguay/titular",
+    "club": "uruguay",
+    "nombre": "Titular"
+   }
+  },
+  "colombia": {
+   "hash": "beb803c58df4b620e9978f54da03e11436fd4129",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "colombia/alternativa-2026-version-jugador": {
+   "hash": "b9526737480f4decf8e29768f824803f3fb95139",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "colombia/alternativa-2026-version-jugador",
+    "club": "colombia",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "mexico": {
+   "hash": "6f47b96cf3f05dc021a13ad0e45342654d95e898",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02"
+  },
+  "mexico/tercera-2026-version-jugador": {
+   "hash": "2c66d11cfd3df23144a0b7a7d460383bdb391ecf",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-02",
+   "modelo": {
+    "ruta": "mexico/tercera-2026-version-jugador",
+    "club": "mexico",
+    "nombre": "Tercera 2026"
+   }
+  }
+ },
+ "ids": {
+  "786804": "independiente/entrenamiento-pre-partido",
+  "786511": "independiente/entrenamiento",
+  "786512": "independiente/entrenamiento-sin-mangas",
+  "LD3312": "argentina/titular-messi-26-27",
+  "KA8061": "argentina/titular-2026-mujer",
+  "LD3308": "argentina/titular-messi-2026-ninos",
+  "KA8118": "argentina/titular-messi-2026",
+  "LD3315": "argentina/titular-messi-2026",
+  "4069994242199": "argentina/titular-messi-2026",
+  "JM5897": "argentina/titular-2026-version-jugador",
+  "4068815504713": "argentina/titular-2026-version-jugador",
+  "JY9532": "argentina/pre-partido-2026",
+  "JY9535": "argentina/pre-partido-2026",
+  "KF0322": "argentina/titular-2006",
+  "4068815917032": "argentina/titular-2006",
+  "KA8081": "argentina/titular-2026-ninos",
+  "4068815581325": "argentina/titular-2026-ninos",
+  "4068815435949": "argentina/titular-2026-ninos",
+  "KA8058": "argentina/alternativa-originals-2026-ninos",
+  "KB8233": "argentina/alternativa-originals-2026-ninos",
+  "LD3320": "argentina/pre-partido-messi-2026",
+  "JK0181": "argentina/arquero-aniversario-24-25",
+  "KA8116": "argentina/titular-messi-10-2026-ninos",
+  "KW2023": "argentina/titular-messi-10-2026-ninos",
+  "KH3938": "argentina/alternativa-messi-10-2026-ninos",
+  "KC0669": "argentina/arquero-2026-ninos",
+  "4068815562393": "argentina/arquero-2026-ninos",
+  "IP8384": "argentina/alternativa-2024-version-jugador",
+  "KB8240": "argentina/arquero-2026",
+  "4068819097242": "argentina/arquero-2026",
+  "JM8323": "argentina/arquero-2026-titular",
+  "4068815500883": "argentina/arquero-2026-titular",
+  "714379-01": "independiente/titular-2026",
+  "714381-01": "independiente/titular-2026",
+  "714049-01": "independiente/titular-26-27",
+  "696063-01": "independiente/alternativa-26-27-mujer",
+  "INDEPENDIENTESTORE-354312082": "independiente/alternativa-26-27-mujer",
+  "786511-05": "independiente/entrenamiento-26-27-poliester",
+  "714376-01": "independiente/alternativa-2026",
+  "790484-01": "independiente/alternativa-2026",
+  "793408-01": "independiente/alternativa-2026-manga-larga",
+  "696065-01": "independiente/alternativa-26-27-ninos",
+  "INDEPENDIENTESTORE-354307935": "independiente/alternativa-26-27-ninos",
+  "696064-01": "independiente/alternativa-26-27",
+  "INDEPENDIENTESTORE-341154189": "independiente/alternativa-26-27",
+  "INDEPENDIENTESTORE-339798547": "independiente/alternativa-26-27",
+  "714377-01": "independiente/alternativa-2026-mujer",
+  "786511-04": "independiente/entrenamiento-26-27",
+  "786804-02": "independiente/pre-partido-26-27",
+  "788583-01": "independiente/titular-26-27-ninos",
+  "685903-01": "independiente/alternativa-25-26-ninos",
+  "691352-01": "independiente/alternativa-25-26-ninos",
+  "714378-01": "independiente/alternativa-2026-ninos",
+  "786946-02": "independiente/retro-king-retro-26-27",
+  "714048-01": "independiente/titular-26-27-mujer",
+  "691358-01": "independiente/alternativa-25-26",
+  "691351-01": "independiente/alternativa-25-26",
+  "691277-01": "independiente/titular-25-26-ninos",
+  "696067-01": "independiente/arquero-26-27",
+  "685902-01": "independiente/alternativa-2024",
+  "691367-01": "independiente/arquero-25-26",
+  "KB4379": "boca/titular-26-27",
+  "JJ4294": "boca/tercera-25-26-alternativa-2-blanca",
+  "KH2148": "boca/eqt",
+  "IV8211": "boca/tercera-25-26",
+  "IV8207": "boca/tercera-25-26-ninos",
+  "KB6246": "boca/titular-26-27-azul-mujer",
+  "KB6252": "boca/titular-26-27-manga-larga",
+  "KV2848": "boca/alternativa-25-26",
+  "KD1518": "boca/alternativa-originals-26-27",
+  "IV8212": "boca/tercera-25-26-version-jugador",
+  "KB4376": "boca/titular-26-27-version-jugador",
+  "KH2143": "boca/alternativa-stadium-26-27",
+  "KB6250": "boca/alternativa-26-27-ninos",
+  "KB6265": "boca/pre-partido-26-27",
+  "KB6297": "boca/pre-partido-26-27",
+  "KV1869": "boca/pre-partido-26-27",
+  "KV2850": "boca/alternativa-25-26-mujer",
+  "KB6283": "boca/entrenamiento-tiro-26-27",
+  "KB6282": "boca/entrenamiento-tiro-26-27",
+  "JN6460": "boca/alternativa-25-26-azul-ninos",
+  "JN6480": "boca/alternativa-25-26-azul-ninos",
+  "IS7461": "boca/titular-24-25-ninos",
+  "IV8206": "boca/tercera-25-26-mujer",
+  "KV2849": "boca/alternativa-25-26-ninos",
+  "JN6445": "boca/arquero-25-26-ninos",
+  "KH2160": "boca/aniversario-2025",
+  "KC1574": "boca/aniversario-2025",
+  "JN6479": "boca/tercera-2026-mujer",
+  "KB6242": "boca/arquero-26-27",
+  "KB6251": "boca/alternativa-originals-26-27-mujer",
+  "KB6279": "boca/tiro-sin-mangas-26-27",
+  "KE8556": "boca/aniversario-2025-ninos",
+  "JN6449": "boca/arquero-25-26",
+  "KV2847": "boca/arquero-25-26",
+  "KC1575": "river/retro-aniversario-26-27",
+  "KB2052": "river/titular-26-27",
+  "KM4568": "river/tercera-26-27-version-jugador",
+  "KD1519": "river/alternativa-originals-26-27",
+  "KG9669": "river/eqt",
+  "KG9670": "river/eqt",
+  "JI9405": "river/alternativa-24-25-version-jugador",
+  "IV8193": "river/tercera-25-26-mujer",
+  "KB8797": "river/titular-26-27-manga-larga",
+  "KB8788": "river/titular-26-27-blanca-mujer",
+  "KB8795": "river/alternativa-26-27-mujer",
+  "KB8794": "river/alternativa-originals-26-27-ninos",
+  "KB8851": "river/pre-partido-26-27",
+  "KW4807": "river/pre-partido-26-27",
+  "KB8787": "river/titular-26-27-ninos",
+  "KB8785": "river/titular-26-27-ninos",
+  "KV7685": "river/alternativa-25-26",
+  "KG8237": "river/alternativa-25-26",
+  "IV8189": "river/alternativa-25-26",
+  "JI7077": "river/alternativa-25-26",
+  "KV7686": "river/alternativa-25-26-mujer",
+  "JN6474": "river/alternativa-25-26-mujer",
+  "KG8238": "river/alternativa-25-26-mujer",
+  "KV7687": "river/alternativa-25-26-ninos",
+  "JN6472": "river/alternativa-25-26-ninos",
+  "IV8190": "river/tercera-25-26-version-jugador",
+  "IS7472": "river/titular-24-25-ninos",
+  "JJ1614": "river/alternativa-24-25-ninos",
+  "HT3688": "river/alternativa-23-24",
+  "CAH2324AC": "river/alternativa-23-24",
+  "IV8194": "river/tercera-25-26-ninos",
+  "KB8863": "river/entrenamiento-tiro-26-27",
+  "KB8862": "river/entrenamiento-tiro-26-27",
+  "JN6483": "river/tercera-26-27-mujer",
+  "JJ4331": "river/tercera-26-27",
+  "KG9679": "river/stadium-26-27",
+  "KB8790": "river/arquero-25-26",
+  "JN6467": "river/arquero-25-26",
+  "CARH2526B": "river/arquero-25-26",
+  "JP1919": "river/pre-partido-25-26",
+  "KB8859": "river/tiro-sin-mangas-26-27",
+  "KB8858": "river/tiro-sin-mangas-26-27",
+  "KL0373": "river/alternativa-25-26-version-jugador",
+  "KL0375": "river/titular-25-26-version-jugador",
+  "KF5661": "river/retro-aniversario-26-27-ninos",
+  "JN5714": "river/entrenamiento-tiro-25-26-ninos",
+  "JN6468": "river/arquero-25-26-ninos",
+  "IP6120": "river/alternativa-23-24-version-jugador",
+  "KV7679": "river/titular-25-26-slim",
+  "NIA37203-310": "racing/arquero-2026",
+  "NIA37214-010": "racing/alternativa-stadium-2026",
+  "NIA37210-492": "racing/alternativa-stadium-2026",
+  "A37210-492": "racing/alternativa-stadium-2026",
+  "NIA37213-100": "racing/titular-stadium-2026",
+  "A37213-100": "racing/titular-stadium-2026",
+  "NIA37219-100": "racing/titular-2026",
+  "NIA37221-100": "racing/titular-stadium-2026-ninos",
+  "NIA37187-101": "racing/titular-stadium-2026-mujer",
+  "AM42SL00661K2CN": "san-lorenzo/retro-2026",
+  "AM42134273W7": "san-lorenzo/camiseta-oficial-2025-ninos",
+  "AM42SL0067K2CN": "san-lorenzo/retro-2026-ninos",
+  "AM42SL001101CN": "san-lorenzo/alternativa-2026-ninos",
+  "2642SL00671K2": "san-lorenzo/alternativa-2026-ninos",
+  "2642SL0011101": "san-lorenzo/alternativa-2026-ninos",
+  "AM42SL0009W7CN": "san-lorenzo/titular-2026-ninos",
+  "2642SL00091W7": "san-lorenzo/titular-2026-ninos",
+  "AM42SL0008W7CN": "san-lorenzo/titular-2026-mujer",
+  "AM42SL0001W7CN": "san-lorenzo/titular-2026",
+  "2642SL00011W7": "san-lorenzo/titular-2026",
+  "AM42SL000301CN": "san-lorenzo/alternativa-2026",
+  "AM42SL000538CN": "san-lorenzo/alternativa-2026",
+  "AM42SL001496CN": "san-lorenzo/alternativa-2026",
+  "2642SL0003101": "san-lorenzo/alternativa-2026",
+  "LELTN0226020": "talleres/titular-2026",
+  "LELTN0226022": "talleres/alternativa-2026",
+  "LELTN0226023": "talleres/alternativa-2026-fan",
+  "TALLERES-390474": "talleres/alternativa-2026-fan",
+  "LELTN0225306": "talleres/alternativa-2025",
+  "UBU34AJ02995-5229": "argentinos/alternativa-2024-ninos",
+  "KA232246PW564A": "tigre/arquero-2025-version-jugador",
+  "KA232246PWZ14": "tigre/arquero-2025-version-jugador",
+  "KA237271GWY07": "tigre/alternativa-2025",
+  "KA2372169W001": "tigre/alternativa-2026",
+  "NIII1624-683": "barcelona/titular-stadium-26-27-ninos",
+  "NIHM3344-808": "barcelona/alternativa-2026",
+  "JZ7206": "real-madrid/titular-26-27",
+  "KG9609": "inter-miami/retro-originals",
+  "JE9741": "inter-miami/titular-messi-24-25",
+  "KA7504": "inter-miami/camiseta-oficial-25-26",
+  "IU0190": "inter-miami/camiseta-oficial-24-25",
+  "781068-08": "manchester-city/camiseta-oficial-25-26-ninos",
+  "781068-07": "manchester-city/camiseta-oficial-25-26-ninos",
+  "784326-01": "manchester-city/titular-26-27",
+  "785878-16": "manchester-city/retro-king-retro-25-26",
+  "782692-04": "manchester-city/camiseta-oficial-25-26",
+  "785894-02": "manchester-city/camiseta-oficial-25-26",
+  "KH4821": "manchester-united/camiseta-oficial-2026",
+  "KA6852": "liverpool/titular-26-27",
+  "4069989002159": "liverpool/titular-26-27",
+  "NIII1904-453": "chelsea/titular-stadium-26-27",
+  "NIII1932-011": "atletico-madrid/alternativa-stadium-26-27",
+  "780088-01": "dortmund/titular-25-26",
+  "780104-02": "dortmund/alternativa-25-26",
+  "784121-01": "milan/titular-26-27",
+  "779971-02": "milan/alternativa-25-26",
+  "779962-01": "milan/titular-25-26",
+  "NIDJ7865-411": "psg/titular-stadium-ninos",
+  "JZ4560": "alemania/titular-2026-ninos",
+  "JN4390": "espana/titular-2026",
+  "JL6937": "italia/titular-2026",
+  "783278-01": "portugal/camiseta-oficial-2026",
+  "783279-01": "portugal/titular-2026-manga-larga",
+  "LD3309": "argentina/titular-messi-10-26-27-ninos",
+  "714051-01": "independiente/titular-26-27-manga-larga",
+  "693682-01": "independiente/titular-2025-ninos",
+  "JN6461": "boca/alternativa-25-26-azul-mujer",
+  "JP1846": "boca/alternativa-pre-partido-tiro-25-26",
+  "JI9402": "river/alternativa-24-25",
+  "NIDR2696-414": "san-lorenzo/titular-2024",
+  "NIII1695-011": "atletico-madrid/alternativa-stadium-26-27-ninos",
+  "KW2021": "argentina/titular-messi-10-2026",
+  "JY9539": "argentina/originals-2026-ninos",
+  "JM5900": "argentina/titular-2026-azul",
+  "IU1232": "boca/titular-24-25",
+  "KB6243": "boca/titular-26-27-version-jugador-manga-larga",
+  "KM4564": "boca/alternativa-2026-version-jugador",
+  "KA4052": "boca/pre-partido-25-26-manga-larga",
+  "KF4525": "boca/arquero-originals-26-27",
+  "JJ4281": "boca/alternativa-25-26-azul",
+  "KB8796": "river/alternativa-originals-2026-version-jugador",
+  "KB8789": "river/titular-26-27-version-jugador-manga-larga",
+  "KL1819": "river/titular-25-26",
+  "JI7071": "river/titular-25-26",
+  "KF4528": "river/arquero-originals-26-27",
+  "KB2051": "river/titular-26-27-version-jugador",
+  "KB2049": "river/alternativa-originals-26-27-version-jugador",
+  "A37221-100": "racing/titular-2026-ninos",
+  "3LA160017444": "lanus/titular-2026",
+  "3LA160035141": "lanus/camiseta-oficial-2026",
+  "HM4122-855": "barcelona/alternativa-25-26-ninos",
+  "HM3201-855": "barcelona/alternativa-25-26",
+  "IF7054-724": "brasil/titular-stadium-2026",
+  "780350-02": "manchester-city/alternativa-25-26",
+  "779155-74": "manchester-city/camiseta-oficial-24-25",
+  "HM3207-741": "tottenham/alternativa-25-26",
+  "HJ4598-101": "tottenham/titular-25-26",
+  "HM4426-407": "atletico-madrid/alternativa-25-26-ninos",
+  "HM3200-407": "atletico-madrid/alternativa-stadium-25-26",
+  "HM3204-438": "inter/alternativa-stadium-25-26",
+  "HM4428-438": "inter/alternativa-25-26-ninos",
+  "JJ4320": "juventus/titular-25-26",
+  "JN2074": "alemania/alternativa-originals-2026",
+  "KC8704": "italia/alternativa-originals-2026",
+  "IB5290-100": "inglaterra/titular-stadium-2026",
+  "IB5334-809": "paises-bajos/titular-stadium-2026",
+  "JL6973": "colombia/alternativa-2026-version-jugador",
+  "IP8403": "argentina/alternativa-2024",
+  "JM5905": "argentina/alternativa",
+  "KA8069": "argentina/titular-2026",
+  "4068815561624": "argentina/titular-2026",
+  "4068815459013": "argentina/titular-2026",
+  "4068815548564": "argentina/titular-2026",
+  "IP8399": "argentina/alternativa-2024-ninos",
+  "693681-01": "independiente/camiseta-oficial",
+  "685862-01": "independiente/camiseta-oficial-ninos",
+  "713744-02": "independiente/alternativa",
+  "691248-01": "independiente/titular",
+  "685899-01": "independiente/alternativa-ninos",
+  "KV2842": "boca/titular-25-26",
+  "JN6456": "boca/titular-25-26",
+  "KZ3103": "boca/titular-26-27-crop-mujer",
+  "KB6247": "boca/titular-26-27-ninos",
+  "JD4471": "boca/arquero-24-25-ninos",
+  "IU1234": "boca/alternativa-24-25",
+  "JJ4282": "boca/titular-25-26-version-jugador",
+  "4068811475628": "boca/titular-25-26-version-jugador",
+  "IU1243": "boca/titular-24-25-version-jugador",
+  "JN6465": "river/titular-25-26-mujer",
+  "KL1860": "river/titular-25-26-mujer",
+  "JN6464": "river/titular-25-26-ninos",
+  "KZ3045": "river/titular-26-27-mujer",
+  "KW0093": "river/arquero",
+  "KB8861": "river/entrenamiento-tiro-26-27-ninos",
+  "JJ1613": "river/alternativa-24-25-mujer",
+  "HY3206": "river/alternativa-23-24-ninos",
+  "A37219-100": "racing/camiseta-oficial",
+  "A37187-101": "racing/camiseta-oficial-mujer",
+  "2642SL00081W7": "san-lorenzo/camiseta-oficial-mujer",
+  "25421342641680": "san-lorenzo/camiseta-oficial-2025",
+  "K2372183W-KY07": "tigre/titular-2025",
+  "JN8887": "real-madrid/camiseta-oficial-ninos",
+  "775201-03": "manchester-city/alternativa",
+  "780338-01": "manchester-city/camiseta-oficial",
+  "JI7423": "manchester-united/camiseta-oficial",
+  "JZ7098": "manchester-united/camiseta-oficial",
+  "JP3013": "manchester-united/titular-ninos",
+  "JV6423": "liverpool/camiseta-oficial",
+  "JV6436": "liverpool/titular-ninos",
+  "HM3202-011": "chelsea/alternativa-stadium-2025",
+  "JJ2137": "bayern/camiseta-oficial",
+  "784713-01": "milan/entrenamiento",
+  "784731-01": "milan/retro-king-retro",
+  "JN5237": "juventus/titular-ninos",
+  "JM9458": "juventus/camiseta-oficial",
+  "JJ4323": "juventus/camiseta-oficial",
+  "JN2070": "alemania/camiseta-oficial",
+  "JZ6941": "alemania/camiseta-oficial",
+  "KD8363": "alemania/camiseta-oficial",
+  "JZ2254": "espana/camiseta-oficial",
+  "JN3707": "espana/titular",
+  "JN4397": "espana/alternativa-2026",
+  "4068819017417": "espana/alternativa-2026",
+  "JN3706": "italia/camiseta-oficial",
+  "JL6934": "italia/camiseta-oficial-version-jugador",
+  "783627-02": "independiente/retro-retro",
+  "KE3851": "real-madrid/originals-2026",
+  "KC7803": "real-madrid/camiseta-oficial-2026",
+  "JM5495": "manchester-united/alternativa",
+  "KA8093": "liverpool/camiseta-oficial-95-96",
+  "KG2915": "liverpool/retro-eqt-2026",
+  "JN3705": "alemania/titular-1994",
+  "NIIQ3861-425": "uruguay/camiseta-oficial",
+  "JP1940": "boca/entrenamiento-tiro-2025",
+  "JP1942": "boca/entrenamiento-tiro-2025",
+  "JN6484": "river/tercera-26-27-ninos",
+  "KV7683": "river/camiseta-oficial-25-26",
+  "IU5011": "real-madrid/titular-2025",
+  "HV3411-133": "psg/camiseta-oficial",
+  "IO4680-425": "uruguay/titular",
+  "4069997625548": "argentina/titular-messi-2026-version-jugador",
+  "4068819090663": "argentina/alternativa-2026",
+  "JY7029": "argentina/entrenamiento-2026",
+  "LD3313": "argentina/titular-messi-2026-mujer",
+  "4068815909419": "argentina/titular-messi-2006",
+  "JN3708": "argentina/titular-messi",
+  "KA8075": "argentina/alternativa-2026-mujer",
+  "4068819019732": "argentina/pre-partido-2026-ninos",
+  "4068819093824": "argentina/alternativa-2026-ninos",
+  "KB4377": "boca/alternativa-26-27-version-jugador",
+  "4069999758213": "boca/aniversario-2001",
+  "JJ4284": "boca/alternativa-25-26-version-jugador",
+  "4069999761947": "boca/aniversario-2001-mujer",
+  "4069999762036": "boca/aniversario-2001-ninos",
+  "4069999963594": "river/aniversario",
+  "K2382H8QW03H-000": "atletico-tucuman/alternativa",
+  "K2352536W1SA-000": "atletico-tucuman/arquero",
+  "K2352536WXF3-000": "atletico-tucuman/arquero",
+  "K2352536WC74-000": "atletico-tucuman/arquero",
+  "KE6329": "inter-miami/tercera-messi-2026-ninos",
+  "KG5128": "arsenal/eqt",
+  "JZ3165": "arsenal/titular-26-27",
+  "HJ4600-425": "atletico-madrid/alternativa-25-26",
+  "4068815786171": "alemania/alternativa-2026",
+  "4068819008736": "espana/pre-partido-2026",
+  "4068816671957": "espana/titular-1994",
+  "4068819099819": "italia/alternativa-2026",
+  "JL8546": "mexico/tercera-2026-version-jugador",
+  "KAPPA-10742555410710": "huracan/tercera-2026",
+  "KAPPA-10104639914262": "huracan/titular-2025",
+  "KAPPA-10104699158806": "huracan/alternativa",
+  "KAPPA-10524988539158": "huracan/camiseta-oficial-2026",
+  "KAPPA-10465851736342": "huracan/titular-2026",
+  "KAPPA-10438126076182": "huracan/titular-mujer",
+  "KAPPA-10340819829014": "huracan/alternativa-2025",
+  "KAPPA-10401475952918": "huracan/alternativa-2025-mujer",
+  "KAPPA-10542479737110": "huracan/alternativa-2026",
+  "KAPPA-10103806853398": "tigre/titular",
+  "KAPPA-10104687657238": "tigre/tercera-2025",
+  "KAPPA-10103807082774": "tigre/alternativa",
+  "KAPPA-10406350487830": "tigre/titular-version-jugador",
+  "KAPPA-10103807934742": "tigre/alternativa-mujer",
+  "KAPPA-10655794102550": "tigre/titular-2026",
+  "KAPPA-10103757209878": "tigre/titular-ninos",
+  "KAPPA-10231618339094": "atletico-tucuman/tercera-2025",
+  "KAPPA-10104630018326": "atletico-tucuman/alternativa-2025",
+  "KAPPA-10230680617238": "atletico-tucuman/tercera-2025-slim",
+  "KAPPA-10681473794326": "atletico-tucuman/titular-2026",
+  "KAPPA-10680531779862": "atletico-tucuman/alternativa-2026",
+  "KAPPA-10380789022998": "atletico-tucuman/titular-2025-ninos",
+  "KAPPA-10401475723542": "atletico-tucuman/alternativa-2025-ninos",
+  "KAPPA-10738402427158": "atletico-tucuman/titular-2026-slim",
+  "KAPPA-10732596953366": "atletico-tucuman/tercera-2026",
+  "KAPPA-10737206329622": "atletico-tucuman/entrenamiento-2026-version-jugador",
+  "KAPPA-10103800693014": "san-martin-tucuman/titular-2025",
+  "KAPPA-10103801118998": "san-martin-tucuman/camiseta-oficial-2025",
+  "KAPPA-10340819108118": "san-martin-tucuman/titular-2025-slim",
+  "KAPPA-10222674739478": "san-martin-tucuman/titular-2025-ninos",
+  "KAPPA-10523124859158": "san-martin-tucuman/titular-2026",
+  "KAPPA-10523124957462": "san-martin-tucuman/alternativa-2026",
+  "KAPPA-10546426020118": "san-martin-tucuman/titular-2026-slim",
+  "KAPPA-10523125088534": "san-martin-tucuman/camiseta-oficial-2026-version-jugador",
+  "KAPPA-10523125022998": "san-martin-tucuman/camiseta-oficial-2026-version-jugador",
+  "BICHO-5116": "argentinos/camiseta-oficial-26-27-ninos",
+  "BICHO-5114": "argentinos/camiseta-oficial-26-27",
+  "BICHO-2128": "argentinos/entrenamiento",
+  "BICHO-2126": "argentinos/titular",
+  "BICHO-5094": "argentinos/camiseta-oficial-25-26-ninos",
+  "BICHO-5076": "argentinos/camiseta-oficial-25-26-ninos",
+  "BICHO-5075": "argentinos/camiseta-oficial-25-26-ninos",
+  "BICHO-5092": "argentinos/camiseta-oficial-25-26",
+  "BICHO-5073": "argentinos/camiseta-oficial-25-26",
+  "BICHO-5072": "argentinos/camiseta-oficial-25-26",
+  "BICHO-5074": "argentinos/arquero-25-26",
+  "BICHO-2040": "argentinos/10",
+  "BICHO-5031": "argentinos/alternativa-24-25",
+  "BICHO-5026": "argentinos/arquero-24-25-gris",
+  "BICHO-5028": "argentinos/arquero-24-25-verde",
+  "BICHO-5033": "argentinos/camiseta-oficial-24-25-ninos",
+  "BICHO-5032": "argentinos/camiseta-oficial-24-25-ninos",
+  "HT3692": "boca/alternativa-23-24-version-jugador",
+  "KB6278": "boca/tiro-26-27",
+  "HT3683": "boca/alternativa-23-24",
+  "JN6480 -JUNIOR": "boca/tercera-2026",
+  "KZ3104": "boca/alternativa-26-27",
+  "HY0383": "boca/entrenamiento-23-24",
+  "JN6453": "boca/titular-25-26-version-jugador-manga-larga",
+  "KM4565": "boca/tercera-25-26-version-jugador-manga-larga",
+  "JM1262": "boca/titular-25-26-manga-larga",
+  "JN6457JUNIOR": "boca/titular-25-26-junior",
+  "IU1244": "boca/alternativa-24-25-version-jugador",
+  "HY0276": "boca/alternativa-23-24-ninos",
+  "KB6248": "boca/alternativa-26-27-version-jugador-manga-larga",
+  "HY0283": "boca/alternativa-23-24-version-jugador-manga-larga",
+  "KF5662": "river/aniversario-mujer",
+  "JC9397": "river/entrenamiento-24-25",
+  "IS7477": "river/arquero-24-25",
+  "IX5097": "river/titular-24-25",
+  "KL0374": "river/alternativa-25-26-version-jugador-manga-larga",
+  "KB8848": "river/tiro-26-27",
+  "IS7479": "river/titular-24-25-version-jugador-manga-larga",
+  "IP6119": "river/tercera-24-25",
+  "CTUH2425AC": "river/tercera-24-25",
+  "KZ3046": "river/alternativa-26-27",
+  "KA4055": "river/entrenamiento-tiro-25-26",
+  "KM4569": "river/tercera-26-27-version-jugador-manga-larga",
+  "JN0785": "river/titular-25-26-manga-larga",
+  "JJ1611": "river/alternativa-24-25-version-jugador-manga-larga",
+  "IX5099": "river/titular-24-25-version-jugador",
+  "CTUAH2425AC": "river/tercera-24-25-version-jugador",
+  "JN5715": "river/entrenamiento-tiro-2025",
+  "JN6466": "river/titular-25-26-version-jugador-manga-larga",
+  "2642SL0005138": "san-lorenzo/pre-partido-2026",
+  "25421342761W7": "san-lorenzo/titular-2025-mujer",
+  "2642SL001496": "san-lorenzo/tercera-2026",
+  "2642SL001696": "san-lorenzo/tercera-2026-ninos",
+  "INDEPENDIENTESTORE-371986452": "independiente/king",
+  "TEJ1S-279038117": "independiente/camiseta-oficial-tejida",
+  "INDEPENDIENTESTORE-293637288": "independiente/camiseta-oficial-pre-partido",
+  "INDEPENDIENTESTORE-341159928": "independiente/titular-25-26",
+  "INDEPENDIENTESTORE-377482691": "independiente/alternativa-26-27-manga-larga",
+  "68590301XXS-272757547": "independiente/alternativa-24-25-ninos",
+  "INDEPENDIENTESTORE-311315822": "independiente/alternativa-24-25-ninos",
+  "YY3100011U-331389033": "velez/camiseta-oficial-2026",
+  "YY6001603U-356761195": "velez/alternativa-2026",
+  "YY3000010U-318894657": "velez/alternativa-2026",
+  "MVS010160U-335791366": "velez/titular-ninos",
+  "MVS010160U-335020759": "velez/alternativa-ninos",
+  "MVS010160U-335125593": "velez/camiseta-oficial-ninos",
+  "YY7798455U-340598595": "velez/arquero-2026",
+  "YY7798455U-318896018": "velez/arquero-2026",
+  "YY7798455U-318896783": "velez/arquero-2026",
+  "YY2900010U-356761739": "velez/alternativa-2026-ninos",
+  "YY3000107U-318894326": "velez/titular-2026-ninos",
+  "YY2900010U-319923085": "velez/titular-2026-ninos",
+  "RUG502-362854231": "estudiantes/alternativa-2024",
+  "RUG975-375199533": "estudiantes/titular-2026-crop",
+  "RUG696-254258921": "estudiantes/alternativa-2025-mujer",
+  "RUG693-346901174": "estudiantes/alternativa-2025",
+  "RUG858-318404822": "estudiantes/titular-2026",
+  "RUG860-318401014": "estudiantes/alternativa-2026",
+  "RUG862-337932402": "estudiantes/alternativa-2026",
+  "RUG858-LPF-CETRE-18-331187820": "estudiantes/titular-2026-cetre-18-liga",
+  "RUG858-LPF-CORREA-32-337667106": "estudiantes/titular-2026-correa-32-liga",
+  "RUG858-LPF-PALACIOS-24-347303572": "estudiantes/titular-2026-palacios-24-liga",
+  "RUG862-LPF-CETRE-18-337960842": "estudiantes/alternativa-2026-cetre-18-liga",
+  "RUG860-LPF-PALACIOS-24-347308942": "estudiantes/alternativa-2026-palacios-24-liga",
+  "RUG862-LPF-PALACIOS-24-347318686": "estudiantes/alternativa-2026-palacios-24-liga",
+  "RUG860-LPF-CETRE-18-331450666": "estudiantes/alternativa-2026-cetre-18-liga-ninos",
+  "RUG860-CCL-CETRE-18-331455611": "estudiantes/alternativa-2026-cetre-18-copa-libertadores-ninos",
+  "RUG860-LPF-SOSA-7-331447644": "estudiantes/alternativa-2026-sosa-7-liga-ninos",
+  "RUG860-LPF-SOSA-7-332610810": "estudiantes/alternativa-10-2026-ninos",
+  "RUG860-LPF-PALACIOS-24-347813747": "estudiantes/alternativa-2026-palacios-24-liga-ninos",
+  "RUG860-LPF-CORREA-32-354351822": "estudiantes/alternativa-2026-correa-32-liga-ninos",
+  "RUG868-LPF-IACOVICH-1-329407846": "estudiantes/arquero-2026-iacovich-1-amarilla",
+  "RUG870-LPF-MUSLERA-16-329409656": "estudiantes/arquero-2026-muslera-16-celeste",
+  "RUG860-LPF-CARRILLO-9-331445078": "estudiantes/alternativa-2026-carrillo-9-liga-ninos",
+  "TALLERES-397211": "talleres/alternativa-2026-mujer",
+  "TALLERES-397212": "talleres/titular-2026-mujer",
+  "TALLERES-396762": "talleres/alternativa-2026-bebe-ninos",
+  "TALLERES-396761": "talleres/titular-2026-bebe-ninos",
+  "TALLERES-395443": "talleres/alternativa-2026-version-jugador",
+  "TALLERES-390473": "talleres/alternativa-2026-version-jugador",
+  "TALLERES-395053": "talleres/titular-2026-ninos",
+  "TALLERES-395069": "talleres/arquero-2026-titular-ninos",
+  "TALLERES-395114": "talleres/arquero-2026-alternativa-2-ninos",
+  "TALLERES-395105": "talleres/arquero-2026-alternativa-ninos",
+  "TALLERES-395063": "talleres/alternativa-2026-ninos",
+  "TALLERES-392443": "talleres/alternativa-2025-version-jugador",
+  "TALLERES-363015": "talleres/alternativa-2025-version-jugador",
+  "TALLERES-355575": "talleres/alternativa-2025-version-jugador",
+  "TALLERES-390590": "talleres/arquero-2026",
+  "TALLERES-390591": "talleres/arquero-2026-alternativa-2",
+  "TALLERES-390589": "talleres/arquero-2026-titular",
+  "TALLERES-390437": "talleres/titular-2026-fan",
+  "TALLERES-390436": "talleres/titular-2026-version-jugador",
+  "TALLERES-386840": "talleres/alternativa-2025-fan",
+  "TALLERES-355590": "talleres/alternativa-2025-fan",
+  "TALLERES-386824": "talleres/titular-2025",
+  "TALLERES-369843": "talleres/alternativa-2025-mujer",
+  "TALLERES-362205": "talleres/alternativa-2025-mujer",
+  "TALLERES-366869": "talleres/titular-2025-mujer"
+ }
+}
