@@ -32,6 +32,8 @@ if (/github\.io$|elvestuario/.test(location.hostname)) {
     var ps = new URLSearchParams(location.search);
     var ref = (ps.get("ref") || ps.get("utm_source") || "").toLowerCase().slice(0, 40);
     if (ref) { posthog.register_once({ ref_primera: ref }); posthog.register_for_session({ ref: ref }); }
+    // Vos: entrar una vez con ?ref=yo marca este navegador como interno para siempre (se filtra en PostHog con interno = true).
+    if (ref === "yo") posthog.register({ interno: true });
   } catch (e) {}
 }
 </script>
