@@ -1,7 +1,7 @@
 {
  "paginas": {
   "argentina": {
-   "hash": "6b025c4620ed4b6c86e61c558be78538ba0d7a01",
+   "hash": "cfbe76d514f3e6d5deaccbd2c2143f375febbeae",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -151,7 +151,7 @@
    }
   },
   "argentina/alternativa-2024-version-jugador": {
-   "hash": "f2eb597424d31e8a12b95e7707cf4c8729cd6297",
+   "hash": "1f9d6eed5ae63d78f90c9469893c6e9f666f520c",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -321,7 +321,7 @@
    }
   },
   "boca": {
-   "hash": "5e378bddc9c6b9d2db1492499dc117190032811b",
+   "hash": "f780220deaca3e81a95da102e0a4e58ee9ab4bd2",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -486,7 +486,7 @@
    }
   },
   "boca/alternativa-originals-26-27": {
-   "hash": "37a75e4df6afffba2feb62d1dd5650609bfaaa61",
+   "hash": "a6fbdb267b37f95d75c618bdff27559191f11e0a",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -886,13 +886,13 @@
    }
   },
   "boca/tercera-2026": {
-   "hash": "9c17e2a7e383e2c76bcf9e93b1234038a5026236",
+   "hash": "4f3bfcb0042aa99298dbbf7e7572f56b01b85a55",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "boca/tercera-2026",
     "club": "boca",
-    "nombre": "Tercera 2026"
+    "nombre": "Tercera 2026 · Junior"
    }
   },
   "boca/entrenamiento-23-24": {
@@ -983,6 +983,16 @@
     "ruta": "boca/alternativa-23-24-version-jugador-manga-larga",
     "club": "boca",
     "nombre": "Alternativa 23/24"
+   }
+  },
+  "boca/tercera-2026-2": {
+   "hash": "f814e67751dcd008ff4cf5386eac5d4b88474f49",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "boca/tercera-2026-2",
+    "club": "boca",
+    "nombre": "Tercera 2026"
    }
   },
   "river": {
@@ -2136,7 +2146,7 @@
    "visto": "2026-11-03"
   },
   "san-lorenzo/retro-2026": {
-   "hash": "a952188ec3b27b2b1c7a2d57c3c05b3ec3ecdf40",
+   "hash": "39985ce1b047f12f9f590104f50eae47dbdd2d3c",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2156,7 +2166,7 @@
    }
   },
   "san-lorenzo/retro-2026-ninos": {
-   "hash": "fa33390d5edec3e7ddcbfcd4c904d729502ad09c",
+   "hash": "b6e57d0ffcbd67f771ad3c17d07dafc64788f45a",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2166,7 +2176,7 @@
    }
   },
   "san-lorenzo/alternativa-2026": {
-   "hash": "fe45c127cd667eff98c502760549744c50b363dd",
+   "hash": "78cb46cf2ce9dfcf3710f11f4fdac754422aadf4",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2266,7 +2276,7 @@
    }
   },
   "san-lorenzo/tercera-2026-ninos": {
-   "hash": "cb4cbbbe93cee30e5f7000b219d26228d7725eb5",
+   "hash": "34527c90d3f81db663e51e0fa9f3369afdeab18d",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2276,7 +2286,7 @@
    }
   },
   "san-lorenzo/tercera-2026": {
-   "hash": "d2a61b9844618ead2b216e5bfd6ab05cc5edcd0d",
+   "hash": "81a02e3803535122aaf94a66a98782826c0ec53f",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2791,7 +2801,7 @@
    }
   },
   "talleres/alternativa-2025-fan": {
-   "hash": "386cd2e126478f3bee53121c00c305eb41864838",
+   "hash": "982f2f41a42968077a1a7ce2f7ff994437cb6cb9",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -5161,6 +5171,7 @@
   "LANUS-4553": "lanus/titular-2025-ninos",
   "LANUS-3927": "lanus/alternativa-2025",
   "LANUS-3446": "lanus/camiseta-oficial-blanca",
-  "LANUS-2336": "lanus/alternativa-2024"
+  "LANUS-2336": "lanus/alternativa-2024",
+  "4068808694186": "boca/tercera-2026-2"
  }
 }
