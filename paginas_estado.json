@@ -1,7 +1,7 @@
 {
  "paginas": {
   "argentina": {
-   "hash": "7f1f9c4b3ddfddd714848094282fbd13e5596f02",
+   "hash": "6b025c4620ed4b6c86e61c558be78538ba0d7a01",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -151,7 +151,7 @@
    }
   },
   "argentina/alternativa-2024-version-jugador": {
-   "hash": "a8b9bf7040802e920c7ee13ddd5d6870960ce735",
+   "hash": "f2eb597424d31e8a12b95e7707cf4c8729cd6297",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -211,7 +211,7 @@
    }
   },
   "argentina/titular-2026-azul": {
-   "hash": "8bc4ffd15db91d03524ff24bb57f8d97f3f263a6",
+   "hash": "48a6aff4c617a82dc0342b04a3b99e79864ff280",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -261,7 +261,7 @@
    }
   },
   "argentina/entrenamiento-2026": {
-   "hash": "64d707613409c5bd1a644cddaaf34a53f6d2cfeb",
+   "hash": "b771b8295c0f5e2fe6c4f014bcea746b68009d50",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -321,7 +321,7 @@
    }
   },
   "boca": {
-   "hash": "b057e14acbaae9eba777b0bd7fd75497127ce9ec",
+   "hash": "c1aff729ff4b6ab25656e01e94aafa2a9c697cad",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -336,7 +336,7 @@
    "visto": "2026-11-03"
   },
   "boca/titular-26-27": {
-   "hash": "f963da56c5dc981a40c0f7790e7a76002facb001",
+   "hash": "e34fd993b34f0580e1b743cce565027942886536",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -486,7 +486,7 @@
    }
   },
   "boca/alternativa-originals-26-27": {
-   "hash": "eeccfdc629fd087c56a624c5c74649c0c9a2b336",
+   "hash": "eea54a306d361eea34037a49f776adee1c65e81b",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -746,7 +746,7 @@
    }
   },
   "boca/titular-25-26-version-jugador": {
-   "hash": "63037534149fdaedba753fae3cf70da0f61f4569",
+   "hash": "e0f7ee52ddb8f38a0b833b92fe7766b0fc6db975",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -986,7 +986,7 @@
    }
   },
   "river": {
-   "hash": "06d1d170d12ac45e8a4d76310e1873e78fce7607",
+   "hash": "6eff62249f2ef9fb56469fb34d2c12b35378bd02",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -1151,7 +1151,7 @@
    }
   },
   "river/alternativa-25-26": {
-   "hash": "348ed666183a540d6f0897069dd71ec4c256484c",
+   "hash": "f0f5764f5500031a05fbe0409b9bc233016f8442",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -1608,16 +1608,6 @@
     "ruta": "river/entrenamiento-tiro-25-26",
     "club": "river",
     "nombre": "Entrenamiento Tiro 25/26"
-   }
-  },
-  "river/tercera-25-26": {
-   "hash": "294ee5dd1914e38a1616210c405cf1b26e3aa0b4",
-   "lastmod": "2026-11-03",
-   "visto": "2026-11-03",
-   "modelo": {
-    "ruta": "river/tercera-25-26",
-    "club": "river",
-    "nombre": "Tercera 25/26"
    }
   },
   "river/tercera-26-27-version-jugador-manga-larga": {
@@ -2136,7 +2126,7 @@
    }
   },
   "san-lorenzo": {
-   "hash": "b22e45d285199201f8140782a0d04c2aded47001",
+   "hash": "415e8ac6194a1c591f04fe429315990cf0cda211",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -2146,7 +2136,7 @@
    "visto": "2026-11-03"
   },
   "san-lorenzo/retro-2026": {
-   "hash": "36a452ecc84b609f966c1ccde1a3337c7d184a0d",
+   "hash": "3a2626cf972eac677e0cce768ed6dfe3dfe2fdb3",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2176,7 +2166,7 @@
    }
   },
   "san-lorenzo/alternativa-2026": {
-   "hash": "3654b73dcc126b096344948f422719c5aefa0b98",
+   "hash": "78cb46cf2ce9dfcf3710f11f4fdac754422aadf4",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2216,7 +2206,7 @@
    }
   },
   "san-lorenzo/titular-2026": {
-   "hash": "4f5280511fe41a8d51cfc628280ad6226aa59fbd",
+   "hash": "9ec9b3f58bb503f6ac7e9f604255463f892c98e3",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2226,7 +2216,7 @@
    }
   },
   "san-lorenzo/titular-2024": {
-   "hash": "f1ddd5c0f7e240d7f80d7b006b6a235d4d44033c",
+   "hash": "1cf7a8e32991aa6a86141204cf0b6350088fc3ba",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2246,7 +2236,7 @@
    }
   },
   "san-lorenzo/camiseta-oficial-2025": {
-   "hash": "c3eccd20dfac2252caeaed124f5cf0ef42237504",
+   "hash": "54ff9b5b4f359ed9c72f5eaa13ce5d5008e1368e",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2256,7 +2246,7 @@
    }
   },
   "san-lorenzo/pre-partido-2026": {
-   "hash": "7036ec74d60346a311778ef12ce3de35c6df9b9f",
+   "hash": "a86872a83d1378063bf713e2e4e893b2b4881272",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2285,8 +2275,18 @@
     "nombre": "Tercera 2026"
    }
   },
+  "san-lorenzo/tercera-2026": {
+   "hash": "81a02e3803535122aaf94a66a98782826c0ec53f",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "san-lorenzo/tercera-2026",
+    "club": "san_lorenzo",
+    "nombre": "Tercera 2026"
+   }
+  },
   "estudiantes": {
-   "hash": "dbea75a593499c4513c81c932e56514a81778600",
+   "hash": "7084d2f8c05bfc9d2938c6293c886c6ca322c585",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -2296,8 +2296,8 @@
    "visto": "2026-11-03"
   },
   "estudiantes/alternativa-2024": {
-   "hash": "8ac17e360bdd0df22350ffb3bfdaade96db007f5",
-   "lastmod": "2026-11-02",
+   "hash": "2259173651074ade272f63c9dadf3a1153b56f5b",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "estudiantes/alternativa-2024",
@@ -2306,7 +2306,7 @@
    }
   },
   "estudiantes/titular-2026-crop": {
-   "hash": "ac51cac30410cf9d9b11323efe26e90a45582a22",
+   "hash": "5335edbcd89333906787dc6f4acaec7311ec1f06",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2326,8 +2326,8 @@
    }
   },
   "estudiantes/alternativa-2025": {
-   "hash": "41b2748dcf683fd140ef035df8129b39438a3a4a",
-   "lastmod": "2026-11-02",
+   "hash": "366b1d9d860d50b295735688601ec6f9f6d8145e",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "estudiantes/alternativa-2025",
@@ -2336,8 +2336,8 @@
    }
   },
   "estudiantes/titular-2026": {
-   "hash": "889b0641b00eee0db324dd86a5a44bae34161449",
-   "lastmod": "2026-11-02",
+   "hash": "ac402c863966359fd1d6816b3f52816426d568f0",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "estudiantes/titular-2026",
@@ -2346,8 +2346,8 @@
    }
   },
   "estudiantes/alternativa-2026": {
-   "hash": "3280ca2992eaa1aab050cacfcc42b39c661e1f5b",
-   "lastmod": "2026-11-02",
+   "hash": "fc22ef783eed5515c3629dfab5cc37a36fea6192",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "estudiantes/alternativa-2026",
@@ -2356,8 +2356,8 @@
    }
   },
   "estudiantes/titular-2026-cetre-18-liga": {
-   "hash": "16d05c87f7a241f35d9012452dec2738b725c07b",
-   "lastmod": "2026-11-02",
+   "hash": "689aacf08aa1238dfea9da42992546992c61f4fe",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "estudiantes/titular-2026-cetre-18-liga",
@@ -2366,8 +2366,8 @@
    }
   },
   "estudiantes/titular-2026-correa-32-liga": {
-   "hash": "f02f75ad8a5481d38c7fa87876a97adc8055990c",
-   "lastmod": "2026-11-02",
+   "hash": "7541604050a1852f93649dbf5e458d09923d20bd",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "estudiantes/titular-2026-correa-32-liga",
@@ -2376,8 +2376,8 @@
    }
   },
   "estudiantes/titular-2026-palacios-24-liga": {
-   "hash": "50186b29f07fbe4a8e8ea8c21604c253c4f1cf8b",
-   "lastmod": "2026-11-02",
+   "hash": "59699019a57a28f143654d5f846d3804a5426540",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "estudiantes/titular-2026-palacios-24-liga",
@@ -2386,8 +2386,8 @@
    }
   },
   "estudiantes/alternativa-2026-cetre-18-liga": {
-   "hash": "616c269f153a299935ddf20ae9e93f3f2c114907",
-   "lastmod": "2026-11-02",
+   "hash": "3bb938553ebd05fb0ac408986c98956c8a632854",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "estudiantes/alternativa-2026-cetre-18-liga",
@@ -2396,8 +2396,8 @@
    }
   },
   "estudiantes/alternativa-2026-palacios-24-liga": {
-   "hash": "6d85756c7f2182231fdfdc823a5eafe74f793af1",
-   "lastmod": "2026-11-02",
+   "hash": "85bbe367df786827fbdd2f9229f5128809729e94",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "estudiantes/alternativa-2026-palacios-24-liga",
@@ -2466,23 +2466,13 @@
    }
   },
   "estudiantes/arquero-2026-iacovich-1-amarilla": {
-   "hash": "d3222a5f69fbb55c6e985df7ea0f92aebfc0eca7",
-   "lastmod": "2026-11-02",
+   "hash": "abac26f93dcae675e83881e1520345e891ea2801",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "estudiantes/arquero-2026-iacovich-1-amarilla",
     "club": "estudiantes",
-    "nombre": "Arquero 2026 · Iacovich 1 Amarilla"
-   }
-  },
-  "estudiantes/arquero-2026-muslera-16-celeste": {
-   "hash": "d6c235a09f92b07a529181451bd3f6e3720bd08d",
-   "lastmod": "2026-11-02",
-   "visto": "2026-11-03",
-   "modelo": {
-    "ruta": "estudiantes/arquero-2026-muslera-16-celeste",
-    "club": "estudiantes",
-    "nombre": "Arquero 2026 · Muslera 16 Celeste"
+    "nombre": "Arquero 2026"
    }
   },
   "estudiantes/alternativa-2026-carrillo-9-liga-ninos": {
@@ -2576,7 +2566,7 @@
    }
   },
   "velez/titular-2026-ninos": {
-   "hash": "1ee696663333d732956abbfdd03939fe985e4d56",
+   "hash": "961f09f8dd4d26b3508143f290eff0bebd7239a4",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -4350,6 +4340,26 @@
     "nombre": "Tercera 2026"
    }
   },
+  "river/tercera-25-26": {
+   "hash": "294ee5dd1914e38a1616210c405cf1b26e3aa0b4",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "river/tercera-25-26",
+    "club": "river",
+    "nombre": "Tercera 25/26"
+   }
+  },
+  "estudiantes/arquero-2026-muslera-16-celeste": {
+   "hash": "d6c235a09f92b07a529181451bd3f6e3720bd08d",
+   "lastmod": "2026-11-02",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "estudiantes/arquero-2026-muslera-16-celeste",
+    "club": "estudiantes",
+    "nombre": "Arquero 2026 · Muslera 16 Celeste"
+   }
+  },
   "argentina/alternativa-2024": {
    "hash": "e8e912eec719769122a352bbc5fdaed6ac73b509",
    "lastmod": "2026-11-02",
@@ -4408,16 +4418,6 @@
     "ruta": "independiente/alternativa",
     "club": "independiente",
     "nombre": "Alternativa"
-   }
-  },
-  "san-lorenzo/tercera-2026": {
-   "hash": "44439f61ae3f9ca1c0ff37c29d56d0c7a2a16f9f",
-   "lastmod": "2026-11-02",
-   "visto": "2026-11-02",
-   "modelo": {
-    "ruta": "san-lorenzo/tercera-2026",
-    "club": "san_lorenzo",
-    "nombre": "Tercera 2026"
    }
   },
   "talleres/titular-2025": {
@@ -4615,7 +4615,7 @@
   "KB8785": "river/titular-26-27-ninos",
   "KV7685": "river/alternativa-25-26",
   "KG8237": "river/alternativa-25-26",
-  "IV8189": "river/tercera-25-26",
+  "IV8189": "river/alternativa-25-26",
   "JI7077": "river/alternativa-25-26",
   "KV7686": "river/alternativa-25-26-mujer",
   "JN6474": "river/alternativa-25-26-mujer",
