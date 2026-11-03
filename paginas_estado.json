@@ -1,7 +1,7 @@
 {
  "paginas": {
   "argentina": {
-   "hash": "cfbe76d514f3e6d5deaccbd2c2143f375febbeae",
+   "hash": "6b025c4620ed4b6c86e61c558be78538ba0d7a01",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -151,7 +151,7 @@
    }
   },
   "argentina/alternativa-2024-version-jugador": {
-   "hash": "1f9d6eed5ae63d78f90c9469893c6e9f666f520c",
+   "hash": "f2eb597424d31e8a12b95e7707cf4c8729cd6297",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -321,22 +321,22 @@
    }
   },
   "boca": {
-   "hash": "8553a40ec0b6efb4de603398fe40ac6ce85b61cd",
+   "hash": "5e378bddc9c6b9d2db1492499dc117190032811b",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
   "boca/mujer": {
-   "hash": "bfc837facd615abf338284a7b374c71be03782c0",
+   "hash": "ff620af6249aace69734c83a5a739218e493f8b7",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
   "boca/ninos": {
-   "hash": "e3b4e0deab34b58a9f07b9cdfc93054c1e0e9b6b",
+   "hash": "006bcd6a29df6ef6592be4361d68424a23ddefe9",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
   "boca/titular-26-27": {
-   "hash": "95626e973fd824bacb0aa496c6d6029381b0e113",
+   "hash": "e34fd993b34f0580e1b743cce565027942886536",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -576,8 +576,8 @@
    }
   },
   "boca/tercera-2026-mujer": {
-   "hash": "174797f299b3269a6719f368c5c10213f841f96f",
-   "lastmod": "2026-11-02",
+   "hash": "f7ceb1edbaac3193ea4874614864291632f1a296",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "boca/tercera-2026-mujer",
@@ -606,7 +606,7 @@
    }
   },
   "boca/arquero-25-26": {
-   "hash": "47d2206042cf946b88fb407823e65254bb515a29",
+   "hash": "e0c62841aa1aab0135c1d9dfaaa0f5209c35fee9",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -676,7 +676,7 @@
    }
   },
   "boca/alternativa-25-26-azul": {
-   "hash": "358a5e7441eb3aee03044ef1b6f96ac0cc628d65",
+   "hash": "9a7c8c3f24d1f96d56146e2bc5b76f8727771c4d",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -696,7 +696,7 @@
    }
   },
   "boca/titular-26-27-crop-mujer": {
-   "hash": "aecc494c66bde0157f67d5ae48b5848169543241",
+   "hash": "e1541ecf7885545a72e8ae9b616045a5318a48c7",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -716,7 +716,7 @@
    }
   },
   "boca/arquero-24-25-ninos": {
-   "hash": "daf52fcadd954dc49dc1a924b693f75f8d802678",
+   "hash": "2f619874a9876ffd50e7fbf1e6e55c5f7c634c52",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -726,7 +726,7 @@
    }
   },
   "boca/alternativa-24-25": {
-   "hash": "5f9b0c0bf7203d22d8b501a3a33aaf9a13522d0c",
+   "hash": "bcc2507f92d7ac29171c953a590530b81f790e29",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -736,7 +736,7 @@
    }
   },
   "boca/titular-24-25-version-jugador": {
-   "hash": "9435a711486a459c2629f9fb6f8cf8d52308f9fd",
+   "hash": "6d2be8a5bcf4bec4f31f3c6b8b131c6038407cf0",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -746,7 +746,7 @@
    }
   },
   "boca/titular-25-26-version-jugador": {
-   "hash": "db57362c25bfb2ed7eb42e7bbdb0903770dde1d5",
+   "hash": "e0f7ee52ddb8f38a0b833b92fe7766b0fc6db975",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -1001,7 +1001,7 @@
    "visto": "2026-11-03"
   },
   "river/retro-aniversario-26-27": {
-   "hash": "15e73c20d1411a8678bd75810405918506ee2112",
+   "hash": "39398794f0145f48518d9ecbc588c694d88182a5",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -1131,7 +1131,7 @@
    }
   },
   "river/alternativa-26-27-mujer": {
-   "hash": "f6fc1504e89ad86ab8241dbe530d035c12e3e2f2",
+   "hash": "be2c38d111b883be35821c79ff89bb889000b1c2",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -1681,7 +1681,7 @@
    }
   },
   "independiente": {
-   "hash": "09816073c4e1be889537cd0ea2cb91ec3428073d",
+   "hash": "701f2faac26042b6bac7cf7f91ad7e504b8e54c2",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -1711,7 +1711,7 @@
    }
   },
   "independiente/alternativa-25-26": {
-   "hash": "82d45cddcba886dc31c1b89851b3a8faf06e30d4",
+   "hash": "75664d64d4075456bdf31fd6f34fe4800f3d2cea",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2126,12 +2126,12 @@
    }
   },
   "san-lorenzo": {
-   "hash": "415e8ac6194a1c591f04fe429315990cf0cda211",
+   "hash": "b69810cf77a7fbcded0daba78696fd4237f74c6d",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
   "san-lorenzo/ninos": {
-   "hash": "62bdf00142ae2fb0ba454242ec33a2f2408a05af",
+   "hash": "e68d6d8f8adcfc142ac5d7415e2d372812a8dc6c",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -2166,7 +2166,7 @@
    }
   },
   "san-lorenzo/alternativa-2026": {
-   "hash": "78cb46cf2ce9dfcf3710f11f4fdac754422aadf4",
+   "hash": "fe45c127cd667eff98c502760549744c50b363dd",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2186,7 +2186,7 @@
    }
   },
   "san-lorenzo/titular-2026-ninos": {
-   "hash": "ecb972f812e44cc738e6e816de1f060c37055eec",
+   "hash": "44fdf1520271b48a36dad7b56fb4022aff50edba",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2276,7 +2276,7 @@
    }
   },
   "san-lorenzo/tercera-2026": {
-   "hash": "54bb0de84674eadae1962bf74eaed51f908d0e20",
+   "hash": "d2a61b9844618ead2b216e5bfd6ab05cc5edcd0d",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2546,7 +2546,7 @@
    }
   },
   "velez/arquero-2026": {
-   "hash": "cfa6b7ecd036210775f203bfa5ea738fb5a198dc",
+   "hash": "10282a02cffc96cc7fb3b86b3fe498a5229e03df",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
