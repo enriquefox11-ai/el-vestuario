@@ -1,7 +1,7 @@
 {
  "paginas": {
   "argentina": {
-   "hash": "6b025c4620ed4b6c86e61c558be78538ba0d7a01",
+   "hash": "cfbe76d514f3e6d5deaccbd2c2143f375febbeae",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -151,7 +151,7 @@
    }
   },
   "argentina/alternativa-2024-version-jugador": {
-   "hash": "f2eb597424d31e8a12b95e7707cf4c8729cd6297",
+   "hash": "1f9d6eed5ae63d78f90c9469893c6e9f666f520c",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -321,22 +321,22 @@
    }
   },
   "boca": {
-   "hash": "c1aff729ff4b6ab25656e01e94aafa2a9c697cad",
+   "hash": "8553a40ec0b6efb4de603398fe40ac6ce85b61cd",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
   "boca/mujer": {
-   "hash": "29de31029ce34354122e30c712c5bf00f2a545cb",
+   "hash": "bfc837facd615abf338284a7b374c71be03782c0",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
   "boca/ninos": {
-   "hash": "006bcd6a29df6ef6592be4361d68424a23ddefe9",
+   "hash": "e3b4e0deab34b58a9f07b9cdfc93054c1e0e9b6b",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
   "boca/titular-26-27": {
-   "hash": "e34fd993b34f0580e1b743cce565027942886536",
+   "hash": "95626e973fd824bacb0aa496c6d6029381b0e113",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -446,7 +446,7 @@
    }
   },
   "boca/aniversario-2025": {
-   "hash": "a00a53ce2f3c79a3017969ed94cfadab14500ee9",
+   "hash": "200d1135e391230578ede4f9ebafa4e68a9de1cf",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -486,7 +486,7 @@
    }
   },
   "boca/alternativa-originals-26-27": {
-   "hash": "eea54a306d361eea34037a49f776adee1c65e81b",
+   "hash": "37a75e4df6afffba2feb62d1dd5650609bfaaa61",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -606,7 +606,7 @@
    }
   },
   "boca/arquero-25-26": {
-   "hash": "e0c62841aa1aab0135c1d9dfaaa0f5209c35fee9",
+   "hash": "47d2206042cf946b88fb407823e65254bb515a29",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -696,7 +696,7 @@
    }
   },
   "boca/titular-26-27-crop-mujer": {
-   "hash": "e1541ecf7885545a72e8ae9b616045a5318a48c7",
+   "hash": "aecc494c66bde0157f67d5ae48b5848169543241",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -716,7 +716,7 @@
    }
   },
   "boca/arquero-24-25-ninos": {
-   "hash": "2f619874a9876ffd50e7fbf1e6e55c5f7c634c52",
+   "hash": "daf52fcadd954dc49dc1a924b693f75f8d802678",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -726,7 +726,7 @@
    }
   },
   "boca/alternativa-24-25": {
-   "hash": "bcc2507f92d7ac29171c953a590530b81f790e29",
+   "hash": "5f9b0c0bf7203d22d8b501a3a33aaf9a13522d0c",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -736,7 +736,7 @@
    }
   },
   "boca/titular-24-25-version-jugador": {
-   "hash": "6d2be8a5bcf4bec4f31f3c6b8b131c6038407cf0",
+   "hash": "9435a711486a459c2629f9fb6f8cf8d52308f9fd",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -746,7 +746,7 @@
    }
   },
   "boca/titular-25-26-version-jugador": {
-   "hash": "e0f7ee52ddb8f38a0b833b92fe7766b0fc6db975",
+   "hash": "db57362c25bfb2ed7eb42e7bbdb0903770dde1d5",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -766,7 +766,7 @@
    }
   },
   "boca/alternativa-26-27-version-jugador": {
-   "hash": "5514a8da9d365adc8d59906782b94a91801a5801",
+   "hash": "ca97f20fe983458806a81604c04520419776a723",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -1001,7 +1001,7 @@
    "visto": "2026-11-03"
   },
   "river/retro-aniversario-26-27": {
-   "hash": "39398794f0145f48518d9ecbc588c694d88182a5",
+   "hash": "15e73c20d1411a8678bd75810405918506ee2112",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -1731,7 +1731,7 @@
    }
   },
   "independiente/titular-26-27": {
-   "hash": "c1043f121f92d8c966b3a92dd3dd999686eeb838",
+   "hash": "193b54e41b31977938a45705e7757693036627ce",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2136,7 +2136,7 @@
    "visto": "2026-11-03"
   },
   "san-lorenzo/retro-2026": {
-   "hash": "3a2626cf972eac677e0cce768ed6dfe3dfe2fdb3",
+   "hash": "a952188ec3b27b2b1c7a2d57c3c05b3ec3ecdf40",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2276,7 +2276,7 @@
    }
   },
   "san-lorenzo/tercera-2026": {
-   "hash": "81a02e3803535122aaf94a66a98782826c0ec53f",
+   "hash": "54bb0de84674eadae1962bf74eaed51f908d0e20",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2506,8 +2506,8 @@
    }
   },
   "velez/alternativa-2026": {
-   "hash": "d73e0b74616e360c2b26c572b32d9136d0e8db8f",
-   "lastmod": "2026-11-02",
+   "hash": "91ddc6529492f8b8439f204cc2d2ba6962eb7d80",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "velez/alternativa-2026",
@@ -2566,7 +2566,7 @@
    }
   },
   "velez/titular-2026-ninos": {
-   "hash": "961f09f8dd4d26b3508143f290eff0bebd7239a4",
+   "hash": "1ee696663333d732956abbfdd03939fe985e4d56",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2991,13 +2991,13 @@
    }
   },
   "lanus": {
-   "hash": "99282c48e37583340eda2c16632145582ea26937",
+   "hash": "dd765371932e19e6182dccb1e2096ce9e0908934",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
   "lanus/titular-2026": {
-   "hash": "62e16a4b798b9f5a3feb208d297810a240281bed",
-   "lastmod": "2026-11-02",
+   "hash": "ca2b16763d1bec900ff069ea37d12d0c76ceae6c",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "lanus/titular-2026",
@@ -3006,13 +3006,143 @@
    }
   },
   "lanus/camiseta-oficial-2026": {
-   "hash": "dd9f683898aa0e6cc7984065f143329ac0f62be6",
-   "lastmod": "2026-11-02",
+   "hash": "6d5f5c48e68910234a5004fd139f6d75ba521563",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "lanus/camiseta-oficial-2026",
     "club": "lanus",
     "nombre": "Camiseta oficial 2026"
+   }
+  },
+  "lanus/camiseta-oficial": {
+   "hash": "962b35d05c6da2c01723a4fcf5132d23b8ba071c",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/camiseta-oficial",
+    "club": "lanus",
+    "nombre": "Camiseta oficial"
+   }
+  },
+  "lanus/tercera-2026": {
+   "hash": "95d543b2a6969592ba458b9837dc4004e1be3d9c",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/tercera-2026",
+    "club": "lanus",
+    "nombre": "Tercera 2026"
+   }
+  },
+  "lanus/arquero-2026": {
+   "hash": "19f4002cdd906988e175f738300df4e1f5a8f2ad",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/arquero-2026",
+    "club": "lanus",
+    "nombre": "Arquero 2026"
+   }
+  },
+  "lanus/pre-partido-2026": {
+   "hash": "f8fb268e459d500b3d61aff530aed687da5abf44",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/pre-partido-2026",
+    "club": "lanus",
+    "nombre": "Pre-partido 2026"
+   }
+  },
+  "lanus/alternativa-2026": {
+   "hash": "bf9c0ccf3432ff52e63c1bd174cf085f07e027a6",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/alternativa-2026",
+    "club": "lanus",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "lanus/titular-2026-ninos": {
+   "hash": "56ec2d0b5347ef45268601b061fa0028a4769fee",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/titular-2026-ninos",
+    "club": "lanus",
+    "nombre": "Titular 2026"
+   }
+  },
+  "lanus/alternativa-pre-partido-2025": {
+   "hash": "536ac30e54b9155a70268c277fb61894a90b4675",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/alternativa-pre-partido-2025",
+    "club": "lanus",
+    "nombre": "Alternativa Pre-partido 2025"
+   }
+  },
+  "lanus/tercera-2025": {
+   "hash": "e01b0175663e41a1fe5f572d572edf4fb1b44701",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/tercera-2025",
+    "club": "lanus",
+    "nombre": "Tercera 2025"
+   }
+  },
+  "lanus/alternativa-2025-ninos": {
+   "hash": "ec4bac055a0293562dafa3c07cf7ef6219995b26",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/alternativa-2025-ninos",
+    "club": "lanus",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "lanus/titular-2025-ninos": {
+   "hash": "96d427662acf5925f30c478027ed24b19ccd1b2a",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/titular-2025-ninos",
+    "club": "lanus",
+    "nombre": "Titular 2025"
+   }
+  },
+  "lanus/alternativa-2025": {
+   "hash": "c904d4fce0f0cdabc8f98686768f522331338aae",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/alternativa-2025",
+    "club": "lanus",
+    "nombre": "Alternativa 2025"
+   }
+  },
+  "lanus/camiseta-oficial-blanca": {
+   "hash": "cc176aea1cfaba7df50c7a04e4c79b893f0ee575",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/camiseta-oficial-blanca",
+    "club": "lanus",
+    "nombre": "Camiseta oficial · Blanca"
+   }
+  },
+  "lanus/alternativa-2024": {
+   "hash": "30c22b7309e3d8270be5d44cd8e206e40ecc477d",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "lanus/alternativa-2024",
+    "club": "lanus",
+    "nombre": "Alternativa 2024"
    }
   },
   "argentinos": {
@@ -5016,6 +5146,21 @@
   "KAPPA-10406350455062": "huracan/tercera-ninos",
   "KAPPA-10104687886614": "tigre/camiseta-oficial-2025",
   "KAPPA-10535483179286": "san-martin-tucuman/entrenamiento-2026-version-jugador",
-  "TALLERES-363026": "talleres/alternativa-2025-fan"
+  "TALLERES-363026": "talleres/alternativa-2025-fan",
+  "LANUS-30096": "lanus/camiseta-oficial",
+  "LANUS-3345": "lanus/camiseta-oficial",
+  "LANUS-26238": "lanus/tercera-2026",
+  "LANUS-22263": "lanus/arquero-2026",
+  "LANUS-11916": "lanus/arquero-2026",
+  "LANUS-20249": "lanus/pre-partido-2026",
+  "LANUS-18938": "lanus/alternativa-2026",
+  "LANUS-18218": "lanus/titular-2026-ninos",
+  "LANUS-14427": "lanus/alternativa-pre-partido-2025",
+  "LANUS-13573": "lanus/tercera-2025",
+  "LANUS-8858": "lanus/alternativa-2025-ninos",
+  "LANUS-4553": "lanus/titular-2025-ninos",
+  "LANUS-3927": "lanus/alternativa-2025",
+  "LANUS-3446": "lanus/camiseta-oficial-blanca",
+  "LANUS-2336": "lanus/alternativa-2024"
  }
 }
