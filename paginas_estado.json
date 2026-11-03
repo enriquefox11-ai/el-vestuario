@@ -1,7 +1,7 @@
 {
  "paginas": {
   "argentina": {
-   "hash": "cfbe76d514f3e6d5deaccbd2c2143f375febbeae",
+   "hash": "6b025c4620ed4b6c86e61c558be78538ba0d7a01",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -151,7 +151,7 @@
    }
   },
   "argentina/alternativa-2024-version-jugador": {
-   "hash": "1f9d6eed5ae63d78f90c9469893c6e9f666f520c",
+   "hash": "f2eb597424d31e8a12b95e7707cf4c8729cd6297",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -191,7 +191,7 @@
    }
   },
   "argentina/titular-messi-10-2026": {
-   "hash": "639d4809b86946ad6b04e1f519b9db6c5ee7941e",
+   "hash": "7b6cb42150bb3d1829b2a0aed4829cd2db7f0092",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -321,7 +321,7 @@
    }
   },
   "boca": {
-   "hash": "f780220deaca3e81a95da102e0a4e58ee9ab4bd2",
+   "hash": "90843610936ddda62ca79b17fe1f9da2316caed0",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
@@ -486,7 +486,7 @@
    }
   },
   "boca/alternativa-originals-26-27": {
-   "hash": "a6fbdb267b37f95d75c618bdff27559191f11e0a",
+   "hash": "78a8eb24f143082327aed6f8f22706ceda62eec1",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -866,7 +866,7 @@
    }
   },
   "boca/tiro-26-27": {
-   "hash": "da7e9e0b58d984075955ad823e781a1a73b09754",
+   "hash": "bb70def79c6c4b908195f45e5149616419dda90e",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -993,6 +993,16 @@
     "ruta": "boca/tercera-2026-2",
     "club": "boca",
     "nombre": "Tercera 2026"
+   }
+  },
+  "boca/entrenamiento-tiro-25-26": {
+   "hash": "6e59f275f041e10f763eef7bd7bd67f4d1a9a7be",
+   "lastmod": "2026-11-03",
+   "visto": "2026-11-03",
+   "modelo": {
+    "ruta": "boca/entrenamiento-tiro-25-26",
+    "club": "boca",
+    "nombre": "Entrenamiento Tiro 25/26"
    }
   },
   "river": {
@@ -2146,7 +2156,7 @@
    "visto": "2026-11-03"
   },
   "san-lorenzo/retro-2026": {
-   "hash": "39985ce1b047f12f9f590104f50eae47dbdd2d3c",
+   "hash": "bb7a51d6c65aa9ce49a653dea9929b74725316d4",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2276,7 +2286,7 @@
    }
   },
   "san-lorenzo/tercera-2026-ninos": {
-   "hash": "34527c90d3f81db663e51e0fa9f3369afdeab18d",
+   "hash": "cb4cbbbe93cee30e5f7000b219d26228d7725eb5",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -2801,7 +2811,7 @@
    }
   },
   "talleres/alternativa-2025-fan": {
-   "hash": "982f2f41a42968077a1a7ce2f7ff994437cb6cb9",
+   "hash": "1f6244789a4d9a16b6fa2cacc84a929062fcb487",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -3846,12 +3856,12 @@
    }
   },
   "liverpool": {
-   "hash": "dc5eddda1e091b3972fcd5150441b75a0ed11be1",
+   "hash": "933839acf0487fb4e61d5d11db396e29e06ba048",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
   "liverpool/titular-26-27": {
-   "hash": "6f080eb38707c19743932561cafd98b1499de980",
+   "hash": "f03ea6c53b88c85d4bda25ad10f8d9a4ab03e847",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -3861,7 +3871,7 @@
    }
   },
   "liverpool/camiseta-oficial": {
-   "hash": "6f6bf81497d9c592f55d18494774542dc93335b0",
+   "hash": "b4ee1e49482a541fe096d8a632ac8de5277ccbaf",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -3881,7 +3891,7 @@
    }
   },
   "liverpool/camiseta-oficial-95-96": {
-   "hash": "7810bd75346b0dc7c3d775877553608f90758036",
+   "hash": "2e1e474e69bcdcfc8c423c94b64b18067dbbd4cc",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -3891,7 +3901,7 @@
    }
   },
   "liverpool/retro-eqt-2026": {
-   "hash": "d4ca26c259c581467794cd12da9c3145f5a33f91",
+   "hash": "2a34a2fea61568fe3ed51d44716b0d2c879aa0f4",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
@@ -3976,13 +3986,13 @@
    }
   },
   "atletico-madrid": {
-   "hash": "748fdf85a2adc732c6cae47d0fc4ef7dc641d739",
+   "hash": "cfcaa0d31fbd7a1e94058acb9865605db490fb8b",
    "lastmod": "2026-11-03",
    "visto": "2026-11-03"
   },
   "atletico-madrid/alternativa-stadium-26-27": {
-   "hash": "d93728d4021e4a79f2fc528996811a6d25708deb",
-   "lastmod": "2026-11-02",
+   "hash": "3dee17c6ab9f7ba7cd28e1678e540e5536aa1a60",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "atletico-madrid/alternativa-stadium-26-27",
@@ -4011,8 +4021,8 @@
    }
   },
   "atletico-madrid/alternativa-stadium-25-26": {
-   "hash": "c95bf2cab053b8d7a30e021b6ee2729ee792d524",
-   "lastmod": "2026-11-02",
+   "hash": "92d270792097f6a932496bdc3f80edef4f672d21",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "atletico-madrid/alternativa-stadium-25-26",
@@ -4021,8 +4031,8 @@
    }
   },
   "atletico-madrid/alternativa-25-26": {
-   "hash": "ffc34339512ab837b5d44640d090e07ec56da5bd",
-   "lastmod": "2026-11-02",
+   "hash": "3cd2ffe407044523dc6dad067454b4da1fa21fa9",
+   "lastmod": "2026-11-03",
    "visto": "2026-11-03",
    "modelo": {
     "ruta": "atletico-madrid/alternativa-25-26",
@@ -5172,6 +5182,7 @@
   "LANUS-3927": "lanus/alternativa-2025",
   "LANUS-3446": "lanus/camiseta-oficial-blanca",
   "LANUS-2336": "lanus/alternativa-2024",
-  "4068808694186": "boca/tercera-2026-2"
+  "4068808694186": "boca/tercera-2026-2",
+  "JP3310": "boca/entrenamiento-tiro-25-26"
  }
 }
