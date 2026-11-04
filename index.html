@@ -1320,7 +1320,7 @@ window.VITRINA = {"fecha":"2026-11-04","tiendas":{"dexter":"Dexter","stockcenter
   const tiendas = [...new Set(D.items.flatMap(i => i.ofertas.map(o => o.tienda)))].map(tienda);
   $("pie").innerHTML = `<p>Solo mostramos camisetas originales con stock. Precios de lista de cada tienda, sin envío. Las promos bancarias y las cuotas se muestran aparte, por tienda.</p>
     <p>Si seguís una camiseta o una búsqueda, usamos tu mail solo para avisarte de eso. No lo compartimos con nadie y te das de baja con un clic desde cualquier aviso.</p>
-    <p><a href="/privacidad/" style="color:inherit">Privacidad y contacto</a></p>${window.META_PIXEL ? `
+    <p><a href="https://www.instagram.com/elvestuario.app/" target="_blank" rel="noopener" style="color:inherit">Instagram</a> · <a href="mailto:hola@elvestuario.app" style="color:inherit">hola@elvestuario.app</a> · <a href="/privacidad/" style="color:inherit">Privacidad</a></p>${window.META_PIXEL ? `
     <p>Medimos las visitas de forma anónima para mejorar la página y saber qué anuncios funcionan (PostHog y Meta).</p>` : ""}`;
 
   pintarControles();
