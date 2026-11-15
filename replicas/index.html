@@ -1157,11 +1157,11 @@ window.VITRINA = {"fecha":"2026-11-14","tiendas":{"efp":"camisetasEFP","jc":"JC 
       const quien = nombres.length === 1 ? nombres[0] : nombres.slice(0, -1).join(", ") + " y " + nombres[nombres.length - 1];
       $("hero-tit").textContent = `Camisetas de ${quien}${para}`;
       $("hero-sub").textContent = COLECCION ? "Piezas originales de tiendas de colección, con su talle y estado." : nTiendas > 1
-        ? `La más barata${estado.talle ? ` en talle ${estado.talle}` : " en tu talle"}, comparada en ${nTiendas} ${TXT_TIENDAS}.`
+        ? `La más barata${estado.talle ? ` en talle ${estado.talle}` : " en tu talle"}, comparada entre ${TXT_TIENDAS}.`
         : `Precios y talles de las ${TXT_TIENDAS}.`;
     } else {
       $("hero-tit").textContent = TIT_GENERAL;
-      $("hero-sub").textContent = COLECCION ? "Originales de época, de utilería y usadas en partido." : `Compará precios y talles en ${TOTAL_TIENDAS} ${TXT_TIENDAS}.`;
+      $("hero-sub").textContent = COLECCION ? "Originales de época, de utilería y usadas en partido." : `Compará precios y talles en ${TXT_TIENDAS}.`;
     }
     const ts = [...$("f-talle").options].map(o => o.value).filter(Boolean);
     $("talles-rapidos").innerHTML = ts.length ? `<span>${estado.talle ? "Tu talle" : "¿Qué talle sos?"}</span>` + ts.map(t =>
