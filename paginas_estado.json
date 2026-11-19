@@ -1,27 +1,27 @@
 {
  "paginas": {
   "argentina": {
-   "hash": "14042f7c13f29709885b68f381999d22142965a2",
+   "hash": "23ed8aa74a6dc48d82c49de8758183893ec665cd",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "argentina/ninos": {
-   "hash": "58a252976be8baf26abece16aa13e99bf5efc8d4",
+   "hash": "ca861df36bbdb4019a2b0f97d9622eeba93dd39a",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "argentina/titular-messi-2026": {
-   "hash": "386d0accfbeeb7d3f2c3ffe11c071866709cde83",
+   "hash": "5ba838a7d70bb315ecc9ed0c12f75ec6cb40dcc1",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "argentina/titular-messi-2026",
     "club": "seleccion",
-    "nombre": "Titular Messi 2026"
+    "nombre": "Titular Messi 10 2026"
    }
   },
   "argentina/titular-messi-26-27": {
-   "hash": "b015c4e0f49ac3d6da387b74f84165e7c2ace0c3",
+   "hash": "d28603b2dba7900092266647b81d7266f9c21198",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -30,8 +30,18 @@
     "nombre": "Titular Messi 26/27"
    }
   },
+  "argentina/titular-messi-2026-2": {
+   "hash": "63851721f3296476cc8e7cf7ed008fdbcb81d24f",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "argentina/titular-messi-2026-2",
+    "club": "seleccion",
+    "nombre": "Titular Messi 2026"
+   }
+  },
   "argentina/titular-messi-2026-ninos": {
-   "hash": "86005f6c965f39cdaaf9855cfc00c7f7dd0fb193",
+   "hash": "228c6dd3313e140b1d3eb77c745b14dd681b71b7",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -41,7 +51,7 @@
    }
   },
   "argentina/titular-messi-10-2026-ninos": {
-   "hash": "bbf950ec71c11ea96ca55cacbc4ef8f07acce1d5",
+   "hash": "edeaa135854ed14428caee200bd410e314e44390",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -51,7 +61,7 @@
    }
   },
   "argentina/alternativa-originals-2026-ninos": {
-   "hash": "60229c3d55afa39fbf261996e9f47a2a56499893",
+   "hash": "a55657f4955eec9a50319db345455767efc4c75a",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -61,7 +71,7 @@
    }
   },
   "argentina/titular-2026-mujer": {
-   "hash": "168600cc9f5fe2624661f1a812abbb65fa473bf8",
+   "hash": "3ae1b6c8f3f6c3a33a25603f9082ece276e97d1e",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -71,7 +81,7 @@
    }
   },
   "argentina/pre-partido-messi-2026": {
-   "hash": "a4e0437e8ac194c7cebce991a34c5fbf64094aa3",
+   "hash": "f4276d9ef932d0844eaf8c966e5ebb20ba1ed47a",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -81,7 +91,7 @@
    }
   },
   "argentina/titular-2026-ninos": {
-   "hash": "4982b5d6b5c572b938c5b046c9d46a1f8ae1e566",
+   "hash": "16803150e278f4ed7b96e952aa04df7e1426c2fd",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -91,7 +101,7 @@
    }
   },
   "argentina/titular-2026-version-jugador": {
-   "hash": "73ac44a959f9de632d626d9055681722dba6e029",
+   "hash": "905c902ae6b91c83a0529d2ff4df735adfdc065b",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -101,7 +111,7 @@
    }
   },
   "argentina/arquero-aniversario-24-25": {
-   "hash": "4ca34f081499d29e679ea50aad87eb2663eb495f",
+   "hash": "b246e0e61ba6417fe84a392ad4084e23e7d94850",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -111,7 +121,7 @@
    }
   },
   "argentina/arquero-2026-titular": {
-   "hash": "866e8b663f262330679b2169b81e05815a794bf7",
+   "hash": "82acefade0c7faca8c3cf86d5ce080dda3e44617",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -121,7 +131,7 @@
    }
   },
   "argentina/arquero-2026": {
-   "hash": "ff414e7bf6832170bbead502076d16225b9af2c9",
+   "hash": "f465638ec78ed3e881a39d46bdeed7009915b252",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -131,7 +141,7 @@
    }
   },
   "argentina/pre-partido-2026": {
-   "hash": "09397cdc6fb36c12d2379fe4f072869b4bc52ea3",
+   "hash": "95fc3cbb9ccd51fc29d0ab4179b6d9577f90f0a5",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -141,17 +151,17 @@
    }
   },
   "argentina/alternativa-messi-10-2026-ninos": {
-   "hash": "746052a7315e015574fd686ebf4506f8b5c83f0a",
+   "hash": "a38945f1fe8bb57e871c48a7cb8d4f85f03312fa",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "argentina/alternativa-messi-10-2026-ninos",
     "club": "seleccion",
-    "nombre": "Alternativa 10 2026"
+    "nombre": "Alternativa Messi 10 2026"
    }
   },
   "argentina/arquero-2026-ninos": {
-   "hash": "46bf513ee7f7e736f1bfa62a7a040c81da7ffb7c",
+   "hash": "d790a04e0fc263ba652646f4dce82e3e1d064536",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -161,7 +171,7 @@
    }
   },
   "argentina/originals-2026-ninos": {
-   "hash": "3b3d0b8f341a10989e4626c6cb4f71aedd2a7d45",
+   "hash": "e8f1dbd317ba8e28c1776e29bd60f79946a9cbdb",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -171,7 +181,7 @@
    }
   },
   "argentina/titular-2006": {
-   "hash": "985c01164dba0f82d502845b67ebb8a8c5d13337",
+   "hash": "7867b5f664967dc5e771c547ddada03be5fd281d",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -181,7 +191,7 @@
    }
   },
   "argentina/entrenamiento-2026-3": {
-   "hash": "4d3daaa023a27479dfc078b2cc24cfda209a3f03",
+   "hash": "e9fb786b2c0df1cc909f28562b35e5e2be8318a6",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -191,7 +201,7 @@
    }
   },
   "argentina/titular-messi-10-26-27-ninos": {
-   "hash": "2dda24a052d2a801b9c4ea37139ea8e2aea65f2b",
+   "hash": "9925c12679aae2b3f14f423435e0b64022d47636",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -201,7 +211,7 @@
    }
   },
   "argentina/titular-2026-azul": {
-   "hash": "9b78190c43e297daa5b7763a2634604d1b0591fe",
+   "hash": "e396a6455ab05d84d6bb4b23baa6ccfe7640548d",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -211,7 +221,7 @@
    }
   },
   "argentina/alternativa": {
-   "hash": "581aa99b6bed39a1c84aefe1a6bc697d4cddfb4e",
+   "hash": "30f719637aec9a30e5fe45a5ebe0dd2528ceb700",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -221,7 +231,7 @@
    }
   },
   "argentina/alternativa-2024-version-jugador": {
-   "hash": "e3a28e4ba9a2716e433666599c30e85a1dcbb593",
+   "hash": "2d580dd14e05bb9cf490a8e7acd65cce2c460dde",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -231,7 +241,7 @@
    }
   },
   "argentina/titular-2026": {
-   "hash": "11f474cd44a65f6d54465f470c083ec5a567365a",
+   "hash": "df3690335341225202ab55a9c360443112cedc3c",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -241,7 +251,7 @@
    }
   },
   "argentina/titular-messi-10": {
-   "hash": "8b0b96fcb10c0beade8f640373b9c3bc65e9f9b7",
+   "hash": "e4ec46898787082feb592e7caa0d01a380316029",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -251,7 +261,7 @@
    }
   },
   "argentina/titular-messi": {
-   "hash": "d1989d14be2078b9a8c8caf53294579ff963651d",
+   "hash": "957d7f8de3b6c6fbfe8dfd055fd89135fecb3b75",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -261,7 +271,7 @@
    }
   },
   "argentina/titular-messi-2026-version-jugador-2": {
-   "hash": "061b17012ba57a0b61c78d8e5ea9961bf51664fc",
+   "hash": "df90d3117a61607d82125da6038a6c2013f0e139",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -271,7 +281,7 @@
    }
   },
   "argentina/entrenamiento-2026-2": {
-   "hash": "767de7ccf93e2d5d1769c2843ab238f8bb930318",
+   "hash": "2f70fc644aa0df7c68fcfbead75f489c4c634108",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -281,7 +291,7 @@
    }
   },
   "argentina/titular-messi-2026-mujer": {
-   "hash": "6f00eaf3acd90434e70bca6f8f4e683f955d3454",
+   "hash": "67c406b39ea7aa5cbfee0a549a6b2b7c184f5072",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -291,7 +301,7 @@
    }
   },
   "argentina/alternativa-2026-mujer-2": {
-   "hash": "fa87ff8beaf386e5c82c318dcfdeea2e68ffc296",
+   "hash": "8dab338e3b15c1bb6f4b4511d8c6088439e07f10",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -301,17 +311,17 @@
    }
   },
   "boca": {
-   "hash": "6ad4eb4cfe8a0058345f20adb34e51f82cef0375",
+   "hash": "fcbf3e5380248d767e956357e1bac8d2aef1a22c",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "boca/mujer": {
-   "hash": "1149b9e45559dd0053152a0186637cc0d960ca4d",
+   "hash": "b0f0127d002b961a5c0f3de9ebd8bc27f59b5e01",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "boca/ninos": {
-   "hash": "155609ac4fd3a3fc49e0b4e99c886fcc85f150d6",
+   "hash": "9f073177e2aeafcd9e4ef2b449f3f2de02afc402",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -356,7 +366,7 @@
    }
   },
   "boca/tercera-25-26-alternativa-2-blanca": {
-   "hash": "21a21dd9ae49b7cd0f6a031bcb2b7c1da6d80907",
+   "hash": "4892d3367b15c4cd4be5df1ad542f67892ca7604",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -446,7 +456,7 @@
    }
   },
   "boca/titular-26-27-manga-larga": {
-   "hash": "a4bd0fe0ed83263627a1235fab1f794cc24d18bc",
+   "hash": "d9cc0c8b43a53c14a5b0b68e87c65ecf9934f9df",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -466,7 +476,7 @@
    }
   },
   "boca/alternativa-originals-26-27": {
-   "hash": "1e38fd55ed43acdc7d2bf04c2a68c8f1de29bebe",
+   "hash": "3971fa23d019f24236f687bcc1473244788717d9",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -616,7 +626,7 @@
    }
   },
   "boca/alternativa-2026-version-jugador": {
-   "hash": "efc7c0836ca4f403a2e57e5c622702ac16b7cb4f",
+   "hash": "5cd96a507f407b7239cec46e078ac15dd53404b3",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -626,7 +636,7 @@
    }
   },
   "boca/titular-26-27-version-jugador-manga-larga": {
-   "hash": "9f158b4f8c3c13fcd250f99899d8cb0428a70ae1",
+   "hash": "51648ec1daeb88255522d35ffc90bc6978240077",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -666,7 +676,7 @@
    }
   },
   "boca/titular-26-27-crop-mujer": {
-   "hash": "ad04f6d0b318acde68ce357fe82ca0664d07f516",
+   "hash": "2e9f89450835ab84540945f62afd4b24afa0562f",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -676,7 +686,7 @@
    }
   },
   "boca/titular-26-27-ninos": {
-   "hash": "345b55107f422fc7e06372a339e79d9857285368",
+   "hash": "35407c0570d9210fdea5d87aae39de98a0c2da62",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -866,22 +876,22 @@
    }
   },
   "river": {
-   "hash": "7198aa9307034a9c2506dddf4be6fb24784475e4",
+   "hash": "6e8726cb252c5cb9160a1e2db5f0a9cc4e2022a0",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "river/mujer": {
-   "hash": "92863607ced6b301c0747115d26a6fd2b4ff7da1",
+   "hash": "5b73da2e58643eb9cb4b05a921451b002555b976",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "river/ninos": {
-   "hash": "e3020fb73a3a3a1e2e589ede9be5b63213f3dd3d",
+   "hash": "86804f137b11ae2754aa1366ba9f21bf7f405bf5",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "river/retro-aniversario-26-27": {
-   "hash": "dd4f73665824504e71ac4794548e07a542b8d189",
+   "hash": "3d0f98b52552fb9e6d363fe3d32ac2f15474db0d",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -891,7 +901,7 @@
    }
   },
   "river/titular-26-27": {
-   "hash": "f168eb93444d8272941331cb45f4eb6961fe9a3e",
+   "hash": "9e500b2c65234055d47be46ae608c08fe3c0866b",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -901,7 +911,7 @@
    }
   },
   "river/eqt": {
-   "hash": "f6dd041286678762d56262f4abca4dd07b2993e2",
+   "hash": "4ce2f3bb9c95ef4f09eab518708a88efecb6d37c",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -911,7 +921,7 @@
    }
   },
   "river/camiseta-oficial-1994": {
-   "hash": "96ba3ff4f7750417ca92eede7a3765f7f165d865",
+   "hash": "7a80a6744e938959ca494b5f38117fc4ad462a31",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -931,7 +941,7 @@
    }
   },
   "river/titular-26-27-blanca-mujer": {
-   "hash": "3bd97504b0bb487bd40f092a8e86395e1f90d953",
+   "hash": "18bc068dbd548f227e27bc9d032509fca0814180",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -941,7 +951,7 @@
    }
   },
   "river/pre-partido-26-27": {
-   "hash": "983e632ea1338d4743374d291b7aaba70f99d3db",
+   "hash": "a7660a5bdf0063e479bc8ba20a568c70e425c6ac",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -951,7 +961,7 @@
    }
   },
   "river/alternativa-originals-26-27-ninos": {
-   "hash": "717fc39e33182d39efab5fb06d93eeaf9245c35e",
+   "hash": "6b4a62c018046a1fff074e46e3889d0ba1d2c972",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -971,7 +981,7 @@
    }
   },
   "river/titular-26-27-manga-larga": {
-   "hash": "d75b03e8acd3402882570fa41f64de83f0b13105",
+   "hash": "f8fb912ec3c17114802ffb105a30ab89ccec0057",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -981,7 +991,7 @@
    }
   },
   "river/alternativa-originals-26-27": {
-   "hash": "6cc58fc907d8b3cfb540eaad15d46e1d65ba7970",
+   "hash": "b54eb62d27269ef68392a365c09d2d784086bd69",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -991,7 +1001,7 @@
    }
   },
   "river/aniversario-mujer": {
-   "hash": "8814c9017e120836fbc56304198e523d49f3eb1b",
+   "hash": "fa7b07003348c9e51cfe12b3d2f8e77f2a660a83",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1001,7 +1011,7 @@
    }
   },
   "river/tercera-26-27": {
-   "hash": "8e4bbb593b773c534403cb490b425575dcdb85fa",
+   "hash": "4d80069e4a440c61c6a1eae4f4a09fb766486fc5",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1011,7 +1021,7 @@
    }
   },
   "river/alternativa-26-27-mujer": {
-   "hash": "395eb781a6e64b03bfe12317d2d17fdc671a0ff0",
+   "hash": "2d2e14c11bf57f94081d5eaea40229ff9fbf837c",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1021,7 +1031,7 @@
    }
   },
   "river/entrenamiento-tiro-26-27": {
-   "hash": "872f52858073cb2e001b7ed5af83ec04604bbb67",
+   "hash": "64247ff559c4f96948dbc1dba3c4f5793d5af0c6",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1031,7 +1041,7 @@
    }
   },
   "river/tiro-sin-mangas-26-27": {
-   "hash": "94156cdbba7a443d6f37a2530a62c54374832148",
+   "hash": "69a43a328856abbb31227f281a7cbcb032aadb0e",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1041,7 +1051,7 @@
    }
   },
   "river/pre-partido-25-26": {
-   "hash": "aa3385da3d72062f687d73b9681d7316540836a4",
+   "hash": "765b4e8577faef87499274e84ca44ea75aa73510",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1061,7 +1071,7 @@
    }
   },
   "river/tercera-26-27-mujer": {
-   "hash": "f28993df12dc7db149b2664127b153985a625ab4",
+   "hash": "4ded5f667fa9f854890ee5927363e2131c72908e",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1071,7 +1081,7 @@
    }
   },
   "river/stadium-26-27": {
-   "hash": "8ce156c6c7f7ff6c3c2f7a2e4ba5f3ff9ac2703b",
+   "hash": "83f61d7d73e62b72fd4f1d161391470c9461bc1c",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1081,7 +1091,7 @@
    }
   },
   "river/arquero-25-26": {
-   "hash": "b1efe712be4627816d62702bc8e4cc99be6bd339",
+   "hash": "d496e22dca9e4173f6b1f743eb6d5b4851e1c33c",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1091,7 +1101,7 @@
    }
   },
   "river/alternativa-25-26": {
-   "hash": "38a3d7523e5aa25311401b1d9ffa30a47b76de60",
+   "hash": "e82bb2a1f7c0c8dc565fd3a6eee7878a79064bec",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1101,7 +1111,7 @@
    }
   },
   "river/titular-26-27-ninos": {
-   "hash": "ffcc9932167f4e9fe4f4066a185649fba769b920",
+   "hash": "515783ad0fbc68a5d74744e9e55d43e420e7c362",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1131,7 +1141,7 @@
    }
   },
   "river/tercera-26-27-version-jugador": {
-   "hash": "87e43eee6919d2fa82a81bf9d1ed7a4d0fd3d5df",
+   "hash": "bdbfe2c268a97f0d68934937b39a1706aa25df4b",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1141,7 +1151,7 @@
    }
   },
   "river/alternativa-25-26-mujer": {
-   "hash": "c13ecd5ba8731f72772743d36e763c159db260ce",
+   "hash": "1c78e85cb0d56de909bb19f4833c49844de50fd4",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1151,7 +1161,7 @@
    }
   },
   "river/alternativa-25-26-version-jugador": {
-   "hash": "03ab5342f9391cdde4eaeab7f5e6b77b102a16da",
+   "hash": "7f603c1ffbfa652fc06e0387b627f50be3ef5379",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1161,7 +1171,7 @@
    }
   },
   "river/titular-25-26-version-jugador": {
-   "hash": "d682e3cf699f7db10d6cd0df80a65642ddaae7ed",
+   "hash": "35eda9772f688a9598cf2fb175482ab1fbab1856",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1181,7 +1191,7 @@
    }
   },
   "river/alternativa-24-25": {
-   "hash": "e2f56883e43a3e9675a0d5e2ebf8a3e3f4f89158",
+   "hash": "467d0c2902d47fa0a8449ab8fb396be635c5e222",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1191,7 +1201,7 @@
    }
   },
   "river/titular-25-26-slim": {
-   "hash": "f202e811e07e419c5e6b44882fd20a5c680062a6",
+   "hash": "8e3cda0c36dabd43c1370594d3407744c13a072a",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1201,7 +1211,7 @@
    }
   },
   "river/titular-26-27-version-jugador-manga-larga": {
-   "hash": "e8d3c6da8e962cec19de16dc28bfeb9e9460392e",
+   "hash": "d5b112941051965e45082d11bb4f7ebe0f6720b4",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1211,7 +1221,7 @@
    }
   },
   "river/titular-26-27-version-jugador": {
-   "hash": "0f41a39f95f89fa8c32aa2aadeb2a0c1a263074c",
+   "hash": "4db562f443259c2105a6f17a96f80692ac587de8",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1221,7 +1231,7 @@
    }
   },
   "river/arquero-originals-26-27": {
-   "hash": "461dba519af699ad483721362485a57741f0b711",
+   "hash": "25ed2e0b31ff885e1251f66704276260a8d8158e",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1231,7 +1241,7 @@
    }
   },
   "river/alternativa-originals-26-27-version-jugador": {
-   "hash": "5ad7fa7a7ddd4275c362f0b5172a31ca5929ae5c",
+   "hash": "e7738f3d1bd2055724233137d19dd6e40e495ea0",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1251,7 +1261,7 @@
    }
   },
   "river/titular-25-26-mujer": {
-   "hash": "7bdbf3440fde31dcba23d0bb8238f95c3b37a32c",
+   "hash": "6b276730687ca3edebeacc7570124f0e8927dd0d",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1261,13 +1271,13 @@
    }
   },
   "river/titular-26-27-mujer": {
-   "hash": "4d8c68acea336cbf3112fd38f93b4f0d5964fc76",
+   "hash": "c1094b00965451a41ebb3c39755136c56a39002c",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "river/titular-26-27-mujer",
     "club": "river",
-    "nombre": "Titular 26/27"
+    "nombre": "Titular 26/27 · Crop"
    }
   },
   "river/entrenamiento-tiro-26-27-ninos": {
@@ -1281,7 +1291,7 @@
    }
   },
   "river/alternativa-24-25-mujer": {
-   "hash": "0ec9c96a4583fb783765238335e249c962d73451",
+   "hash": "fb62ef60e6fe5e10be05e23a8513bf2af2c5fc34",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1291,7 +1301,7 @@
    }
   },
   "river/alternativa-24-25-version-jugador": {
-   "hash": "5f6e3b1f43f65f5ee7c54dcf3a9fa14f5c6f9aa4",
+   "hash": "bb8e699cf1a4e45022bfcf97426ceaa0f2b76166",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1311,7 +1321,7 @@
    }
   },
   "river/camiseta-oficial-25-26": {
-   "hash": "7879cc7a100b0ba475589a6bb2b29370a81452e4",
+   "hash": "24834f3295bddca23eb4c50e5afcd7c596dd31ac",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1321,7 +1331,7 @@
    }
   },
   "river/eqt-2": {
-   "hash": "37505dd966c0391fbd4eac7120aa0b59ddef9c1a",
+   "hash": "f90ed6d0191b85f2326b923cb7908e7e7ff39df8",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1331,7 +1341,7 @@
    }
   },
   "river/titular-25-26": {
-   "hash": "f1c3f161c205524b4cec16c4d548aa7a3612b897",
+   "hash": "f4828df93d202774abc9c8206481a8a9c7ecbe4b",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1341,7 +1351,7 @@
    }
   },
   "river/alternativa-2026": {
-   "hash": "1ff8f0bb2a2d1e7a14751c7dff873b08c81eeec5",
+   "hash": "e99f667a60806f8bc85e0e828c95630bd1b5b02e",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1351,7 +1361,7 @@
    }
   },
   "river/entrenamiento-tiro-2025": {
-   "hash": "b2cbd44ed1b03ef23621f722d50dedc358644d98",
+   "hash": "77c232523fd2c10399202539ae7c043c0720bcc9",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1361,7 +1371,7 @@
    }
   },
   "river/titular-25-26-manga-larga-2": {
-   "hash": "65d0321149282b6482ac4bf88c5a853edc38e062",
+   "hash": "9d2a81736346cac29fda6bd25dcdead413d2fefd",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1371,7 +1381,7 @@
    }
   },
   "river/entrenamiento-24-25": {
-   "hash": "d6e397822d8615c21cee4c779b5c80b0406528dc",
+   "hash": "91928d93c085e209eceb3b110e29965bbcd82830",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1381,7 +1391,7 @@
    }
   },
   "river/arquero-24-25": {
-   "hash": "2adbf749fd7c642ccd5f870c6558dea9d3b4db2c",
+   "hash": "0f05736f083421607380f935596d40a7809aa818",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1391,7 +1401,7 @@
    }
   },
   "river/titular-24-25": {
-   "hash": "6956c962db7f3639d899fba929e43bc5034b25ca",
+   "hash": "104f2919faebfe620566130fb5bfe730b98efa7b",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1401,7 +1411,7 @@
    }
   },
   "river/alternativa-25-26-version-jugador-manga-larga": {
-   "hash": "78a7e285299d53daa19027d0ef75141d8c0eb0cb",
+   "hash": "79ceebb0deb66103dcabd40d5e8556c1263bfb08",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1411,7 +1421,7 @@
    }
   },
   "river/tiro-26-27": {
-   "hash": "bdfe700f47e44f638d95bc858d7c8bb44717bcb7",
+   "hash": "bbe21f0f22f04f2c671d7e20cc18456e193fd4ca",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1421,7 +1431,7 @@
    }
   },
   "river/titular-24-25-version-jugador-manga-larga": {
-   "hash": "f0acd65e4a776321a8b9b5d96bdf826b5eec6c6c",
+   "hash": "b44f42a6e4585e54497ddfc874a0a8d8eb65d4d2",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1431,7 +1441,7 @@
    }
   },
   "river/alternativa-26-27": {
-   "hash": "40ac2f8072348a3c1c30312565075b53d0202723",
+   "hash": "c7b9abb4e751fdd474c060df87899d09d4bb80dc",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1441,7 +1451,7 @@
    }
   },
   "river/entrenamiento-tiro-25-26": {
-   "hash": "73ef4904b90c63b3dd01f83a7af1022ba00bfc38",
+   "hash": "27b03601827336924be20770f7b4cece1e5584c8",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1451,7 +1461,7 @@
    }
   },
   "river/tercera-26-27-version-jugador-manga-larga": {
-   "hash": "9c5ddac6989c1bfa1d1c02059901286c1e4a15f0",
+   "hash": "5ab0a1726f4113ff826292cc0e30c6b415fd24d6",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1461,7 +1471,7 @@
    }
   },
   "river/tercera-24-25": {
-   "hash": "ecee55c63e5241ec8d346d4207c9665f5461bc24",
+   "hash": "f8c1fe3ef7eeeabb9848f9903a19d7d0028ffccd",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1471,7 +1481,7 @@
    }
   },
   "river/titular-25-26-version-jugador-manga-larga": {
-   "hash": "2b9b37e5d14a7e00e6e36d90e78bf10afcac692d",
+   "hash": "2dfe8cc1266a69f9de3454d6d896c80e3bf445c0",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1481,7 +1491,7 @@
    }
   },
   "river/alternativa-23-24": {
-   "hash": "8d22438daa7ef267c37f99109e802363cde42916",
+   "hash": "1eba94d17455d3daeae07886cd39b94ec0ddfc27",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1491,18 +1501,23 @@
    }
   },
   "independiente": {
-   "hash": "b7e518e23ce65234388e18c1d6d6975f5035c904",
+   "hash": "f7a48f3338246904ece7db60f1c4554f5d0be670",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19"
+  },
+  "independiente/mujer": {
+   "hash": "3a46a1e5419cbe6511609befafaa70bd2f454b02",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "independiente/ninos": {
-   "hash": "067c45ff99edc3515e8d31ff580445049c2423d4",
+   "hash": "5e065c3c34123cc6d6eeb8a5ab98a1c5fd66581c",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "independiente/alternativa-26-27": {
-   "hash": "3fdb74a7daeb6581e9b2c23e2ddf8cac648fcc63",
-   "lastmod": "2026-11-17",
+   "hash": "58bbdd98b18f93bcb469472f5bf0440c38b00094",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/alternativa-26-27",
@@ -1511,7 +1526,7 @@
    }
   },
   "independiente/titular-26-27": {
-   "hash": "7ac06dbd095c3745d26bd9c94758e68f9f67cd7a",
+   "hash": "e238b823bbc356c4d16735487334016d05833452",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1521,8 +1536,8 @@
    }
   },
   "independiente/titular-26-27-ninos": {
-   "hash": "0340e4fd813f9b1f79517843c18a29e512a1301c",
-   "lastmod": "2026-11-18",
+   "hash": "459847a271dc4261bbe7acc6194b2ef6d3010933",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/titular-26-27-ninos",
@@ -1541,7 +1556,7 @@
    }
   },
   "independiente/alternativa-25-26": {
-   "hash": "6b5e5f75886f0c549a7c3f73212193976f4375a3",
+   "hash": "e47afcd5daf8a063a4d5e90a0582656051e367c2",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1561,7 +1576,7 @@
    }
   },
   "independiente/titular-2026": {
-   "hash": "ea5a54b25e8d21292f61d70f6184b786a4254560",
+   "hash": "601e5db866bb11613ef3992fe0cc5650c986470b",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -1581,8 +1596,8 @@
    }
   },
   "independiente/alternativa-26-27-ninos": {
-   "hash": "5bfe5b5b6b93f27ff51573da32c55d25bce86132",
-   "lastmod": "2026-11-18",
+   "hash": "205d19e00d9599936fa1756fd3c935d9e86a680c",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/alternativa-26-27-ninos",
@@ -1591,8 +1606,8 @@
    }
   },
   "independiente/alternativa-2026-mujer": {
-   "hash": "91b48391cec10096c445aa04186f61e4137357e7",
-   "lastmod": "2026-11-17",
+   "hash": "b97b1933285478d4cafca16c1ad9e6df18e93f67",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/alternativa-2026-mujer",
@@ -1611,8 +1626,8 @@
    }
   },
   "independiente/alternativa-25-26-ninos": {
-   "hash": "348aa04cbf2b6f69ca6c3ba435ba7d7383384e30",
-   "lastmod": "2026-11-18",
+   "hash": "0180ff0ee1b0dc9f8f5c69bc5d61dc7f3b9e1ba0",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/alternativa-25-26-ninos",
@@ -1621,8 +1636,8 @@
    }
   },
   "independiente/alternativa-2026-ninos": {
-   "hash": "1b578c2f6d3416d87f1995c8c5665dacfcc7f4e2",
-   "lastmod": "2026-11-18",
+   "hash": "3adc2f999dbd62f7c3a78b3a4e6cec4b977702bf",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/alternativa-2026-ninos",
@@ -1641,8 +1656,8 @@
    }
   },
   "independiente/titular-26-27-mujer": {
-   "hash": "93ce668280a044f8d44903953e35c78e58e87679",
-   "lastmod": "2026-11-17",
+   "hash": "6722f92e342466a64e6151e12686d19684908433",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/titular-26-27-mujer",
@@ -1651,8 +1666,8 @@
    }
   },
   "independiente/alternativa-26-27-mujer": {
-   "hash": "8d194ffbf71077fafa07bc08ea7bc7e65bf0163c",
-   "lastmod": "2026-11-17",
+   "hash": "704ab883bbde636c93b846cdb4a41c1e8a59e463",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/alternativa-26-27-mujer",
@@ -1661,8 +1676,8 @@
    }
   },
   "independiente/titular-25-26-ninos": {
-   "hash": "bb498a372016ccaa31692a6a098cad3ee17b8052",
-   "lastmod": "2026-11-18",
+   "hash": "a0d4a1a52624d6aba4e6705f95df8ef94e0b3a85",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/titular-25-26-ninos",
@@ -1741,8 +1756,8 @@
    }
   },
   "independiente/alternativa-ninos": {
-   "hash": "286be0875fe2ceb3ea42b032a004a5ddc8e94fb3",
-   "lastmod": "2026-11-18",
+   "hash": "37dd5253238d0bf5c3553d69101cf3e1b012fc67",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/alternativa-ninos",
@@ -1811,8 +1826,8 @@
    }
   },
   "independiente/alternativa-24-25-ninos": {
-   "hash": "3780f0d80dbccd62e610a425589a8014e32ed603",
-   "lastmod": "2026-11-18",
+   "hash": "37eaa8e490623680808e5d6cfc0429ae2ca7f419",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/alternativa-24-25-ninos",
@@ -1821,8 +1836,8 @@
    }
   },
   "independiente/camiseta-oficial-ninos-2": {
-   "hash": "6aa76114f4cc755e4b134512817bfadfdf640b1b",
-   "lastmod": "2026-11-18",
+   "hash": "5435baaad9e90507c95492e25a9585e11b9f67db",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "independiente/camiseta-oficial-ninos-2",
@@ -1830,14 +1845,24 @@
     "nombre": "Camiseta oficial"
    }
   },
+  "independiente/titular-2025-mujer": {
+   "hash": "bb07165f7ee0501c4e2222a2eac1c1434e415efe",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "independiente/titular-2025-mujer",
+    "club": "independiente",
+    "nombre": "Titular 2025"
+   }
+  },
   "racing": {
-   "hash": "3dfad4f5d39cba2216f5718031e68aae50f4ebce",
+   "hash": "3767cb893205a91d09ce2439c00d043d7ea87df7",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "racing/titular-stadium-2026": {
-   "hash": "ffe0d9e875ea98ffdfb6db41611d62ee443e9d67",
-   "lastmod": "2026-11-17",
+   "hash": "95e2955bad578abdf97cafe5cb4f71e417b71f23",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "racing/titular-stadium-2026",
@@ -1846,8 +1871,8 @@
    }
   },
   "racing/titular-2026": {
-   "hash": "6dcd8c705ffa4e3ac056ca88631d8a9dd6b922c6",
-   "lastmod": "2026-11-17",
+   "hash": "90bc856f9528a50df1bc3b19b12b65b1e8ddc447",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "racing/titular-2026",
@@ -1856,8 +1881,8 @@
    }
   },
   "racing/alternativa-stadium-2026": {
-   "hash": "678c643b15e2d36ad7f4369cb3bdfd94f9c2ad3f",
-   "lastmod": "2026-11-18",
+   "hash": "274602717a82daaba3f30087027350d79ad6c8c4",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "racing/alternativa-stadium-2026",
@@ -1876,8 +1901,8 @@
    }
   },
   "racing/arquero-2026": {
-   "hash": "cad908ae8f5787f9873b51aa11f470a777639085",
-   "lastmod": "2026-11-17",
+   "hash": "90a8c72433b948baa8f33f92b92c225fc73bf12b",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "racing/arquero-2026",
@@ -1915,13 +1940,33 @@
     "nombre": "Camiseta oficial"
    }
   },
+  "racing/camiseta-oficial-2026": {
+   "hash": "2ee503eba4cf5cc803bc95b227fa57297cb8e434",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "racing/camiseta-oficial-2026",
+    "club": "racing",
+    "nombre": "Camiseta oficial 2026"
+   }
+  },
+  "racing/alternativa": {
+   "hash": "41f7558679d82138507898922631ce66e3347d4c",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "racing/alternativa",
+    "club": "racing",
+    "nombre": "Alternativa"
+   }
+  },
   "san-lorenzo": {
-   "hash": "600b4c90d28db70f10f1a303044247927e78155e",
+   "hash": "d8805414073ad4b4a32bd6675397553ea821e8c4",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "san-lorenzo/ninos": {
-   "hash": "19eea0cc7358927545163923c1defa831ba6a701",
+   "hash": "536693f02befc18083bb0679f54bed99c4c3b2ea",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -2036,7 +2081,7 @@
    }
   },
   "san-lorenzo/camiseta-oficial": {
-   "hash": "8465adf2b658d72fcfda29d59b3ca15990e81682",
+   "hash": "ebf281f439289d2560e8cebb79ceebc99ce16243",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -2046,7 +2091,7 @@
    }
   },
   "san-lorenzo/alternativa": {
-   "hash": "d4ad689f1216bc44b32cacf9c2b75c8da03446da",
+   "hash": "eba8e38554770e18cf6bf8fbc70fc5a9f6768ee5",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -2096,12 +2141,12 @@
    }
   },
   "estudiantes": {
-   "hash": "78197b0e2fef4dd783c2d6f6899870da5cf64d51",
+   "hash": "fdd4aeb42f7ff2c5089d8e99941f186acfd0deb8",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "estudiantes/ninos": {
-   "hash": "b5644686fccf40ccee587fee9ee9f7af06c2acfe",
+   "hash": "d728f2a3576bf0396e322cc9110d5160f387175d",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -2636,7 +2681,7 @@
    }
   },
   "velez": {
-   "hash": "611f38ac37a345f35453dd73dfda483a08c298ab",
+   "hash": "f43bd791a739dc26a694f6c762ab2d4f0eb90b55",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -2710,18 +2755,88 @@
     "nombre": "Alternativa 2026"
    }
   },
+  "rosario-central": {
+   "hash": "e61be6a0edc1ae1cc53df10bb41396e07fab060d",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19"
+  },
+  "rosario-central/arquero": {
+   "hash": "ca91e807373a715bb8086d67a10b3a8f2082bf78",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "rosario-central/arquero",
+    "club": "rosario_central",
+    "nombre": "Arquero"
+   }
+  },
+  "rosario-central/alternativa-2026-version-jugador": {
+   "hash": "5ec2fd9fa0bf90712b4526dc0d6f1983e0e75a78",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "rosario-central/alternativa-2026-version-jugador",
+    "club": "rosario_central",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "rosario-central/camiseta-oficial-2026-mujer": {
+   "hash": "b0218290e9caf9900c29a84cacda93a96cfe9c24",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "rosario-central/camiseta-oficial-2026-mujer",
+    "club": "rosario_central",
+    "nombre": "Camiseta oficial 2026"
+   }
+  },
+  "rosario-central/camiseta-oficial-2026-version-jugador": {
+   "hash": "5bf76c84235b868804205aad49da0478c761bc23",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "rosario-central/camiseta-oficial-2026-version-jugador",
+    "club": "rosario_central",
+    "nombre": "Camiseta oficial 2026"
+   }
+  },
+  "newells": {
+   "hash": "6e4a15475e808303c95fc5464c1a3cdc7853edf6",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19"
+  },
+  "newells/alternativa-2026": {
+   "hash": "8dffb325bc12f394def7dd7f746fd47d375ad7b9",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "newells/alternativa-2026",
+    "club": "newells",
+    "nombre": "Alternativa 2026"
+   }
+  },
+  "newells/camiseta-oficial-2026": {
+   "hash": "d75770880789032d10f6c256d7d61bbf36dfc99b",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "newells/camiseta-oficial-2026",
+    "club": "newells",
+    "nombre": "Camiseta oficial 2026"
+   }
+  },
   "talleres": {
-   "hash": "23fd76bd5a80f2dece317a9621bf5c40d710cfd7",
+   "hash": "5ba554886c05aadc9c0d2ea96864e9257334d5ef",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "talleres/mujer": {
-   "hash": "122949bbda6663dcf2f51a24fd17e2208b47a357",
+   "hash": "b5b96c0217515fb75d40d81dbcce01ecb4da4842",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "talleres/ninos": {
-   "hash": "6bc2fa54d09c26cfeb0b6cca211b6277aa9bc054",
+   "hash": "95558ff460a1ed1510f9baa385475c775934bf9c",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -2936,7 +3051,7 @@
    }
   },
   "barcelona": {
-   "hash": "b2d84260d4a44ae8aaae09e9e43aec3c284dc253",
+   "hash": "ae096b4f7654ce09b79d0c01afb8546f32c94d6c",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -2981,13 +3096,13 @@
    }
   },
   "real-madrid": {
-   "hash": "ac5c8796de516951e5cdf6b73fa5008f01020cd5",
+   "hash": "372c4cfd8813b0245ca3c561a7b57ec17a20ea60",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "real-madrid/titular-26-27": {
-   "hash": "bc0a2654eb88d15e9613bc4c4188462aab86ae57",
-   "lastmod": "2026-11-17",
+   "hash": "4bca93808971edd76584311055e4a8d46b1a30dc",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "real-madrid/titular-26-27",
@@ -3026,8 +3141,8 @@
    }
   },
   "real-madrid/eqt": {
-   "hash": "ad9aa920f46af0660c781370ec2516d93b079598",
-   "lastmod": "2026-11-18",
+   "hash": "eca42e5035a53411ae419112da293aeb0821ad4e",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "real-madrid/eqt",
@@ -3046,7 +3161,7 @@
    }
   },
   "brasil": {
-   "hash": "3b854bf56fd3073dc449a123e76890c228e9b4ed",
+   "hash": "f153a623c94f0c8ef848e564f738f20a0418194f",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -3061,7 +3176,7 @@
    }
   },
   "inter-miami": {
-   "hash": "8cb43f300131ac35fbeb882de7d9b77922b23886",
+   "hash": "00534277d47f8e230cf18afe7ac9286c93bc2de6",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -3106,7 +3221,7 @@
    }
   },
   "lanus": {
-   "hash": "741be07e2a60ab8ef60ab6e37a16581f87e2b0aa",
+   "hash": "ade2dc5f7fbf91f974ba5387dfbd0d36572ef7cc",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -3261,12 +3376,12 @@
    }
   },
   "argentinos": {
-   "hash": "d497b11a93e256f8bb7bcb4cf8d79cf61be71aef",
+   "hash": "3b40b278b5088bc8367495190d9bc09e10ed1ec5",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "argentinos/ninos": {
-   "hash": "10e4140155896b6a9ec03d4f4e34eef9f697c290",
+   "hash": "438754e2664d85addebb16b4beee26aa4a81ee2e",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -3391,7 +3506,7 @@
    }
   },
   "huracan": {
-   "hash": "1b77dcc54bdee07dd1c32bdbb56edae7c656faab",
+   "hash": "76af0018beb12593c230079c83cb14b2cf8bf709",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -3616,7 +3731,7 @@
    }
   },
   "tigre": {
-   "hash": "e9de52301bc23d613c22d0399793158cd673bab7",
+   "hash": "7552779ed893e87f6ff7e0bff6bb23e56933733e",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -3731,7 +3846,7 @@
    }
   },
   "platense": {
-   "hash": "2e0033bcaf700681d0b2485073da9e817eea8382",
+   "hash": "6c458604aab48cc38b05cd69ab31eb0fc3d94cc4",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -3786,7 +3901,7 @@
    }
   },
   "aldosivi": {
-   "hash": "c54db381967cf8796351039febbe5ffca69d164b",
+   "hash": "1cf7b1c6a820d5af280aa1270af5222ff1108032",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -3841,7 +3956,7 @@
    }
   },
   "banfield": {
-   "hash": "bcb4717bc0b5fb5b49771fae2fb0f13e1c8637c1",
+   "hash": "3abd026e169f808974958d36dafb001323e2006a",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -3876,7 +3991,7 @@
    }
   },
   "atletico-tucuman": {
-   "hash": "531ec6170efdd4a2d34767479b1f2a2c7e67c796",
+   "hash": "ea7abe9a2b67a5a6d8f2f6730aed531151911bf1",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -3991,7 +4106,7 @@
    }
   },
   "san-martin-tucuman": {
-   "hash": "bd7cd2d2bd7f1ec9c42ac200b0e41942f7b07641",
+   "hash": "3c863e28b9228410f41c4d9510a0f53b091c3140",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4086,7 +4201,7 @@
    }
   },
   "manchester-city": {
-   "hash": "ea06a345064196564313c4c7f4c63138b606e48a",
+   "hash": "839d4c6604d503610362e1ead1cf0aa7be03d5da",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4161,23 +4276,23 @@
    }
   },
   "manchester-united": {
-   "hash": "1e47050700a1507deeafc538b5fca10216d6ce58",
+   "hash": "1222231783c6d0b7fc4ac8da471db12db988ca98",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "manchester-united/camiseta-oficial-2026": {
-   "hash": "ddb86ef40dcd3afd761010e30816eddb2b4468dc",
-   "lastmod": "2026-11-17",
+   "hash": "0bb076048f5c2560f890e3a4e51e54a3fe2cdc5a",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "manchester-united/camiseta-oficial-2026",
     "club": "manchester_united",
-    "nombre": "Camiseta oficial 2026"
+    "nombre": "EQT 2026"
    }
   },
   "manchester-united/camiseta-oficial": {
-   "hash": "288887e237882fe80881dd427c3489fe54748815",
-   "lastmod": "2026-11-18",
+   "hash": "6491380231a47fb5e99ec1567ee6e461498aa35e",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "manchester-united/camiseta-oficial",
@@ -4196,8 +4311,8 @@
    }
   },
   "manchester-united/alternativa": {
-   "hash": "c6d69dc09b3a5a9b13728ffca352bfed932b2b51",
-   "lastmod": "2026-11-17",
+   "hash": "be3d597aa266513ea3fbfa01c70ebd53874a8bd9",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "manchester-united/alternativa",
@@ -4206,12 +4321,12 @@
    }
   },
   "liverpool": {
-   "hash": "05853a37abf474c701077c1ab8cbcdf2ea1faf12",
+   "hash": "26fab2113e49a7e12738339d14ef1cb9419d07f8",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "liverpool/titular-26-27": {
-   "hash": "54b9f87a15340a1b3889feaeaef0b11c12185714",
+   "hash": "eb0430b0999e8af3eff7b2b83f671f37ae2effdd",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -4251,8 +4366,8 @@
    }
   },
   "liverpool/retro-eqt-2026": {
-   "hash": "2a4bedfbc3aa1563000e1607a42588aabb4acbae",
-   "lastmod": "2026-11-17",
+   "hash": "782749b170e7d040320a374126a4db99bec19d56",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "liverpool/retro-eqt-2026",
@@ -4261,7 +4376,7 @@
    }
   },
   "arsenal": {
-   "hash": "4001893872f7a0c91b40f30252838c98e4846b5f",
+   "hash": "9becc8eae323fbf2ee3437a79d428d672d01cb41",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4276,7 +4391,7 @@
    }
   },
   "chelsea": {
-   "hash": "8a79726f1abe83d4e449fc6b45d3eb8654f0540b",
+   "hash": "bbe92a02b58d947e69b09ef2fa8a0eb93b863526",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4301,7 +4416,7 @@
    }
   },
   "tottenham": {
-   "hash": "7a77d5e4f30f610b62439f5ceedefcef8cdbb0ce",
+   "hash": "a8c483db02478dfac66b1e470adc631b172f04a1",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4326,7 +4441,7 @@
    }
   },
   "atletico-madrid": {
-   "hash": "4df52626868ca9d5cd953f0f5c23b58c7882dc13",
+   "hash": "c9c7306ce1b1111184642224041274141120b518",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4371,7 +4486,7 @@
    }
   },
   "dortmund": {
-   "hash": "18978fdaf0a177d410c2f85b54acfa22ec6a15fe",
+   "hash": "c0d5dd01b881086a4b514359d2c74e6ead7ecf00",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4396,7 +4511,7 @@
    }
   },
   "milan": {
-   "hash": "96e7d6b1173730819681f8535dc3e99f0eaf1c26",
+   "hash": "fdbc03c4c3be44fb08a35bdd12960aa6da6ecb69",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4451,7 +4566,7 @@
    }
   },
   "inter": {
-   "hash": "1e09f5e2f0370e6b4ff1e5e78651333671f94813",
+   "hash": "e9fad7e9e261e6e235d2f384db871ac30ee0dd01",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4476,7 +4591,7 @@
    }
   },
   "juventus": {
-   "hash": "c24e175040164a2241a0833900104b06a3329b84",
+   "hash": "e80d8bd9b1ee06066b22472205eb4cfe53a9a6d5",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4501,7 +4616,7 @@
    }
   },
   "psg": {
-   "hash": "0bbcddece63d1625e694940e2a75fcec11ddece0",
+   "hash": "0dbec13b829fb0778022f21b2fdd61f7ca9ca9c0",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4516,7 +4631,7 @@
    }
   },
   "alemania": {
-   "hash": "bffddf372df104159ab44516179c177089a23a7e",
+   "hash": "84cc5f8949ca1865c8e2b769b554f8fa216d5eb0",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4531,7 +4646,7 @@
    }
   },
   "alemania/alternativa-originals-2026": {
-   "hash": "889ff70e03b9632ff1c4a0390c617d490694c767",
+   "hash": "f7eb4b25703a1d5e34f56fa00c5a827621d7b635",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -4541,7 +4656,7 @@
    }
   },
   "alemania/camiseta-oficial": {
-   "hash": "cbe454e9f45da7f83725782f0acfb4ae3f28d059",
+   "hash": "7f43d9a4c977850c4fa37e7e17fd05ce75272b85",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -4550,8 +4665,18 @@
     "nombre": "Camiseta oficial"
    }
   },
+  "alemania/alternativa": {
+   "hash": "16608d5036a35ea753e2961e7c73ef53f5fdf574",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "alemania/alternativa",
+    "club": "alemania",
+    "nombre": "Alternativa"
+   }
+  },
   "alemania/titular-1994": {
-   "hash": "4653e2b006a8b4471fee48e6bb2cb8f1eee28391",
+   "hash": "b171ccbe133f1704c2c5f4caeac9cbbddfe901ac",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -4561,8 +4686,8 @@
    }
   },
   "alemania/alternativa-crop": {
-   "hash": "ee21b4493d05519b97a1ff9ff2e4ddb04b672b05",
-   "lastmod": "2026-11-17",
+   "hash": "4ae5e40a91c3c9a4063b4642f6aa4b357906d0cd",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "alemania/alternativa-crop",
@@ -4571,7 +4696,7 @@
    }
   },
   "espana": {
-   "hash": "5f29b14c3b8ecce6a694d08bb86185a7543fb836",
+   "hash": "52db328f19133265b18ea1a2a62b9f705dee42dd",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4596,7 +4721,7 @@
    }
   },
   "espana/titular": {
-   "hash": "79a2a52c38fcc63911c171c45108c93537027c92",
+   "hash": "aa752d9b554ca808da17518ad1ce66128f72cd20",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -4636,7 +4761,7 @@
    }
   },
   "italia": {
-   "hash": "f261a2b8434506009932471d954d8bf477118b33",
+   "hash": "7560c3c51281cb7cde467eeb72f3f5f8dc06123e",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4651,7 +4776,7 @@
    }
   },
   "italia/alternativa-originals-2026": {
-   "hash": "3b047dbc7c6f557c4929cf377fdb861350302425",
+   "hash": "586aaeb9e232b6d6b153232114e4b02f427cb041",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
@@ -4691,7 +4816,7 @@
    }
   },
   "portugal": {
-   "hash": "96042d6c5f3a1886a44ba129ed501a424708ab1c",
+   "hash": "eccd0546cd2a5d8bd402989508c829edbcf7ddb8",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4716,7 +4841,7 @@
    }
   },
   "inglaterra": {
-   "hash": "b6e83a75c7444c010ee6faae6f8248177f385bc8",
+   "hash": "e2d689a9b5f74fe4cd7a5b77171943643b53f09e",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4731,7 +4856,7 @@
    }
   },
   "paises-bajos": {
-   "hash": "fcef71d1b49e3fd2bd5c7eca965ed840d782f748",
+   "hash": "2f86838ea8b3ae8a8b05efd64325f64096c9d260",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4746,13 +4871,13 @@
    }
   },
   "uruguay": {
-   "hash": "9799ae58e8c131934556f2cfa3857b86101922fa",
+   "hash": "64ec6930a2f338127135212a2fea2e14618c21cd",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "uruguay/camiseta-oficial": {
-   "hash": "02d3e5a369706b2cf5cbe46da968dae7107ade5f",
-   "lastmod": "2026-11-17",
+   "hash": "a30faa3c5961a7bba5e1966e23ae32d8fc907cb9",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "uruguay/camiseta-oficial",
@@ -4761,8 +4886,8 @@
    }
   },
   "uruguay/titular": {
-   "hash": "13e07301b80b790df5388c12d4c00b699a1b080e",
-   "lastmod": "2026-11-17",
+   "hash": "302e212b5a4281f5ca58aad93deebdaf079d4cc7",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "uruguay/titular",
@@ -4770,8 +4895,18 @@
     "nombre": "Titular"
    }
   },
+  "uruguay/titular-2026": {
+   "hash": "a6ea6e4130621ee6f5ab1d42e02308ddd19ea744",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "uruguay/titular-2026",
+    "club": "uruguay",
+    "nombre": "Titular 2026"
+   }
+  },
   "colombia": {
-   "hash": "e18eb2ce8b3d6369d1bce64fd6484abdcbec3868",
+   "hash": "e10a23a5574741675af9e66801fe8c06797fec12",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
@@ -4786,18 +4921,28 @@
    }
   },
   "mexico": {
-   "hash": "5bc14000835c0eba3e266941e12c4544fd251aaa",
+   "hash": "0bff1de5dcdb33d6df91b78c397115b36ddf35bd",
    "lastmod": "2026-11-19",
    "visto": "2026-11-19"
   },
   "mexico/tercera-2026-version-jugador": {
-   "hash": "ff9ba97121e98f25dcb23d9a1fd4a5b132bc0a1a",
-   "lastmod": "2026-11-17",
+   "hash": "b2b37dfb8b4971298e05a6b745f92b094c81cda3",
+   "lastmod": "2026-11-19",
    "visto": "2026-11-19",
    "modelo": {
     "ruta": "mexico/tercera-2026-version-jugador",
     "club": "mexico",
     "nombre": "Tercera 2026"
+   }
+  },
+  "mexico/alternativa-version-jugador": {
+   "hash": "35687235791575b57ee6ba6b9f8f94da69cd5e9e",
+   "lastmod": "2026-11-19",
+   "visto": "2026-11-19",
+   "modelo": {
+    "ruta": "mexico/alternativa-version-jugador",
+    "club": "mexico",
+    "nombre": "Alternativa"
    }
   },
   "argentina/titular-messi-2026-version-jugador": {
@@ -5200,16 +5345,6 @@
     "nombre": "Entrenamiento Tiro 25/26"
    }
   },
-  "argentina/titular-messi-2026-2": {
-   "hash": "414fe0035032e7c5176cd4700187c9aa7ee5fc35",
-   "lastmod": "2026-11-13",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "argentina/titular-messi-2026-2",
-    "club": "seleccion",
-    "nombre": "Titular Messi 2026"
-   }
-  },
   "argentina/titular-messi-2006": {
    "hash": "edfa4ab2d5f303373f533a26dda21ac25a85a08d",
    "lastmod": "2026-11-13",
@@ -5228,36 +5363,6 @@
     "ruta": "independiente/titular-2025-ninos",
     "club": "independiente",
     "nombre": "Titular 2025"
-   }
-  },
-  "independiente/titular-2025-mujer": {
-   "hash": "336c2e9b7721dd4e52e7421a797750ae6e887d48",
-   "lastmod": "2026-11-11",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "independiente/titular-2025-mujer",
-    "club": "independiente",
-    "nombre": "Titular 2025"
-   }
-  },
-  "racing/alternativa": {
-   "hash": "bf91864d377b6451ac719d595ea7294562c27138",
-   "lastmod": "2026-11-13",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "racing/alternativa",
-    "club": "racing",
-    "nombre": "Alternativa"
-   }
-  },
-  "racing/camiseta-oficial-2026": {
-   "hash": "154892d5a41384eae62ce9a6133072414d51086d",
-   "lastmod": "2026-11-13",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "racing/camiseta-oficial-2026",
-    "club": "racing",
-    "nombre": "Camiseta oficial 2026"
    }
   },
   "velez/alternativa-ninos": {
@@ -5288,96 +5393,6 @@
     "ruta": "rosario-central/camiseta-oficial-2026-ninos",
     "club": "rosario_central",
     "nombre": "Camiseta oficial 2026"
-   }
-  },
-  "rosario-central/alternativa-2026-version-jugador": {
-   "hash": "f19e943f19471f012fc8a0acc9832079a3d06612",
-   "lastmod": "2026-11-13",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "rosario-central/alternativa-2026-version-jugador",
-    "club": "rosario_central",
-    "nombre": "Alternativa 2026"
-   }
-  },
-  "rosario-central/camiseta-oficial-2026-mujer": {
-   "hash": "574f104588426e44d387969f7a4f0f48d7c6a739",
-   "lastmod": "2026-11-11",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "rosario-central/camiseta-oficial-2026-mujer",
-    "club": "rosario_central",
-    "nombre": "Camiseta oficial 2026"
-   }
-  },
-  "rosario-central/camiseta-oficial-2026-version-jugador": {
-   "hash": "defe7ad990044b21839a20faa00ac2e8924a9a5d",
-   "lastmod": "2026-11-13",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "rosario-central/camiseta-oficial-2026-version-jugador",
-    "club": "rosario_central",
-    "nombre": "Camiseta oficial 2026"
-   }
-  },
-  "rosario-central/arquero": {
-   "hash": "c623116de3994d16574538c9c511b56d6c9e8748",
-   "lastmod": "2026-11-13",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "rosario-central/arquero",
-    "club": "rosario_central",
-    "nombre": "Arquero"
-   }
-  },
-  "newells/alternativa-2026": {
-   "hash": "660c70c9fe206df8e772d755a9b0409be4403ed1",
-   "lastmod": "2026-11-11",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "newells/alternativa-2026",
-    "club": "newells",
-    "nombre": "Alternativa 2026"
-   }
-  },
-  "newells/camiseta-oficial-2026": {
-   "hash": "487f0318f286382c611c0c5c4aab4c1d6fcc5705",
-   "lastmod": "2026-11-11",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "newells/camiseta-oficial-2026",
-    "club": "newells",
-    "nombre": "Camiseta oficial 2026"
-   }
-  },
-  "alemania/alternativa": {
-   "hash": "56fd3c50764074b66b176784c80139f8143b98b0",
-   "lastmod": "2026-11-13",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "alemania/alternativa",
-    "club": "alemania",
-    "nombre": "Alternativa"
-   }
-  },
-  "uruguay/titular-2026": {
-   "hash": "2601b79c7412495142cdb341184eacb01855045f",
-   "lastmod": "2026-11-11",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "uruguay/titular-2026",
-    "club": "uruguay",
-    "nombre": "Titular 2026"
-   }
-  },
-  "mexico/alternativa-version-jugador": {
-   "hash": "38785034976a3ce0398df1a96dfce7e5df40d9fe",
-   "lastmod": "2026-11-11",
-   "visto": "2026-11-13",
-   "modelo": {
-    "ruta": "mexico/alternativa-version-jugador",
-    "club": "mexico",
-    "nombre": "Alternativa"
    }
   },
   "boca/alternativa-24-25": {
@@ -5908,8 +5923,8 @@
   "LD3312": "argentina/titular-messi-26-27",
   "KA8061": "argentina/titular-2026-mujer",
   "LD3308": "argentina/titular-messi-2026-ninos",
-  "KA8118": "argentina/titular-messi-2026",
-  "LD3315": "argentina/titular-messi-2026",
+  "KA8118": "argentina/titular-messi-2026-2",
+  "LD3315": "argentina/titular-messi-2026-2",
   "4069994242199": "argentina/titular-messi-2026",
   "JM5897": "argentina/titular-2026-version-jugador",
   "4068815504713": "argentina/titular-2026-version-jugador",
@@ -6203,7 +6218,7 @@
   "JM9458": "juventus/camiseta-oficial",
   "JJ4323": "juventus/camiseta-oficial",
   "JN2070": "alemania/camiseta-oficial",
-  "JZ6941": "alemania/camiseta-oficial",
+  "JZ6941": "alemania/alternativa",
   "KD8363": "alemania/camiseta-oficial",
   "JZ2254": "espana/camiseta-oficial",
   "JN3707": "espana/titular",
