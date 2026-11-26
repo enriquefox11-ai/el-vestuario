@@ -351,7 +351,7 @@
    }
   },
   "boca": {
-   "hash": "30913c2e723ee83cd59d85b4f506ee3bb18d7743",
+   "hash": "135649539aa032a9167e2ee6a197256b17183639",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26"
   },
@@ -361,7 +361,7 @@
    "visto": "2026-11-26"
   },
   "boca/ninos": {
-   "hash": "86ab894f9b6057eeed8afa2b7ee57a93e8839ed1",
+   "hash": "7b5584884c2e8e131edf47dd069f76d68a744add",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26"
   },
@@ -376,7 +376,7 @@
    }
   },
   "boca/tercera-25-26-ninos": {
-   "hash": "c90fcb283ce9be05fecf2da9477689e5dc66e94b",
+   "hash": "e5dcb8865b4a2d362ccf9ae5c6b5daeadb0dd3f3",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -436,7 +436,7 @@
    }
   },
   "boca/alternativa-25-26-azul-ninos": {
-   "hash": "8a9b0cab799919b78391e7b966d651374e7dc3a2",
+   "hash": "b017e001f4f8258ec975678e7c96c22afc0ed53c",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -526,7 +526,7 @@
    }
   },
   "boca/alternativa-25-26-ninos": {
-   "hash": "8439a2a93c3a4daae749f30cc15753cfcbbbc790",
+   "hash": "40b578c648a00b92110824afb8c17d8f803367ec",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -546,7 +546,7 @@
    }
   },
   "boca/arquero-25-26-ninos": {
-   "hash": "d78f0d340244a50c2b6ef6855a80bb412914ebf3",
+   "hash": "798b52a7d627b337c00b65bafbf6d70325cd3166",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -566,7 +566,7 @@
    }
   },
   "boca/alternativa-25-26-azul-dorada-ninos": {
-   "hash": "7843b4c8f0240ef5794f89205c23ed1c2c4086fc",
+   "hash": "6584e6a16a910a0adebf9fc9bf8c5eae09ebe0db",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -586,7 +586,7 @@
    }
   },
   "boca/alternativa-26-27-ninos": {
-   "hash": "2f06ce68ff25d4c3049861344354866abf060b9a",
+   "hash": "42943717582e43880f9f40bb314d1b1c267be928",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -636,7 +636,7 @@
    }
   },
   "boca/titular-24-25-ninos": {
-   "hash": "b95fa1eaf8e0c6e1fd59d4124f3ffa269f66d46d",
+   "hash": "eed9d65d2311ad294bba3bf24f34fc502a51910c",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -656,7 +656,7 @@
    }
   },
   "boca/aniversario-2025-ninos": {
-   "hash": "30135e91c55f27c3969352bcb3d27ff7c3851002",
+   "hash": "c59e0393b5224ba29a565cb659e25a861425e738",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -686,7 +686,7 @@
    }
   },
   "boca/titular-26-27-ninos": {
-   "hash": "3246d91bfda9ef5d62591f746ddbf15b3461ab05",
+   "hash": "45ff2096487c0050e1030b972501fe4901f77324",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -786,7 +786,7 @@
    }
   },
   "boca/entrenamiento-tiro-25-26": {
-   "hash": "aae01448b8b73646f05234f595b797a0945fdaf9",
+   "hash": "14d8c133e660311d8d136d08d6480fef1de238cc",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -845,6 +845,16 @@
     "nombre": "Aniversario 2001"
    }
   },
+  "boca/entrenamiento-tiro-2025-ninos": {
+   "hash": "7e3fed7f1db60a4d73046e2a146e2fd3494771ac",
+   "lastmod": "2026-11-26",
+   "visto": "2026-11-26",
+   "modelo": {
+    "ruta": "boca/entrenamiento-tiro-2025-ninos",
+    "club": "boca",
+    "nombre": "Entrenamiento Tiro 2025"
+   }
+  },
   "boca/alternativa-23-24": {
    "hash": "5d19045fff2e515e7123ec101e26a50b5ce5af65",
    "lastmod": "2026-11-25",
@@ -866,8 +876,8 @@
    }
   },
   "boca/tercera-2026": {
-   "hash": "5d80af8291f3e33d5aba25e8494dec31a9e97e7f",
-   "lastmod": "2026-11-25",
+   "hash": "71440cedbbd29259f587d3af96ac3338e84ef4f4",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "boca/tercera-2026",
@@ -906,7 +916,7 @@
    }
   },
   "boca/alternativa-23-24-ninos": {
-   "hash": "d0832e9dea7c1c6eb1b69ecdf42291c2bc01b77b",
+   "hash": "21dfc730596368bd13a523aa6a7f97505df7a53e",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -1006,7 +1016,7 @@
    }
   },
   "boca/camiseta-oficial-ninos": {
-   "hash": "f914d466b7a397e043c0d8d32564da4af4cc8892",
+   "hash": "d179314140c0fe671fd60b2ee54867c26a205710",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -2486,7 +2496,7 @@
    }
   },
   "san-lorenzo": {
-   "hash": "d4da54f02f8da0e3857b64499cd7b2ed8048eeed",
+   "hash": "b039a43d7c4fb275021f560d77a0234b99e004cc",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26"
   },
@@ -2496,13 +2506,13 @@
    "visto": "2026-11-26"
   },
   "san-lorenzo/ninos": {
-   "hash": "afbf4c262d070c3c9c6917c6a041d021cfdab0d2",
+   "hash": "17a131db8185c015c048ff5354d2d58727a6c32a",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26"
   },
   "san-lorenzo/camiseta-oficial-2025-ninos": {
-   "hash": "287894aef0195b7d9d46cb6b9bf8d2ffdb0f8070",
-   "lastmod": "2026-11-25",
+   "hash": "556c433db0d47e02c7abd2e9af02831e305d9d12",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "san-lorenzo/camiseta-oficial-2025-ninos",
@@ -2511,8 +2521,8 @@
    }
   },
   "san-lorenzo/retro-2026-ninos": {
-   "hash": "83c22c847337d8c033979cdecf422cb964c936b8",
-   "lastmod": "2026-11-25",
+   "hash": "bd3d0cff4fd153891ab31f774a43b4ae1e4625b5",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "san-lorenzo/retro-2026-ninos",
@@ -2521,8 +2531,8 @@
    }
   },
   "san-lorenzo/alternativa-2026-ninos": {
-   "hash": "d26993ba1f6dde71387031563ba01631db041d63",
-   "lastmod": "2026-11-25",
+   "hash": "a73d9d6e75b513c063245f5f9287c06e95b0e6c0",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "san-lorenzo/alternativa-2026-ninos",
@@ -2531,8 +2541,8 @@
    }
   },
   "san-lorenzo/titular-2026-ninos": {
-   "hash": "c09b0e591a82b0b62a64d49fbc599a30ac9fc65b",
-   "lastmod": "2026-11-25",
+   "hash": "cd018042f0abcc98f8b0bfc3891393d320099949",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "san-lorenzo/titular-2026-ninos",
@@ -2611,8 +2621,8 @@
    }
   },
   "san-lorenzo/retro-ninos": {
-   "hash": "c93c1934983ecf8d6077713fb8a8a4b12b2732d7",
-   "lastmod": "2026-11-23",
+   "hash": "3e56a5a8476ac12dd245bc862f8b86fd4691b79f",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "san-lorenzo/retro-ninos",
@@ -2621,8 +2631,8 @@
    }
   },
   "san-lorenzo/tercera-bordo-ninos": {
-   "hash": "67c16f7c079eaf1d26fb1f33c562cb9b948410dd",
-   "lastmod": "2026-11-23",
+   "hash": "467dfce29badfb4fc41b0697c4e05db28bae62cc",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "san-lorenzo/tercera-bordo-ninos",
@@ -2651,8 +2661,8 @@
    }
   },
   "san-lorenzo/titular-ninos": {
-   "hash": "5ad85317184136f7189349f3887527399e6ccb12",
-   "lastmod": "2026-11-23",
+   "hash": "816987b03ad9cf89c6f60ed728b09936b174372e",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "san-lorenzo/titular-ninos",
@@ -2671,8 +2681,8 @@
    }
   },
   "san-lorenzo/alternativa-ninos": {
-   "hash": "d3602031a40f058a08d1bc2a3a5da79c0f54779e",
-   "lastmod": "2026-11-23",
+   "hash": "4ac1a1539c3ec17df31561e2e33b7f90ed422e36",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "san-lorenzo/alternativa-ninos",
@@ -2681,8 +2691,8 @@
    }
   },
   "san-lorenzo/tercera-negra-ninos": {
-   "hash": "8239d587c256182b2a8c981823f7ccda9f2dd68f",
-   "lastmod": "2026-11-23",
+   "hash": "9445951017e1263b6eddb73a1872e9e4a373f08b",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "san-lorenzo/tercera-negra-ninos",
@@ -2741,7 +2751,7 @@
    }
   },
   "san-lorenzo/tercera-2026-ninos": {
-   "hash": "f0a45017ab81df6f17396a8c7c1db194d715d060",
+   "hash": "9e8b167af3e0dd3191f425be1ddd2a32eb8039f8",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -2791,8 +2801,8 @@
    }
   },
   "san-lorenzo/titular-2017-ninos": {
-   "hash": "9f26f8b0cba36581afc811b16aa0be6cee3637e6",
-   "lastmod": "2026-11-25",
+   "hash": "992d137e88fde4360b7e9bab7d3cd571e2d0417e",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "san-lorenzo/titular-2017-ninos",
@@ -2801,7 +2811,7 @@
    }
   },
   "san-lorenzo/camiseta-oficial-2": {
-   "hash": "5720c44adcc5410f3a0213dfe583060f9569e05b",
+   "hash": "3fb0c82b64a41f19e2aafb81e794cd97104882a6",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -2840,6 +2850,16 @@
     "nombre": "Arquero 2025"
    }
   },
+  "san-lorenzo/camiseta-oficial-ninos": {
+   "hash": "6874e64b2563f25bfa48630725972f6f1c0b23ba",
+   "lastmod": "2026-11-26",
+   "visto": "2026-11-26",
+   "modelo": {
+    "ruta": "san-lorenzo/camiseta-oficial-ninos",
+    "club": "san_lorenzo",
+    "nombre": "Camiseta oficial"
+   }
+  },
   "san-lorenzo/retro-1995": {
    "hash": "3b5a3be2783b4d050900bbc97e827c91a1d2be06",
    "lastmod": "2026-11-26",
@@ -2851,8 +2871,8 @@
    }
   },
   "san-lorenzo/alternativa-2025-ninos": {
-   "hash": "7fd579e2e8f7da6be4e4553510f8e2edc238a9a6",
-   "lastmod": "2026-11-25",
+   "hash": "c0d51da0f9454f7c117000ea03a19e03245ae11e",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "san-lorenzo/alternativa-2025-ninos",
@@ -3996,7 +4016,12 @@
    }
   },
   "lanus": {
-   "hash": "217b8633c0cd9775a8f4a68377d4edb51ee6f80e",
+   "hash": "5479296f8a19d35f1a0ef05410b3ea416e5f70c4",
+   "lastmod": "2026-11-26",
+   "visto": "2026-11-26"
+  },
+  "lanus/ninos": {
+   "hash": "c43aaa49709e6cd3118e708af27e893709068751",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26"
   },
@@ -4041,8 +4066,8 @@
    }
   },
   "lanus/camiseta-oficial": {
-   "hash": "39be91acd2f2705a851399c9bbd1dd34ce13ea9b",
-   "lastmod": "2026-11-20",
+   "hash": "dc2251cbfd7fcf9edc68ab44b2373f4e5eb67e6b",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "lanus/camiseta-oficial",
@@ -4091,8 +4116,8 @@
    }
   },
   "lanus/titular-2026-ninos": {
-   "hash": "bcbddc53972f8d60be933cefaeab9697f053bd84",
-   "lastmod": "2026-11-21",
+   "hash": "51e784a2698a1c0de9a1d69130f105675d30bd96",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "lanus/titular-2026-ninos",
@@ -4121,8 +4146,8 @@
    }
   },
   "lanus/alternativa-2025-ninos": {
-   "hash": "04295682619b70e2afc6d9274abab4b51dc0924a",
-   "lastmod": "2026-11-21",
+   "hash": "e4e159dce59cc66d0ee5437b25c112a2e2202c71",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "lanus/alternativa-2025-ninos",
@@ -4131,8 +4156,8 @@
    }
   },
   "lanus/titular-2025-ninos": {
-   "hash": "34fe40b1aa94c2e42a18158254de24a5dff47763",
-   "lastmod": "2026-11-21",
+   "hash": "a8b27c48012e8b9fe964378670784b92f9f7345d",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "lanus/titular-2025-ninos",
@@ -4158,6 +4183,16 @@
     "ruta": "lanus/camiseta-oficial-blanca",
     "club": "lanus",
     "nombre": "Camiseta oficial · Blanca"
+   }
+  },
+  "lanus/camiseta-oficial-2": {
+   "hash": "ab8e1983e4bec3ff3d67fbbe4d6fb71b45da6475",
+   "lastmod": "2026-11-26",
+   "visto": "2026-11-26",
+   "modelo": {
+    "ruta": "lanus/camiseta-oficial-2",
+    "club": "lanus",
+    "nombre": "Camiseta oficial"
    }
   },
   "lanus/alternativa-2024": {
@@ -4191,18 +4226,18 @@
    }
   },
   "argentinos": {
-   "hash": "8ea727665ba64eec9b951a64a58cd96d0c179731",
+   "hash": "9599461c12dd8893f41971c9917c70f98e74aff6",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26"
   },
   "argentinos/ninos": {
-   "hash": "0183a55e37db7d454086cae1e20f4b101afb53a0",
+   "hash": "7ddb3c3dbddd85d32b4afca474a6e681ff30bb34",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26"
   },
   "argentinos/alternativa-2024-ninos": {
-   "hash": "92adb7313d05f57419ef1016077804c3237e46aa",
-   "lastmod": "2026-11-23",
+   "hash": "2831c28d56d0b13b858bfe00786952f2517bb52c",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/alternativa-2024-ninos",
@@ -4211,7 +4246,7 @@
    }
   },
   "argentinos/tercera": {
-   "hash": "eadcd8d551c3c67b3f42e02b2553d14db598e7fa",
+   "hash": "80a65a94ed1aad079201d42df68d6084d9d4b84b",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -4221,7 +4256,7 @@
    }
   },
   "argentinos/tercera-ninos": {
-   "hash": "ec8b2268293131ecc13faf5f58ba8b67c0bfec4d",
+   "hash": "012ef5bd91411507e584a99df63b790c62e784a2",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -4231,7 +4266,7 @@
    }
   },
   "argentinos/alternativa": {
-   "hash": "deb7e09178200ea6a4a6501cf4d7c790129aa39b",
+   "hash": "0f59f6936906eb415f6dc31adea0520b4354511a",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -4241,7 +4276,7 @@
    }
   },
   "argentinos/titular-2": {
-   "hash": "9e88c1d693f340bc0b7ac3f3cbfd180185ac1540",
+   "hash": "2d5cd82e793cd4190aa71e406cc5315962e76209",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -4251,8 +4286,8 @@
    }
   },
   "argentinos/alternativa-ninos": {
-   "hash": "14821be214839c6efa1d4ba91d0c91e41bae06a7",
-   "lastmod": "2026-11-23",
+   "hash": "d32cd58145b80cd69bc9751ca8d802a719c796a0",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/alternativa-ninos",
@@ -4261,8 +4296,8 @@
    }
   },
   "argentinos/camiseta-oficial-26-27-ninos": {
-   "hash": "10fc4f048693d6d9f2d40b8a622958a46182376d",
-   "lastmod": "2026-11-23",
+   "hash": "7b2932430ab589dc8c24a8da30d15f2f4160c985",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/camiseta-oficial-26-27-ninos",
@@ -4271,7 +4306,7 @@
    }
   },
   "argentinos/camiseta-oficial-26-27": {
-   "hash": "100309633ffc1c6da2202022cee7571102c1ac26",
+   "hash": "49650b15b20ae6bdd4c0f380ac3413471c9acc1d",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -4281,8 +4316,8 @@
    }
   },
   "argentinos/entrenamiento": {
-   "hash": "ef3607bbac436d145cea2f632eb59e83fc2e4d49",
-   "lastmod": "2026-11-23",
+   "hash": "f00da8d2267133f855627fe1982c08d8234d1b6f",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/entrenamiento",
@@ -4291,8 +4326,8 @@
    }
   },
   "argentinos/camiseta-oficial-25-26-ninos": {
-   "hash": "72326525f1c7cda017e46aaee6ea775886465b88",
-   "lastmod": "2026-11-23",
+   "hash": "25572fa4534a9b3ace8ad2e15c487cd092838366",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/camiseta-oficial-25-26-ninos",
@@ -4301,8 +4336,8 @@
    }
   },
   "argentinos/camiseta-oficial-25-26": {
-   "hash": "3c9fd0607f23964cf791af0405434d4a2b0789b0",
-   "lastmod": "2026-11-23",
+   "hash": "ad3aae7bedb6c7dc555fece56bb3755373a3100e",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/camiseta-oficial-25-26",
@@ -4311,8 +4346,8 @@
    }
   },
   "argentinos/arquero-25-26": {
-   "hash": "495744787b43c611e08b9be6cf1a832f0678f2c2",
-   "lastmod": "2026-11-23",
+   "hash": "7d9eb9b887333a98c9dd98cf35cec58445c5b2e6",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/arquero-25-26",
@@ -4321,8 +4356,8 @@
    }
   },
   "argentinos/10": {
-   "hash": "1abe2b0ea8b013de0a1ed5f2d381b3350a948283",
-   "lastmod": "2026-11-23",
+   "hash": "3c05a641108ff732638a104c3533da2488ad73f5",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/10",
@@ -4331,8 +4366,8 @@
    }
   },
   "argentinos/arquero-24-25-gris": {
-   "hash": "37fd4b9b1539ae2603a39f2ef0da59249e1cedf5",
-   "lastmod": "2026-11-23",
+   "hash": "35b4440771fb97380041aa0e2fc763489c2e518b",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/arquero-24-25-gris",
@@ -4341,8 +4376,8 @@
    }
   },
   "argentinos/arquero-24-25-verde": {
-   "hash": "34d81f80a38e43e34952c05054ea68d712bfa808",
-   "lastmod": "2026-11-23",
+   "hash": "d9cf7310ee854d7c2808ef39b191d2b4f1e22953",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/arquero-24-25-verde",
@@ -4351,8 +4386,8 @@
    }
   },
   "argentinos/titular-2025": {
-   "hash": "2c5d190f4fc1bab423191b0174a4749d4bcf0e6a",
-   "lastmod": "2026-11-23",
+   "hash": "01f275e78bc8c6e9884e8c7f843c035759f9e8d7",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/titular-2025",
@@ -4361,8 +4396,8 @@
    }
   },
   "argentinos/arquero-2022": {
-   "hash": "831c080439a499c2667c09d79f81a9894f7ecef2",
-   "lastmod": "2026-11-23",
+   "hash": "e947831e2948bd23ec13ad2add09ebf919441b27",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/arquero-2022",
@@ -4371,8 +4406,8 @@
    }
   },
   "argentinos/alternativa-2025": {
-   "hash": "869d4403f02f3ff09bae6a58d85f9bd89ca3f753",
-   "lastmod": "2026-11-25",
+   "hash": "f8bc0f94ca6ba505cd9bbfe1e2827bcff34190cc",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/alternativa-2025",
@@ -4381,8 +4416,8 @@
    }
   },
   "argentinos/camiseta-oficial": {
-   "hash": "d028e6af1f80ee921df06695bca2caf239cc075a",
-   "lastmod": "2026-11-23",
+   "hash": "63613aa305545fbe899f77408e5bc404929b71e2",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "argentinos/camiseta-oficial",
@@ -4391,7 +4426,7 @@
    }
   },
   "huracan": {
-   "hash": "2baa98b4f73e40b93ebdd556de8dccc9e63ba87a",
+   "hash": "3b1a6de776846141671ac0ca73712be2dabca00c",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26"
   },
@@ -4786,21 +4821,11 @@
    }
   },
   "huracan/camiseta-oficial-ninos": {
-   "hash": "72aa020bf47daa16d676b307f30339497b71ea9e",
-   "lastmod": "2026-11-20",
+   "hash": "88a08cc3e9733ed45f67608e4416fd0480e31e82",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "huracan/camiseta-oficial-ninos",
-    "club": "huracan",
-    "nombre": "Camiseta oficial"
-   }
-  },
-  "huracan/camiseta-oficial": {
-   "hash": "455762acfd20c5c203da2032ab6d53d1ec905f1f",
-   "lastmod": "2026-11-25",
-   "visto": "2026-11-26",
-   "modelo": {
-    "ruta": "huracan/camiseta-oficial",
     "club": "huracan",
     "nombre": "Camiseta oficial"
    }
@@ -7861,13 +7886,13 @@
    }
   },
   "ferro": {
-   "hash": "44ce4ffbf289603ccecf4bc4427815193013059a",
+   "hash": "bb628a51debe7856e32c7c686c69a7e5ec1b013d",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26"
   },
   "ferro/titular-2026": {
-   "hash": "8c895ec578683b2a9721c6eab97a37cc2c88f962",
-   "lastmod": "2026-11-25",
+   "hash": "688655e322ef767373a5b2b13de2768cc3cb384e",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "ferro/titular-2026",
@@ -7876,8 +7901,8 @@
    }
   },
   "ferro/alternativa-2026-rosa": {
-   "hash": "6bf3d020f37a9817b9303a09e094e816a661ae56",
-   "lastmod": "2026-11-25",
+   "hash": "ca56d3367ab84d678a5689e8a8cc2dd7e4b28f56",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "ferro/alternativa-2026-rosa",
@@ -7886,7 +7911,7 @@
    }
   },
   "ferro/alternativa-2026": {
-   "hash": "cd733ca1be8885a179b2d26c81c5c44d979e3e22",
+   "hash": "3944a68bd4f3e226376dad6283cedff5123c3052",
    "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
@@ -7896,8 +7921,8 @@
    }
   },
   "ferro/alternativa-2026-ninos": {
-   "hash": "0572bc1e4205edd590688925444993cfcbbb0883",
-   "lastmod": "2026-11-20",
+   "hash": "c55e73901a13c7b3a5f552518a5592beb715bd46",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "ferro/alternativa-2026-ninos",
@@ -7906,8 +7931,8 @@
    }
   },
   "ferro/titular-2026-ninos": {
-   "hash": "033d415a9437ae17412cff0186cf11d20900d352",
-   "lastmod": "2026-11-20",
+   "hash": "edf35c29c3a1566fe8b0a7d2fd4d545de87ad7e8",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "ferro/titular-2026-ninos",
@@ -7916,8 +7941,8 @@
    }
   },
   "ferro/camiseta-oficial": {
-   "hash": "e14af91cd57506458c31a4a7d73a46be1652098f",
-   "lastmod": "2026-11-25",
+   "hash": "63973335b5dce3986d5225d8826c50a8287b269d",
+   "lastmod": "2026-11-26",
    "visto": "2026-11-26",
    "modelo": {
     "ruta": "ferro/camiseta-oficial",
@@ -8788,6 +8813,16 @@
     "ruta": "tristan-suarez/alternativa-2026",
     "club": "tristan_suarez",
     "nombre": "Alternativa 2026"
+   }
+  },
+  "huracan/camiseta-oficial": {
+   "hash": "455762acfd20c5c203da2032ab6d53d1ec905f1f",
+   "lastmod": "2026-11-25",
+   "visto": "2026-11-26",
+   "modelo": {
+    "ruta": "huracan/camiseta-oficial",
+    "club": "huracan",
+    "nombre": "Camiseta oficial"
    }
   },
   "argentina/titular-messi-2024-ninos": {
@@ -10830,7 +10865,7 @@
   "JN3705": "alemania/titular-1994",
   "NIIQ3861-425": "uruguay/camiseta-oficial",
   "JP1940": "boca/entrenamiento-tiro-25-26",
-  "JP1942": "boca/entrenamiento-tiro-25-26",
+  "JP1942": "boca/entrenamiento-tiro-2025-ninos",
   "JN6484": "river/tercera-26-27-ninos",
   "KV7683": "river/camiseta-oficial-25-26-2",
   "IU5011": "real-madrid/titular-2025",
@@ -11028,7 +11063,7 @@
   "KAPPA-10535483179286": "san-martin-tucuman/entrenamiento-2026-version-jugador",
   "TALLERES-363026": "talleres/alternativa-2025-fan",
   "LANUS-30096": "lanus/camiseta-oficial",
-  "LANUS-3345": "lanus/camiseta-oficial",
+  "LANUS-3345": "lanus/camiseta-oficial-2",
   "LANUS-26238": "lanus/tercera-2026",
   "LANUS-22263": "lanus/arquero-2026",
   "LANUS-11916": "lanus/arquero-2026",
@@ -11369,7 +11404,7 @@
   "NICODEPORTES-335353393": "san-lorenzo/camiseta-oficial-2",
   "NICODEPORTES-335355568": "san-lorenzo/camiseta-oficial-2",
   "NICODEPORTES-335356354": "san-lorenzo/camiseta-oficial-2",
-  "NICODEPORTES-319536289": "san-lorenzo/camiseta-oficial-2",
+  "NICODEPORTES-319536289": "san-lorenzo/camiseta-oficial-ninos",
   "NICODEPORTES-342021661": "san-lorenzo/titular-2020",
   "NICODEPORTES-296475179": "san-lorenzo/alternativa-2025",
   "NICODEPORTES-265742200": "san-lorenzo/alternativa-2025",
@@ -11423,7 +11458,7 @@
   "NICODEPORTES-341051527": "huracan/titular-2025-ninos",
   "NICODEPORTES-366800911": "huracan/titular-2023",
   "NICODEPORTES-273359056": "huracan/camiseta-oficial-ninos",
-  "NICODEPORTES-104553053": "huracan/camiseta-oficial",
+  "NICODEPORTES-104553053": "huracan/camiseta-oficial-ninos",
   "NICODEPORTES-342640600": "tigre/titular-2025-2",
   "NICODEPORTES-312437081": "tigre/titular-2025-2",
   "NICODEPORTES-372668347": "tigre/titular-2023-ninos",
